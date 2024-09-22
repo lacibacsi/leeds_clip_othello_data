@@ -1,0 +1,1193 @@
+OTHELLO:
+FROM BEGINNER TO MASTER
+Othello: From Beginner to Master – A Few Words
+Copyright © 2003, Randy Fang
+A FEW WORDS
+After the 2003 US National Championships, I set out on a mission to do what few others have even
+attempted – to write a book about Othello. Former World Champion Brian Rose has been writing his
+book for over 3 years and every time I asked the other tournament regulars about it, there was no new
+news on it. I finally decided that I was tired of waiting and started to work on my own book.
+While most of my counterparts are usually only playing against other top players, I play many games
+against people who are still learning, and I think I have special insight into the kinds of questions that
+they might have. I’ve put a lot of effort into the diagrams and exercises, in fact, many of the exercises
+in this book are based on positions that I consistently see beginning level players misplay.
+I’m sure that there are mistakes in this version. In fact, every time I go through it I find one more thing
+I need to fix, however, I think that the form that it is in now is suitable for general consumption. I’m still
+working on the rest of the book. It’s taken me three full months to get through the beginner material. I
+imagine it will take me three months to four months get through the intermediate section, and another
+three months to four months get through the advanced section.
+Once I finish all of this and re-edit it (add a table of contents, for instance), I intend to look for a
+publisher. If there is no interest in it from the established publishing community, I will be looking into
+selling it (the thought of printing out copies at Kinko’s and shipping them myself has crossed my
+mind). Part of the reason I’m giving this away is that it’s good for the Othello community. I’m also
+hoping that people will like it and it will generate interest in my book. If you have any comments, or
+you would like to point out any serious errors, please feel free to do so. I’ve set up a Yahoo group
+specifically for discussion about the book at http://groups.yahoo.com/group/randysothellobook.
+Happy Flipping,
+Randy Fang
+October 26, 2003
+Othello: From Beginner to Master – Forward
+Copyright © 2003, Randy Fang
+INTRODUCTION
+Forward
+You’re probably reading this book because you want to learn how to play Othello™* well. Maybe
+you’ve just learned the game or maybe you don’t know it at all. My goal is to speed up the process to
+mastery by stepping you through many of the lessons that every master level player has learned
+through hard work and a lot of practice. I’ll start off at the most basic level and progress from basic
+principles to some of the more flexible principles and exceptions that Master level players apply in
+championship level play.
+In essence, what I’m trying to do is write the Othello equivalent of Nimzovich’s My System (a chess
+book). At the current time, there is no book in the Othello world to form the basis for discussion and
+analysis of games. Most master level discussions in the US occur over a real board at infrequent
+tournaments and I’ve tried to present as much of the terminology as possible. By no means is all the
+information complete and it’s only as accurate as myself and the people I’ve consulted while writing
+the material. Just like My System has done in chess – this book is meant to provide a basis for
+analytical discussion as well as revisions and exceptions to the theories presented.
+I’d also like to take this opportunity to thank everyone who is involved in the Othello community for
+their support. I’d particularly like to thank Gunnar Anderson for making WZebra and its toolset for
+making the images in this document freely available.
+Finally, many deserved thanks go out to my two editors and good friends: Amanda Jones (writing
+style and beginner level feedback) and Edmund Yiu (technical and master level feedback).
+
+* OTHELLO IS A REGISTERED TRADEMARK OF ANJAR CO.
+
+Othello: From Beginner to Master – Tools of the Trade
+Copyright © 2003, Randy Fang
+Tools of the Trade
+Two Options – High Tech and Low Tech
+Before we start, I’d like to take a moment to talk about what equipment you might want to get your
+hands on before reading this book. As a minimum requirement, you’ll need to have an Othello board
+of some kind on hand to play a few sample games with yourself or preferably with an opponent to get
+a feel for the rules and principles that I will introduce.
+If you’re more technologically inclined , I recommend you download WZebra from the Internet
+(http://www.nada.kth.se/~gunnar/othello.html). You can use it to set up the positions presented in the
+book or to play a few quick games to get acquainted with how to play. For beginning through
+advanced players, the lowest skill setting on WZebra will provide a HIGHLY challenging opponent ,
+don’t be discouraged, WZebra is a very strong player. You might consider downloading one of the
+“weaker” Othello playing programs to play with so you don’t get discouraged. A much better idea is to
+seek out competition on the Internet. There are several places that you can play online, here’s a short
+list of some of the sites that are available and the advantages and disadvantages of each:
+Gaming Site
+Advantages
+Disadvantages
+MSN Gaming Zone
+(http://zone.msn.com/reversi)
+Slightly “friendlier” interface than
+the rest.
+
+Can’t resume a game after a
+disconnection
+Non-standard color scheme
+Cheaters
+No Timed Games
+Yahoo Games
+(http://games.yahoo.com)
+Ability to resume games after a
+disconnection
+Timed Games
+Starting position is backwards
+Cheaters
+Kurnik.pl
+(http://kurnik.pl/en)
+Ability to resume games after a
+disconnection
+Timed Games
+Database of previous games
+Mostly Polish players – Not
+many English speaking players
+Playsite
+(http://www.playsite.com)
+Ability to resume games after a
+disconnection
+Timed Games
+Lack of players
+Vinco Online Games (VOG)
+(http://vogclub.com)
+High quality human competition
+Ability to resume games after a
+disconnection
+Timed Games
+Database of previous games
+Partially effective anti-cheat
+features
+NOT FREE
+Many people have attitude
+problems
+3
+Othello: From Beginner to Master – Othello Notation
+Copyright © 2003, Randy Fang
+Othello Notation
+Standard Starting Position
+On the left you’ll find the standard Othello starting
+position. Each side starts with two disks in the
+center of the board.
+Standard Othello notation is based on a grid. The
+letters run from left to right and represent the
+columns. The numbers run from top to bottom
+and represent the rows. This means that the topleft corner is A1, the bottom-left corner is A8, the
+top-right corner is H1, and the bottom-right corner
+is H8. In the standard starting position, black
+has disks at E4 and D5. White has disks at D4
+and E5.
+All the diagrams in this book will have the
+columns and rows labeled appropriately on the
+top and left edges so, while memorization of this
+grid will be helpful, it should not be necessary.
+
+4
+Othello: From Beginner to Master – Rules of Othello
+Copyright © 2003, Randy Fang
+Rules of Othello
+Objective
+To have the most discs at the end of the game.
+General Rules
+Each player starts with 32 disks at hand. One side of each disk is black, the other side is
+white.
+One player plays their disks white side up and the other player plays their disks black side up.
+The player playing their disks white side up is called white, the player playing their disks black
+side up is called black
+Black always plays first.
+Both players take turns playing valid moves into empty squares. (Black plays, then White
+plays, then Black plays, then White plays, etc). After playing a valid move, the appropriate
+disks are “flipped” to the current player’s color. (See the following example for more details on
+valid moves and flipping disks).
+If a player has no valid moves– they must pass their turn. The other player then plays a
+second turn in a row. If the second player still has no legal moves, they must pass again.
+This means that a player can potentially move 2, 3, or even 15 times in a row. When a player
+passes, they give one of their disks to their opponent.
+The game ends when both players have no legal moves – in most cases this is when the
+board has no empty squares left. In rare cases – the game will end because neither player
+has a legal move in the position.
+Valid Moves:
+Moves must be played to an empty square adjacent to a disk of the opposing color
+You must play a move that “outflanks” disks of the opposing color. Disks that are
+“outflanked” are flipped to the color of the disk that was played.
+
+5
+Othello: From Beginner to Master – Rules of Othello
+Copyright © 2003, Randy Fang
+A S imp le Examp le:
+STANDARD START POSITION
+AFTER BLACK PLAYS E6
+From the standard starting position, black plays a move to the E6 square. The E4 and E6 disks now
+outflank the disk on the E5 square and the white E5 disk is flipped to black.
+
+BEFORE WHITE PLAYS F4
+AFTER WHITE PLAYS F4
+As the second move of the game, the white player plays to the F4 square. The disk on E4 is
+outflanked by the D4 and F4 disks and it is flipped to white.
+
+6
+Othello: From Beginner to Master – Rules of Othello
+BEFORE BLACK PLAYS C3
+Copyright © 2003, Randy Fang
+AFTER BLACK PLAYS C3
+Note that disks can also be outflanked diagonally. For instance, for the third move of this game, the
+black player plays C3 and the disk on D4 is outflanked by the disks on C3 and E5 and it is flipped.
+
+A Few More Co mpl icate d Exa mples :
+BEFORE WHITE PLAYS C5
+AFTER WHITE PLAYS C5
+In this position, white plays to C5 outflanking the disks on C3 and C4 and they are flipped. Note that
+there aren’t any “chain reactions” , for instance, even though the disks on D4 and E4 are now
+“outflanked” by the disks on C4 (which just flipped) and F4 – they are NOT flipped.
+
+7
+Othello: From Beginner to Master – Rules of Othello
+BEFORE BLACK PLAYS D2
+Copyright © 2003, Randy Fang
+AFTER BLACK PLAYS D2
+Disks can also be flipped in more than one direction. For instance, in the above diagram, white plays
+D2 and the disks D3, D4 and D5 are outflanked by D2 and D6 and the disk on E3 is outflanked by the
+disks on D2 and F4.
+
+8
+Othello: From Beginner to Master – Othello Transcripts
+Copyright © 2003, Randy Fang
+Othello Transcripts
+For full games, Othello transcripts are written in a “60 move” format. Each played move is labeled
+with the move number that it was played on. The middle 4 squares (the start position) are left
+unmarked as they were there when the game started. Here’s an example of a transcript and the
+corresponding position after 10 moves.
+
+Exercise: Play through the transcript below and verify that you end up in the expected position.
+
+T RANSCRIPT
+FINAL POSITION
+In this book, I will often start with a diagrammed example position. If I want to demonstrate some
+concept from that position, I will create a transcript in a similar format. The disks that represent the
+original diagram are unmarked, and the moves that are played are labeled (starting at one). An
+example of this appears on the following page.
+
+9
+Othello: From Beginner to Master – Othello Transcripts
+EXAMPLE POSITION
+Copyright © 2003, Randy Fang
+EXAMPLE T RANSCRIPT
+The picture to the left displays the resulting board
+after the indicated moves have been played
+Final Position
+Near the beginning of the book, I will rely heavily on move to move pictures to help you visualize the
+positions and what is happening without needing a board. As we move on to more advanced topics
+(and you become accustomed to visualizing the resulting positions), I will start using the above
+transcript format to describe games and concepts.
+
+10
+Othello: From Beginner to Master – Othello Transcripts
+Copyright © 2003, Randy Fang
+Exercises: The following two games were played at previous World Othello Championships. Follow
+through them on a real board and verify that you end up in the expected ending position. If you didn’t
+you should try again because you must have misflipped.
+
+SEELEY VS. SHAMAN – 2002 WORLD OTHELLO CHAMPIONSHIP – FINALS – GAME 1
+CASPARD VS. MURAKAMI – 1998 WORLD OTHELLO CHAMPIONSHIPS – FINALS – G AME 3
+Exercises: Find the valid moves in the following positions. The following positions are taken from a
+game between former US Champion Raphael Schreiber and former US and World Champion Brian
+Rose at the 2000 US National Championships.
+11
+Othello: From Beginner to Master – Othello Transcripts
+Copyright © 2003, Randy Fang
+1. BLACK TO PLAY
+2. WHITE TO PLAY
+3. BLACK TO PLAY
+4. WHITE TO PLAY
+Answers:
+1. D7, F1, F2, F8, G3, G4, G5, G7, H5, and H7 are the legal moves for black
+2. A2, A4, B1, B2, B7, B8, C1, D1, E8, G7, and G8 are the legal moves for white
+3. F2, G5, G7, G8, H4, H5, H6, and H7 are the legal moves for black
+4. B1, C1, D1, G1, G2, G3, G8, H4, and H5 are the legal moves for white.
+
+12
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+FOR BEGINNERS
+Othello 101
+I’d like to start with a metaphor. In chess, the first step that a beginner would take is to understand
+the relative value of the different chess pieces. A beginner’s book on chess might start by showing
+the readers a short table like the following. If the total value of your pieces is more than the value of
+your opponents pieces then you’re probably winning.
+Queen
+9 pts
+Rook
+5 pts
+Bishop
+3 pts
+Knight
+3 pts
+Pawn
+1 pts
+Using this simple rule, a complete beginner at chess would expect to win more than half of their
+games against another complete beginner who doesn’t know it. Obviously, in any undertaking as
+complex as chess, one simple rule falls far short of complete understanding. As a beginner becomes
+more advanced and progresses, they will learn new rules – as well as some exceptions to them. In
+much the same way, we will begin with a few basic rules of winning Othello and then build on them.
+
+13
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+Corners Are Good
+For beginning and intermediate players, games often revolve around battles for corners. As a first
+step, let’s take a look at a classic example of how important corners are.
+
+White To Play
+Looking at the above position, a complete beginner might assume that black is winning by a large
+margin. After all, black has 59 disks while white only has 1. Unfortunately, not very many of black’s
+disks will remain black at the end of the game, in fact, in this position, white will get to play to all four
+corners (because black will have no legal moves) and will win the game. It doesn’t matter what order
+the moves are played in as they all result in the same finishing position. Let’s look at the moves as
+they’re played.
+
+WHITE PLAYS A1
+WHITE PLAYS A8
+14
+Othello: From Beginner to Master – Othello 101
+WHITE PLAYS H8
+Copyright © 2003, Randy Fang
+WHITE PLAYS H1
+White wins 40-24!
+A reasonable question at this point might be - Why are corners important? The simple answer is that
+a corner is a guaranteed stable disk because there are no moves that outflank a corner. A stable
+disk is a disk that your opponent can never flip back to his or her color. Obviously, the more disks
+you have that are guaranteed to be your color at the end of the game, the more likely you are to win
+the game. Another great thing about corners is that you can use them to build more stable disks.
+Let’s take a look at another fantasy board to demonstrate how stable disks can be built from corners.
+
+WHITE T O PLAY
+Here, white can create stable disks along either the A column or the 1 row by building off of the A1
+corner. An example of this is on the next page.
+
+15
+Othello: From Beginner to Master – Othello 101
+WHITE PLAYS E1
+Copyright © 2003, Randy Fang
+WHITE PLAYS A5
+Note that the 9 white disks on the edge from A1-A5 and from A1-E1 are all stable – however, the
+white disks on B4, C3, and D2, while they can’t be flipped in the current position, are not yet stable.
+For instance, if white were to play F2 then black could play G2 which would flip the D2 disk. While
+white is guaranteed a score of at least 9 at the end of the game, black has no stable disks at all. Let’s
+take a look at an example illustrating how building off of corners will result in accumulating stable
+disks.
+
+BLACK T O PLAY
+Black can play either A7 or H1 and get more stable disks. Following the rule that corners are very
+valuable, we will build towards the corner at H1. White will then have to pass because white will have
+no legal moves.
+
+16
+Othello: From Beginner to Master – Othello 101
+BLACK PLAYS H1 – WHITE PASSES
+Copyright © 2003, Randy Fang
+BLACK PLAYS G2
+Since we are building towards the H1 corner, we should try to consolidate the northeast region of the
+board and fill it in with black disks, in the meantime, we are going to save the move to A7 (because it
+won’t go away) until later. We’ll play G2 which forces white to play G3 because white has no other
+valid moves.
+
+WHITE PLAYS G3
+BLACK PLAYS H3
+17
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+After white plays G3, we’ll play H3 because this gives us 3 more stable disks and helps consolidate
+even more of the northeast region to black. Again, we’ll leave white a move here. Often, when you’re
+building you’ll need to leave moves for your opponent. Yes, white gets a disk at G3 and at H2 for the
+moment, however, look how quickly, those disks both turn into stable disks for black in that region. By
+forcing white to play there after black already has the corner to build off of, black can turn those disks
+into stable black disks.
+
+WHITE PLAYS H2
+BLACK PLAYS H4
+WHITE PLAYS H5
+BLACK PLAYS H6
+18
+Othello: From Beginner to Master – Othello 101
+BLACK PLAYS G4
+Copyright © 2003, Randy Fang
+BLACK PLAYS G5
+Let’s stop here and assess the situation. Black already has 31 stable disks and has guaranteed that
+even if the 2 unstable black disks (D5 and E5) get flipped to white and white gets stable disks on the
+rest of the squares (very unlikely), black will still only lose the game 33-31. If black were a
+conservative player, black could play A7 next, which would give black 7 more stable disks and
+guarantee at least a 38-26 win. Unfortunately for white, black doesn’t have to play A7 which “only”
+wins 58-6 with perfect endgame play. Instead, black can play F7 which leads to a perfect play win by
+wipeout for black. A wipeout is the term for when one player ends the game with zero disks left on
+the board. In this game the final score after perfect play is 62-0 for black. Here’s a transcript that
+shows the perfect endgame from the original starting position:
+T RANSCRIPT OF WIPEOUT
+19
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+Later in the book, I will refer to the process of winning a clearly won game as “a matter of technique”.
+In the next few exercises I’m going to present you with the chance to win a few lopsided games to get
+a feel for how to do it for yourself.
+Exercises: For each of the following positions, set them up on a board (real or computer) and play
+out a forcing sequence that leads to a wipeout win. Note that in many of these positions, there are
+several sequences that lead to a wipeout and I’ve only provided what I consider the simplest solution.
+If you find another way – good job!
+1.
+
+2.
+
+White To Play
+3.
+
+White To Play
+4.
+
+White To Play
+White To Play
+20
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+Answers:
+1.
+
+2.
+
+3.
+
+4.
+
+21
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+A Few More Tips
+While corners are good and building off of them is good, that only describes 4 squares on the board.
+What else can we learn about the relative values of squares?
+Exercise: Can you spot white’s two worst moves in the following position?
+
+WHITE T O PLAY
+Answer: B1 and B2 are white’s worst two moves.
+Why? Let’s take a look at what the position would be after B1 and after B2:
+AFTER B1
+OR AFTER B2
+22
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+In either case, black can now take the A1 corner! None of the other valid moves for white from the
+starting position give black a corner on the very next turn. The thing we can learn from this is that the
+squares adjacent to the corner are dangerous to play into. Othello terminology has special names for
+these squares: C-squares and X-squares.
+
+C-squares are adjacent to the corner on the
+edge.
+In the diagram to the left, the white disks are the
+C-squares on the board.
+
+X-squares are the squares that are adjacent to
+the corner diagonally.
+In the diagram to the left, the white squares are
+the X-squares.
+
+Now that we have the correct vocabulary, we can summarize what we’ve learned so far: corners are
+good, while C-squares and X-squares are dangerous for us to play into because if we’re not careful,
+our opponent will take a corner when we play into them. Even when there is no immediate threat of
+your opponent taking the corner, it’s usually best to stay away from C-squares and X-squares. Let’s
+take a look at a couple of examples:
+23
+Othello: From Beginner to Master – Othello 101
+BEFORE WHITE PLAYS G8
+Copyright © 2003, Randy Fang
+AFTER WHITE PLAYS G8
+If white were to play G8, as diagrammed, black can’t immediately take the corner. However, at any
+move after this, black can choose to play F8 and after that black will be able to take the H8 corner on
+his or her next move.
+
+BLACK PLAYS F8 AND WINS THE H8 CORNER
+24
+Othello: From Beginner to Master – Othello 101
+WHITE PLAYS H7
+Copyright © 2003, Randy Fang
+BLACK PLAYS H6
+In the above diagram, white has just played H7. After black plays H6, black is guaranteed to win the
+H8 corner. If white doesn’t take the disk at H6 by playing H5, black takes the corner. If white does
+take the disk at H6 by playing H5, black will still have a disk at H4 and black can take the H8 corner
+on the next turn.
+
+WHITE PLAYS H5
+BLACK PLAYS H8
+This is not to say that all C-squares are bad. In both the above examples, notice how the C-squares
+that were played aren’t adjacent to any other white edge disks. C-squares tend to be bad when they
+are isolated. They aren’t as bad when you have disks adjacent to them on the edge.
+
+25
+Othello: From Beginner to Master – Othello 101
+Copyright © 2003, Randy Fang
+For example: In the following diagram, the C-squares at B1 and G1 aren’t a liability for black because
+there isn’t a way for white to attack them. In fact, as we’ll discuss later on, edges where you have 6
+disks (B1 through G1 in this case) are one of the best edge formations you can have.
+
+By not giving up corners (and avoiding playing into C-squares and X-squares which may result in
+losing a corner) , taking corners – when they’re available, and building off of the corners that you do
+get, you’ll beat almost every complete beginner that you meet.
+Try playing a few games now and getting a better feel for how to apply these simple rules. You
+should be able to hold your own with other beginners; however, you will find many players who have
+advanced beyond this level. Don’t be discouraged by this, it isn’t completely unexpected. After all,
+I’ve only talked about one basic rule of the game, and what you do when there aren’t any corner
+moves available has to have some impact on the result of the game, right?
+
+26
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+More Othello Concepts
+Greed is One of the Seven Deadly Sins
+In the last section, I talked about the importance of corners. Obviously, corners aren’t available at the
+beginning of the game. What you really want to know next is: what other rules can I follow during the
+rest of the game so that I have a chance at beating more than just beginners? If you followed my
+advice and played a few games with some beginning and intermediate players, you may have started
+to notice a pattern.
+Let’s take a look at a sample position:
+BLACK T O PLAY
+What assets does white have in the above position? He’s got a lot of pieces, certainly. To the
+untrained eye, it might even look like white is way ahead (after all, white has more pieces!). But if you
+look more closely, while it’s black’s turn to move, white only has 2 legal moves in the above position.
+And what’s worse BOTH of those moves will let black have the corner shortly afterwards. From the
+last section, we know that that has to be bad news for white. Luckily for white – black has to play a
+move here. Black has lots of choices, from the absolutely horrendous G2 (giving up a corner) to B5 to
+E1. If black were to play B5 here, white would then play A5 or B6 (as the other 3 legal moves in the
+position would give away a corner).
+
+27
+Othello: From Beginner to Master – More Othello Concepts
+BLACK PLAYS B5
+Copyright © 2003, Randy Fang
+WHITE PLAYS A5
+That hasn’t made any progress for black and it is black’s turn to move again. What if black played A5
+here instead? White would respond A6 (because black would then be threatening to take the corner
+by playing along the A edge if white were to play B5).
+
+BLACK PLAYS A5
+WHITE PLAYS A6
+This also doesn’t accomplish much. Unfortunately for white, black has a much better move here,E1.
+After E1, white STILL has the same 2 moves that lose the corner.
+
+28
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+BLACK PLAYS E1
+I like to call moves like E1 the killer move because after this the game is effectively over and it turns
+into a process of getting the corner in the best way and building from there. Similarly, there are often
+sequences of 2 or more moves that win immediately and I call those killer sequences.
+In Othello terminology, a quiet move is a move that doesn’t disturb the position very much. On the
+other hand, a loud move is a move that changes the position significantly. In fact, in the above
+example E1 is a Perfectly Quiet Move because it flips exactly 1 disk and it provides no new moves to
+the opponent (therefore it’s as quiet as any legal move in Othello can be – it doesn’t change the board
+very much at all). To clarify a bit more, your opponent will have the same (or fewer) moves both
+before and after you play a Perfectly Quiet Move. In the above example, before black plays E1,
+white can play to B1 and B2. After black plays to E1, white STILL can only play to B1 and B2. As a
+general rule, if there is a perfectly quiet move on the board it is almost always the right move to play.
+What can we learn from the above position? With good play, you can force your opponent to give you
+corners – even if they’ve discovered how valuable corners are and they are also avoiding playing into
+X-squares and C-squares. The real question is: how do you get into positions where your opponent
+will have to give you a corner?
+Let’s take a look at another example:
+29
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+BLACK TO PLAY
+Black can play the perfectly quiet move to H6 after which white can respond by playing 4 ways: H2,
+H3, G2, G1.
+
+BLACK PLAYS H6
+We can be pretty sure that white isn’t going to play G1 as that immediately gives black a corner.
+
+30
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+IF WHITE PLAYED G1
+H3 might appear good, but after H3 black can play H2 and white will be forced to play G2 or G1 –
+both of which lose the corner.
+
+IF WHITE PLAYS H3
+BLACK PLAYS H2
+G2 isn’t much better than H3. In fact the only way that white can try to hold on is to play H2, a
+dangerous (but necessary) C-square. After black plays C1 in response, white will have to play E1 or
+D1.
+
+31
+Othello: From Beginner to Master – More Othello Concepts
+IF WHITE PLAYS H2
+Copyright © 2003, Randy Fang
+BLACK PLAYS E1
+White only has these 2 moves that don’t give up the corner – both are on the north edge. No matter
+which of these moves to the north edge that white plays next, black will play the other. If white plays
+D1, black will play E1, and vice versa, we call such moves paired – when the obvious response to a
+move is another move and vice versa. After the move pair is played out, white will be forced to give
+up the H1 corner on his next turn.
+
+IF WHITE PLAYS D1
+BLACK PLAYS E1
+32
+Othello: From Beginner to Master – More Othello Concepts
+IF WHITE PLAYS E1
+Copyright © 2003, Randy Fang
+BLACK PLAYS D1
+So if it’s black’s turn, white will lose. What about if it’s white’s turn? White could play H3 ,making a
+black move to H6 pointless (White just plays H7 after H6), however then black will just play E1
+instead, forcing white to play D1 and then black will play C1 forcing white to lose a corner.
+Obviously, whatever it is about the previous starting positions that is bad, it carries over no matter
+whose turn it is. In order to figure out how to force our opponents to give us corners, we need to
+figure out what features the two diagrammed positions have in common. White’s real problem in both
+positions is that he doesn’t really have a lot of options to begin with and the options that he has aren’t
+very good. When you have lots of moves to choose from you are said to “have lots of mobility”.
+When you don’t have many moves to choose from you are “low on mobility”. Having good mobility
+(having good moves) is a very important part of the game. If you have a lot of mobility – at least a few
+of those moves are bound to be good. And the opposite is true, if you don’t have very many moves –
+you might not have any good moves at all.
+Many games between an expert and a beginner are decided in terms of mobility alone. The expert
+quickly runs the beginner out of good moves, and then forces the beginner to give up a corner (by
+leaving the beginner one or two moves that both lose a corner) and from there it’s all a matter of
+technique.
+Why doesn’t white have much mobility in the above diagrams? Because black doesn’t have a lot of
+disks., Obviously if black only has 3 or 4 disks, white will probably have only 2 or 3 moves. If those 2
+or 3 moves are all moves that give away a corner, then black is probably going to win. The point I’m
+trying to make here is that by having fewer disks, you can get into positions where your opponent is
+forced to give you a corner. Having fewer disks is actually better most of the time!
+Unfortunately, this can be a very difficult lesson to learn. The “goal” of the game is to get the most
+disks, right? Wrong. The goal of the game is to have the most disks at the end of the game. We’ve
+already seen how having corners leads to stable disks and we know that stable disks lead to more
+disks at the end of the game. In between the start and the end of the game, our goal is to put
+ourselves into a position where we’re likely to have the most disks at the end of the game. If this
+means having fewer disks in the opening and midgame, then so be it.
+33
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+Exercises: Now that we’ve seen a little bit about how we can force our opponents to give us a corner
+– these exercises will help us find the killer moves that are necessary to get the job done. Find a
+move or short sequence that forces your opponent to give you a corner. Note that in most of these
+positions there are multiple answers. I’ve picked the shortest killer sequence as the answers. If you
+found another forced sequence, good job!
+1.
+
+2.
+
+Black To Play
+3.
+
+Black To Play
+4.
+
+Black To Play
+Black To Play
+34
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+Answers:
+1.
+
+2.
+
+3.
+
+4.
+
+35
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+Exercises: Find the Perfectly Quiet Move in each of the following positions:
+1.
+
+2.
+
+BLACK TO PLAY
+3.
+
+BLACK TO PLAY
+4.
+
+BLACK OR WHITE TO PLAY
+WHITE TO PLAY
+36
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+Answers:
+1. F4
+2. H5
+3. C6 is a Perfectly Quiet Move for BOTH players
+4. H4
+Don’t leave yourself high and dry
+Let’s say that your opponent is trying to maximize their disks. At some point in the game, you’re likely
+to get wiped out if you completely commit yourself to minimizing your disks. The term for this situation
+is overevaporation. Unfortunately, you can’t always focus on just minimizing your disks,you
+sometimes have to pay attention to make sure that you’re not going to wipe out. Remember having
+fewer disks is a means to forcing your opponent to give you corners, it is not an end in and of itself.
+In order to avoid being wiped out by someone who is playing greedily, you’ll want to try to play moves
+that do 1 of 3 things (in this order of importance):
+Establish a stronghold on an edge that your opponent can’t flip
+Play a move that flips disks in more than one direction at once
+Play a move that makes a line that is not immediately reflippable.
+Let’s take a look at examples of each of these in turn.
+Establish a stronghold on an edge that your opponent can’t flip
+Edge disks are harder to flip than regular disks as they can only be flipped by other disks on the edge,
+instead of in 8 different ways like all the other disks. By establishing a stronghold on the edge and not
+letting your opponent flip those disks, you guarantee yourself that you’ll have some disks to play off of
+later in the game.
+
+37
+Othello: From Beginner to Master – More Othello Concepts
+BLACK TO PLAY
+Copyright © 2003, Randy Fang
+BLACK PLAYS H5
+In the above example, black could play moves like E7 or E2 that immediately get wiped out. For
+instance, if black played E7 white would play E8. In order to avoid being wiped out, black can try to
+establish a stronghold on an edge that White will never be able to flip. For instance, if black were to
+play H5, then white can never take black off of the edge because no matter where white plays along
+the edge, black can just capture along the edge and protect his stronghold.
+
+WHITE PLAYS H4
+BLACK PLAYS H3
+For instance, if white tries to get on the edge with H4, black will just take the edge with H3. As long as
+white can’t take black’s edge disks, black can’t be wiped out. Notice that in the original diagram black
+had several other possible edge moves (A5, H4, H7), however, H5 is the quietest move and it leaves
+white with the fewest options (in fact , it’s an easy win for black), and that makes H5 the correct
+choice.
+
+38
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+Flip in more than one direction at once
+If you are dangerously low on disks, flipping more disks will help you avoid being wiped out. That is
+one of the reasons that flipping in more than one direction at once is good. You tend to flip more
+disks when you flip in more than one direction. Also, your opponent can never wipe you out on the
+move immediately following a move in which you’ve flipped in more than one direction.
+
+Black To Move
+Black Plays B4
+In the above position, establishing a stronghold on the edge by playing C8 doesn’t work because then
+white plays E8 and neither player has any more legal moves (and thus white wins). Obviously
+another idea is in order. An example safe move is for black to play B4 which flips disks in 2
+directions. After this move, white can’t wipe black out during his or her next move.
+
+Make a line that is not immediately reflippable
+Obviously if a line is not immediately reflippable then your opponent can’t wipe you out on the next
+move. Making a non-reflippable line is usually a delaying tactic that you will use until you can play
+moves that meet one of the two above criteria.
+
+39
+Othello: From Beginner to Master – More Othello Concepts
+BLACK TO PLAY
+Copyright © 2003, Randy Fang
+BLACK PLAYS C7
+In the above example, if it were white’s move, white would play H2 or G2 and wipe black out. Since
+black has no moves that establish a stronghold on an edge – nor does he have any moves that flip in
+more than one direction at once, black’s only reasonable moves are ones that makes a line that white
+can’t immediately reflip. In this case there are 2 moves that meet our criteria - C7 and G7. Obviously
+black doesn’t want to give white the corner so black should play C7 here. The move to C7 forms a
+line between C7 and G3 that white cannot immediately reflip the next turn. Now, regardless of what
+white plays, black will have moves like H6 and B4 next move which will avoid being wiped out.
+What’s in an edge
+Let’s take a look at another position and see what we can learn from it:
+BLACK TO PLAY
+40
+Othello: From Beginner to Master – More Othello Concepts
+Copyright © 2003, Randy Fang
+So you’re looking at the position on the last page and you’re wondering “OK, black has a lot fewer
+disks and white has very poor mobility. How does black win a corner?” The answer is: black can’t win
+a corner in this position (at least – not in the next couple of moves). What’s different about this
+position? Because of black’s disk placement, white only has one “dangerous” move that he could
+play if it were his turn, A2. It is very easy for white to avoid playing to A2. Let’s play fantasy Othello
+for a bit and move one disk on the board slightly:
+BLACK TO PLAY
+Now black does have a move that wins a corner (black plays B1 and white must play B2). You should
+notice that in the second diagram, the disk that previously was in the middle of the board is now on
+the edge. In fact, in all of the winning positions that were presented in the last chapter as examples
+(and in the current example as well), all of the correct moves for black to play (because they force
+white to lose a corner) were edge moves. As mentioned in the last chapter, edge disks can only be
+flipped along the edge so this means that edge moves tend to be quieter than non-edge moves.
+Quieter moves give your opponent fewer options the next turn. Eventually if you can play enough
+quiet edge moves, your opponent will run out of other moves and have to give you a corner. This
+simple strategy is known as edge creeping because you are attempting to creep slowly along the
+edge until you win a corner.
+Another thing that you should notice is that in the original diagram, the black disk is on the outside of
+the mass of white disks where it could be flipped – which means that white has a couple of possible
+moves to begin with. Disks that are on the outside of a mass of opposite colored disks that can be
+flipped are called frontier disks. The edge disk in the second example isn’t a frontier disk at the
+current time because it can’t be flipped. In the future, white may get a disk at D1 or black could play
+to D1 in which case C1 would become a frontier disk. Since every frontier disk provides your
+opponent with a potential move, having,fewer frontier disks mean that you have a better position.
+Now that I’ve set some general guidelines, we’ll spend the next few chapters exploring the three
+phases of the game: the opening, the midgame, and the endgame. We’ll look at how to apply these
+guidelines to the three phases of the game as well as when these guidelines no longer apply.
+
+41
+Othello: From Beginner to Master – Simple Opening Advice
+Copyright © 2003, Randy Fang
+Simple Opening Advice
+Understanding is the key
+More of the same
+A few new ideas
+Pay attention!
+In chess, one of the biggest mistakes that I feel that beginning players make is to assign too much
+importance to the openings. They feel that better players are “tricking them” by being better prepared
+in the openings. So, they rush out and buy a book of openings and start memorizing them. While I
+feel that having an opening repertoire is useful for a more seasoned player, it is much more important
+for a beginner to understand the WHY of an opening. When you memorize openings without
+understanding why you are making the moves, the instant you venture into unfamiliar territory, you are
+likely to blunder. What I do recommend is to keep your eyes open and trying to learn from your
+mistakes.
+Do you keep making the same kinds of moves and keep getting into bad positions because of them?
+I know it sounds obvious, but figure out what it is that you’re doing wrong and try not to do it anymore.
+Thinking about what concepts and ideas do work and what ones don’t work will help you all the way
+from beginner through master.
+Now that I’ve encouraged you to experiment and discover openings on your own, I’ll try to give some
+general advice about what you should be trying to accomplish during an opening. Much of what I
+have to say is similar to the advice that I’ve given in the previous sections but it doesn’t hurt to reiterate it here.
+Try not to take too many disks.
+Try to head for the edges.
+Try to limit your frontier.
+Don’t play into X-squares or C-squares where you’re putting yourself in a dangerous position.
+In addition to these basic concepts, there are a few new concepts I’d like to introduce here as well.
+The first concept I’d like to introduce is the Sweet 16 – this term refer to the central 16 squares of the
+board:
+42
+Othello: From Beginner to Master – Simple Opening Advice
+Copyright © 2003, Randy Fang
+T HE SWEET SIXTEEN
+In the opening it’s generally better to play a move into the Sweet 16 than another move elsewhere on
+the board. It also stands to reason that preventing your opponent from getting moves into the Sweet
+16 is also a good thing. Disks played in the sweet 16 don’t let your opponent reach an edge (where
+they may try to edge creep). Additionally, disks in the Sweet 16 are less likely to remain frontier disks
+during the course of a game.
+
+Another useful rule is that staying in the middle of
+your opponent’s disks is good.
+This is called staying central.
+Notice that white only has two frontier disks (B4
+and B4) in this position because white’s disks are
+central to black’s disks. As we discovered in the
+last section, having fewer frontier disks is usually
+a good thing.
+
+Another good idea is to stay compact. Being compact means that you don’t want your disks spread
+out all over the place. You definitely don’t want spaces in between your disks because those squares
+are very likely places for your opponent to play to stay central to your disks. Notice how in the
+previous example all of white’s disks are in one big clump while black’s disks are almost cut in two by
+white’s disks. In the example, white is compact and black isn’t. Staying compact also tends to lead to
+fewer frontier disks.
+43
+Othello: From Beginner to Master – Simple Opening Advice
+BLACK TO PLAY
+Copyright © 2003, Randy Fang
+BLACK PLAYS C4
+One good way to stay compact, central, and to avoid having a lot of frontier disks is to play a move
+that reflips one of the disks that your opponent just flipped. For example, in the above diagram, white
+has just played to C3. Black responds by reflipping the disk at D4 by playing to C4. After this move,
+black is both central and compact.
+Before I close out this chapter let’s take a look at a common mistake that I see beginners make very
+often that emphasizes the necessity of staying central and compact.
+
+WHITE TO PLAY
+The above diagram can be reached by playing E6, F4, E3 – we are 3 moves into the game. White
+has 4 options here, however, only one of them is any good.
+44
+Othello: From Beginner to Master – Simple Opening Advice
+AFTER D2
+Copyright © 2003, Randy Fang
+AFTER F2
+D2 and F2 – D2 and F2 only flip one disk but they have several other drawbacks. They’re not in the
+Sweet 16 and they’re not central either, in fact, either D2 or F2 will become frontier disks in typical
+continuations from this position. They aren’t compact – as white is leaving “holes” in his position for
+black to play into. After playing D2, white has a “hole” at D2 that is very tempting for black to play
+into. After F2, there is a “hole” at F3 that is very tempting to play into (though at the moment black
+can’t play to that square).
+
+AFTER F6
+BLACK PLAYS F5
+F6 – This move also only flips one disk, however, black immediately responds with F5 thus reflipping
+the disk that was just flipped. In fact, F5 is a perfectly quiet move for black and after playing F5 black
+45
+Othello: From Beginner to Master – Simple Opening Advice
+Copyright © 2003, Randy Fang
+is very central and compact while white is spread out along the frontier. Yes , black has more disks
+but because of where they are white’s position is not very good at all.
+
+AFTER D6
+D6 – This move flips two disks, which isn’t a lot in the grand scheme of things (it may seem like a lot
+because there aren’t many disks to begin with). While D6 does flip more disks than what the other
+moves flip, after D6 white is both central and compact while black is stuck on the outside. D6 is the
+clearly the best move in this position.
+
+46
+Othello: From Beginner to Master – Simple Midgame Advice
+Copyright © 2003, Randy Fang
+Simple Midgame Advice
+It’s all about mobility
+Tempo
+As we’ve noticed in the previous sections, having and keeping mobility is a very important thing.
+When you run out of mobility it’s very likely that your opponent is going to force you to give up a
+corner and they will win. In the midgame, your job is usually to avoid running out of mobility while
+retaining a good position and trying to run your opponent out of mobility in return. Often, you will find
+that there are moves that you are forced to play or your opponent will run you out of mobility. Most of
+the time when I refer to a move as being a forced move, it means that the move must be played to
+prevent the other player from attaining a killer sequence. Obviously, if there is only one valid move on
+the board it is also a forced move. Let’s take a look at a position where one of the players has a
+forced move.
+
+BLACK TO PLAY
+In the above position, white is already way ahead on mobility but black isn’t dead just yet. While white
+is certainly winning he or she should still have to work to finish off the game if black plays accurately.
+However, black’s next move is forced. Black MUST play B1 here. If black doesn’t play B1 then white
+will take the edge with G1 next turn. To understand why, let’s take a look at what happens if black
+plays a different move.
+
+47
+Othello: From Beginner to Master – Simple Midgame Advice
+Copyright © 2003, Randy Fang
+BLACK PLAYS H6 – WHITE PLAYS G1
+If black plays H6 then white responds with G1. Black is then forced to play G6 next (as it’s the only
+legal move) to which white responds B1 and then black must play an X-square. If, in the original
+position, black takes the edge by playing B1, his position isn’t exactly desirable, but he survives a
+while longer and gives white the opportunity to make a mistake.
+
+BLACK PLAYS G6 – WHITE PLAYS B1
+48
+Othello: From Beginner to Master – Simple Midgame Advice
+Copyright © 2003, Randy Fang
+In the example, both players can take the north edge with a gain of tempo. We say that a player has
+gained a tempo when they play a move or a sequence of moves that gain them an additional safe
+move without giving their opponent any new safe moves. Additionally, after white has played to G1,
+B1 becomes a safe move for white and playing B1 doesn’t create any new safe moves for black.
+Thus white has gained two tempo via this sequence. Very often, the moves that are the most likely to
+be forced are moves that we have to play in order to prevent our opponent from gaining too many
+tempo. In fact, there are times when it is possible to win 3 or 4 tempo with proper play! Let’s take a
+look at an example.
+
+BLACK TO PLAY
+BLACK PLAYS C1
+In this diagram, the move to C1 is the first tempo that is won in a sequence that wins 4 tempo for
+black! Even if white could somehow pass for the next 3 moves, black would still be in good shape.
+Let’s take a look at this fictional “game” where black plays the next 3 moves and uses up all of his or
+her spare tempo.
+
+49
+Othello: From Beginner to Master – Simple Midgame Advice
+BLACK PLAYS F1
+Copyright © 2003, Randy Fang
+BLACK PLAYS B1
+BLACK PLAYS G1
+Another common example of a forced move is when your opponent is threatening to take a corner
+and you have to play a certain move to prevent that from happening. Let’s look at an example:
+50
+Othello: From Beginner to Master – Simple Midgame Advice
+WHITE TO PLAY
+Copyright © 2003, Randy Fang
+WHITE PLAYS A6
+In the above picture, while white has many possible moves, white is forced to play A6 even though
+this move flips a lot of black disks and almost eliminates black’s frontier. If white doesn’t take the
+edge, black wins the A1 corner and wins the game convincingly.
+From the above examples, it’s easy to see that a lot of times we will be forced to take edges in order
+to prevent our opponent from gaining enough tempo to run us out of mobility or to prevent them from
+taking corners.
+Often, when we’re looking for a killer sequence, we are looking for a way to win a single tempo
+because if we win a single tempo our opponent runs out of safe moves.
+
+BLACK TO PLAY
+51
+Othello: From Beginner to Master – Simple Midgame Advice
+Copyright © 2003, Randy Fang
+In the example, while white has no safe moves at the moment, every black move gives white more
+safe moves to play. For instance, if black plays F7 then white can safely play to F8. In fact, if black
+could pass here, he would win because white would be forced to give him the H1 corner. Fortunately,
+black has a forcing sequence that wins a tempo which in many cases is the same as passing. If black
+plays D1 then white will be forced to play B1 to protect the H1 corner. Black can then win the game
+by playing F2 forcing white to lose the H1 corner.
+
+BLACK PLAYS D1
+WHITE PLAYS B1 (FORCED)
+BLACK PLAYS F2 AND WINS
+Because Othello is a game where you often want to pass in order to improve your position , winning
+tempo from your opponent and not losing any tempo in return will often go a long way towards
+winning a game.
+52
+Othello: From Beginner to Master – Simple Midgame Advice
+Copyright © 2003, Randy Fang
+Exercises:
+1.
+
+2.
+
+BLACK TO PLAY AND GAIN T EMPO
+3.
+
+WHAT IS WHITE’S FORCED NEXT MOVE?
+
+4.
+
+WHITE TO PLAY AND WIN
+WHITE TO PLAY AND WIN
+53
+Othello: From Beginner to Master – Simple Midgame Advice
+Copyright © 2003, Randy Fang
+Answers:
+1. Black plays G1.
+2. White plays B1 (otherwise Black wins tempo with G1 and then B1).
+3.
+
+4.
+
+54
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+Simple Endgame Advice
+Build on what you already know
+More is More
+Rules are made to be broken …
+Now it’s time to finish off your opponent with a flourish. The corners that your opponent had to give
+you are now turning into anchors from which you’ll build your empire. The first order of business is to
+consolidate to your color as many disks near your corner as possible. As disks near your corner are
+captured, more and more of them will become stable. If your position is good enough, you’ll even
+have a chance to build in a way that will force your opponent to give you another corner. After taking
+that second corner, you can consolidate around it as well. Let’s look at a quick example:
+STARTING POSITION
+BLACK PLAYS G3
+There are several ways to consolidate disks near the H8 corner – because the disk at G6 is closer to
+H8 than any of the other white disks, we’ll play G3 – which flips that disk in the least disruptive way
+possible. Notice that D3 would also flip the G6 disk – however, after G3, white has 2 options, after
+D3, white has 6 options. Once your have your opponent under control, its better if you keep them
+under control and limit what they can do. The more options they have, the more complicated the
+position will become and the more complicated the position is, the easier it is to make a mistake that
+will lose disks. While black isn’t in any danger of losing after D3, white may be able to salvage 15-20
+disks if black plays inaccurately. However, after G3 white is still in danger of being wiped out, even if
+black makes a few minor errors. It’s also much easier to calculate ahead when your opponent only
+has one or two options because then you can concentrate on finding your best moves instead of
+having to worry about them fighting back.
+After G3, white has 2 options, H3 and H2. Let’s look at both:
+55
+Othello: From Beginner to Master – Simple Endgame Advice
+WHITE PLAYS H3
+Copyright © 2003, Randy Fang
+BLACK PLAYS H2
+OR
+WHITE PLAYS H2
+BLACK PLAYS C7
+If white plays H3, then black plays H2. White has to play G2 the next move and black will easily take
+the northeast corner. If white plays H2, then black plays C7 and then white is forced to play H3 also
+giving up the corner. After taking the northeast corner, black will consolidate around that corner as
+well and will have an overwhelming advantage.
+
+56
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+Exercises: In the following diagrams, find a wipeout sequence. In most of the puzzles there is more
+than one wipeout sequence but only one solution is given, if you find another - good job! I’ve
+deliberately made these exercises quite a bit harder than the previous ones on building. In fact, I had
+a lot of trouble with the #3 and #4 myself! These more difficult puzzles are meant to hone your skills
+to the point that they’re razor sharp. With a little more practice, winning this type of position will
+become second nature to you.
+1.
+
+2.
+
+Black To Play
+3.
+
+Black To Play
+4.
+
+Black To Play
+Black To Play
+57
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+Answers:
+1.
+
+2.
+
+3.
+
+4.
+
+58
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+Counting and Basic Endgame Theory
+Of course, building is only going to help when you’re way ahead. At some point in a closer game you
+have to remember that you want to have the most disks at the end and more importantly the end is
+getting near. You are trying to keep the number of disks that you have to a small number as
+suggested in the previous sections, right?
+Obviously, at the end of the game, keeping your disks to a minimum is not as good of an idea. You
+have to start playing moves that take a lot of disks. Usually, in a fairly even game, this is when there
+are about 8 or 10 empty squares on the board. Unfortunately there’s no hard or fast rule for when you
+should start taking a lot of disks, however, if you can take a lot of disks and most are stable or they
+make other disks that you have stable, then it is probably a good idea.
+
+BLACK TO PLAY
+We’ll start with the simple example shown above. We’re at the last 2 moves of the game – so this
+should be easy. This process of calculating the best play sequence is called counting. Counting is a
+difficult skill to master and there are many strategies for it. I prefer to simply employ a plus minus
+count of disks and see which sequence is “optimal”.
+Let’s count black’s move to A1 first. Black plays A1, that’s +5 black disks. White Plays A2 (flipping
+B2), that’s -1 black disk. So +5 – 1 = +4 black disks. The sequence where black plays A1 ends up
+with 4 more disks than in the original position. That’s not bad.
+Just to be on the safe side, let’s check and make sure that the move to A2 doesn’t get more disks.
+Black plays A2 and gets +9 black disks. White plays A1 and flips B2 and A2, that’s -2 black disks. +9
+– 2 = +7 black disks!
+So, taking the corner in this case is the wrong move. In fact, if we count the disks currently on the
+board, black has 26 disks. 26 + 4 = 30. Black loses 30-34 if he takes the corner. 26 + 7 = 33. Black
+wins 33-31 if he plays A2. The difference between winning and losing is in understanding why this is
+the case. For one thing, the move to A2 simply flips more disks. With only 1 move left, white can’t
+59
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+flip enough of them back to make the corner worth very much. Remember, the reason that corners
+are important is that they tend to lead to stable disks. Here, there isn’t anywhere for white to build off
+of, so the corner isn’t worth very much. What we can learn from this fiasco is that rules are meant to
+be broken and that corners become worth less late in the game because there are fewer opportunities
+left to build from them.
+
+BLACK TO PLAY
+In the above example, Black has 3 choices. Obviously A2 (giving up the corner for no reason) isn’t
+helpful, so let’s look at the other 2 options and how they play out.
+B1 - After B1, white is forced to play to B2. The position after B1 B2 should look familiar because it is
+the position from the previous example! After B1 B2, Black would play A2, winning 33-31.
+B2 – This flips 14 disks and many of them become stable.
+If White Plays B1 (-3) – Black Plays A1 (+2) then White Plays A2.(-2) –
++14 -3 +2 -2 = +11
+If White Plays A2 (-1) then Black Passes
+If White Plays A1 (-5) then Black plays B1 (+3)
++14 -1 -5 +3 = +11
+If White Plays A2 (-4) then Black Plays A1 (+3)
++14 -1 -4 +3 = +13
+If White Plays A1 (-5)
+If Black Plays B1 (+2) then White Plays A2 (-1)
++14 -5 +2 -1 = +10
+If Black Plays A2 (+2) then White Plays B1 (-3)
++14 -5 +2 -3 = +8
+After all this calculation, we see that the best sequence after B2 is A1 B1 A2. +10. In the original
+position, Black has 25 disks. This means that with perfect play black will win 35-29. Since 35-29 is
+60
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+better than 33-31, B2 is the best move for black in the example position. Clearly being greedy and
+playing B2 and flipping a lot of disks works out well in this position.
+
+Before we get too greedy and always start playing the move that flips the most disks on the board
+let’s take a look at the above position.
+If Black Plays A1 (+2) – White plays A2 (-1) = +1
+If Black Plays A2 (+9) – White plays A1 (-10) = -1
+Oops! Even though the move to A2 flips more disks, it’s the wrong move. By playing to A2, black lets
+white flip all the disks on the A1-H8 diagonal as well as all the new black disks on the A edge.
+One of the most difficult parts of Othello is playing proper endgames because at times the right
+sequence is nearly impossible to see without counting every possible variation, and that quickly
+becomes impossible, even for master level players. Even top human players make endgame errors,
+however, the errors that they make tend to be small (2 or 4 disks) and they tend get a lot of the moves
+right. On the other hand, I’ve watched games between beginners where both players trade endgame
+errors that are 8 to 10 disks wrong at almost every move.
+One important rule we can follow when counting is to know that in almost all cases, if we have a
+sequence in which we get all of the remaining moves, it will probably be the best sequence.
+
+61
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+WHITE TO PLAY
+If I were to sit down at the above game I would immediately play A1 as white. After playing A1, black
+is forced to pass. Then white plays B2 as well. If white were to play B2 first, black would be able to
+play A1. If I can get all the disks I would get by playing B2 AND all the disks from playing A1, it has to
+be better than just getting the disks from playing B2 (-2 because black flips the A2 and B2 disks when
+he plays A1). If we were to sit down and count this position. We would find out that A1 wins 39-25
+while B2 loses 30-34.
+
+BLACK TO PLAY
+If I were to sit down at the above game I would immediately play A1, Pass, B1, Pass, H8 and I get all
+3 moves. Clearly, playing B1 isn’t good as white just plays A1 and black doesn’t get the A1-H8
+diagonal. If black were to play H8 first and then A1 white would just play B1 because the B2 disk
+would get flipped. Without even bothering to count I know that A1 then B1 then H8 has to be best.
+
+62
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+Exercises: Because people DO make errors, even with 3 or 4 empty – it is in your best interest to
+learn how to play simple endgames correctly. Not only will you win close games that are “won” for
+you, you’ll also win some close games where your opponent will make a mistake or miscount. In the
+following exercises, find the winning sequence.
+1.
+
+2.
+
+BLACK TO PLAY
+3.
+
+WHITE TO PLAY
+4.
+
+WHITE TO PLAY
+WHITE TO PLAY
+63
+Othello: From Beginner to Master – Simple Endgame Advice
+Copyright © 2003, Randy Fang
+Answers:
+1.
+
+2.
+
+BLACK WINS 33-31
+3.
+
+WHITE WINS 33-31
+4.
+
+WHITE WINS 33-31
+WHITE WINS 40-24
+64
+

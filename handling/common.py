@@ -10,8 +10,10 @@ import pyarrow.orc as orc
 # common constants and static methods to be used across multiple data handling tasks
 
 DEFAULT_INPUT_PATH = 'data/'
+DEFAULT_BOOK_PATH = 'data/books/'
 DEFAULT_OUTPUT_PATH = 'dataframe/'
 DEFAULT_OUTPUT_FILE = 'othello_games.data'  #dataframe save
+DEFAULT_BOOK_FILE = 'books.txt'
 DF_COLUMNS = ['ID', 'Black', 'White', 'Result', 'Date', 'Source', 'Moves', 'Hash']
 
 

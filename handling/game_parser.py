@@ -12,7 +12,7 @@ import uuid
 
 class GameParser():
     '''
-        Simple class to parse othello PGNs
+        Simple class to parse othello PGNs§
         cannot handle wthor files
         saves / appends games in the output file    
     '''
@@ -199,9 +199,6 @@ class GameParser():
                 df = pd.concat([df, df_pck])
                 common.save_dataframe(self.output_file, df)
                 print(f'added : {file_game_counter} games ({file_index} / {len(files)})')
-
-
-
 
         return game_counter
 
