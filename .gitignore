@@ -1,3 +1,6 @@
 /data/csv/
 /data/othello_synthetic/
 /data/pgn/
+/handling/finetune/trained_model/trained_model_v2.zip
+/handling/finetune/trained_model/trained_model.zip
+/dataframe/othello_games.data

@@ -1,0 +1,4595 @@
+Othello’: Brief & Basic
+
+An introduction to strategy & tact
+for the game of Othello
+
+Revised Edition
+
+
+
+
+(et Je (Seer
+
+oOo aA mh Oh F&F WH BR
+
+ClecCe@ececec-
+
+QO@OOCO
+
+O IO
+e OO
+eee0
+
+
+
+Ted Landat
+
+Updated Second Printin:
+
+First printing: November 1987
+Second printing: February 1990
+
+All rights reserved. No part of this publication may be reproduced, stored in a retrieval
+system, or transmitted, in any form or by any means, electronic, mechanical, photocopy-
+Printed in the United States of America.
+
+Othello® is Milton Bradley Co.'s registered trademark for its strategy disc game and
+
+Naomi and Brian,
+who stood by me while I stood by the computer.
+PREFACE
+
+The United States Othello Association (USOA) was created for the advancement of
+the game of Othello in the United States. It was begun in 1978 by a group of U.S. Othello
+players who had gathered to attend the World Othello Championship (held in New York
+City that year). At the time, the Japanese dominated the World Championships (they still
+do!) and it was clear to all who attended that the Japanese knew something about Othello
+that remained largely a mystery to everyone else. Jonathan Cerf, George Sullivan and the
+rest of the original USOA members set out to discover what that was. They were quite suc-
+cessful: Jonathan went on to become the 1980 World Champion, the first non-Japanese
+player to do so.
+
+Immediately after its inception, the USOA began the sponsorship of tournaments, es-
+pecially the annual U.S. National Championship (the winner of which competes in the
+World Championship). The USOA (largely through the efforts of Jonathan and George)
+also began publication of Othello Quarterly (OQ) as a means of disseminating informa-
+tion about Othello. At the present time, the USOA continues to serve the Othello commu-
+nity, maintaining a world wide membership of several hundred players.
+
+I was not one of the original members. However, I had been playing Othello for sever-
+al years when I first became aware of and joined the USOA in 1980. By studying articles
+in OQ, I set about to change what I discovered to be my largely wrong notions about
+Othello strategy. Eventually, I felt I had learned enough to attempt writing an article my-
+self. It appeared in the Winter 1980/81 issue of OQ. Over the next several years, I contrib-
+uted more than a dozen articles to OQ. Along the way, I also became one of the USOA's
+top-rated tournament players.
+
+In 1984, I assumed the Editorship of OQ. That same year, I had the good fortune to
+win the U.S. National Championship. I went on to the World Championship, where I
+finished third. With the confidence from my tournament victories and the resources availa-
+ble to me as Editor of OQ, I decided that now was an appropriate time to attempt a project
+of long-standing interest: to write an introductory handbook on Othello strategy and tac-
+tics.
+
+It was clearly something that the USOA needed. It was becoming increasingly diffi-
+cult (and unrealistic to expect of new members) to learn the fundamental principles of
+Othello strategy by sorting through the ever increasing collection of largely unrelated arti-
+cles appearing in the back issues of OQ. A concise, synthesized, easily accessible single
+resource was the obvious alternative: a Beginner's Handbook, as it came to be called.
+Another potential value of this project would be to serve as an antidote for all the misinfor-
+mation about Othello that has been printed in various books over the years. For example, a
+recent book describing popular "indoor games" had the following to say about Othello: "It
+is not easy to see ahead accurately more than a move or two..." This is patently false, as the
+information presented in this book will demonstrate.
+
+With all this in mind, I began to work on the Beginner's Handbook project. The result
+was the original version of "Othello: Brief & Basic," which appeared (starting in Spring
+of 1985) as a series of three articles published in separate issues of OQ over the course of a
+year. The issues containing these articles were well received and subsequently became rec-
+ommended reading for all new USOA members. There seemed to be sufficient mterest to
+justify revising Brief & Basic and combining the three parts into one integrated book.
+Thus the revised edition of Othello: Brief & Basic was born.
+
+For this revised edition, I added a table of contents and an index so as to make it easier
+to locate particular topics. I also added an appendix containing 11 game transcripts for fur-
+ther study and analysis. On the other hand, I chose to eliminate the footnotes of the original
+version — most of them references to relevant articles from previous issues of OQ — rather
+than have them interrupt the flow of the text. As an alternative, I have included a separate
+reference section that contains a listing of almost all of the cited articles.
+
+Othello: Brief & Basic Vv
+This is in no way meant to diminish the debt I owe to my fellow authors of OQ arti-
+cles. Thus, I again wish to thank George Sullivan, Jonathan Cerf, Amold Kling and the
+others without whose writing and insights this Handbook would have taken much longer to
+complete (if it ever would have been completed at all). In a more general way, this
+Handbook has also benefited from the work of still more people. In particular, I want to ex-
+press my gratitude to Brian Rose, David Shaman and the rest of the USOA's top tourna-
+ment players (together with our Othello colleagues in other countries). It has been their
+skill and expertise that has "pushed the envelope" of what we know about Othello today.
+My thanks similarly go to Clarence Hewlett, Dan & Kathe Spracklen, Charlie Heath, Peter
+Frey and the other computer programmers whose Othello programs have served as a much
+needed source of analytical information, especially in the area of endgame play. As a result
+of the efforts of all these individuals, the level of play of tournament Othello in this coun-
+try (as well as in the rest of the world!) has improved exponentially over the last 10 years.
+
+Finally, some comments and advice to readers who are approaching Brief & Basic for
+the first time. It has been commented that this Handbook is neither as brief nor as basic as
+the title would imply. As to its brevity, I can only say that it is considerably shorter than the
+more "complete" Handbook that I first envisioned. To meet the time and space constraints
+of appearing within the pages of OQ, it necessitated that I leave much material out. Rather
+than committing myself to a major expansion for this revision, I have maintained this ap-
+proach. At times this places an extra burden on the reader. For example, one diagram often
+serves to illustrate several techniques, where clearly two or three would have made under-
+standing the techniques easier. Similarly, there are several explanations of one or two sen-
+tences where one or two paragraphs might have helped clarify the matter more. I apologize
+for this. My best advice to compensate for these possible weaknesses is - as stated in the
+Handbook - to lay out all the diagrammed positions on a board as you read and play out the
+moves under discussion.
+
+Another consequence of this emphasis on brevity is that many important ideas are
+only mentioned in passing or omitted altogether. Sometimes I comment that a fuller under-
+standing would require more space than I could give it. In the worst cases, I become quasi-
+mystical and refer to the necessity of practice and experience as a pre-condition for under-
+standing. If the reader finds these explanations unsatisfactory, I again apologize. However,
+in a few cases (new to this revision), I discuss some of these additional topics in special
+sections labelled as "digressions" or "notes."
+
+As to how "basic" the Handbook is: It is certainly basic in the sense that it assumes no
+prior knowledge of Othello (other than perhaps a vague idea of the rules of the game).
+Even a novice player should be able to follow and implement all of the advice given in this
+Handbook. On the other hand, the Handbook does contain a lot of material. The matters
+discussed range from the novice level to the expert level. This is not a breezy tutorial than
+can be skimmed in a couple of hours. It's probably best if it's studied a few pages at a time,
+and always with a board 1n front of you.
+
+The material in Points #1 - #8 should be considered essential for all novice Othello
+players to know. Mastering the information in Points #9 - #16 (particularly the concept of
+tempo) should result in still a second important leap forward in playing ability. The materi-
+al in the remaining points, while representing the greatest technical challenge, is necessary
+for anyone hoping to move toward expert level of play.
+
+I have very much enjoyed writing this Handbook. I hope that Othello players, from
+novice to expert, will enjoy reading it and will benefit from doing so.
+
+Ted Landau
+September 1987
+
+vi Othello: Brief & Basic
+Note added for second printing:
+
+I resigned as Editor of OQ in 1986 and shortly thereafter stopped competing in tour-
+naments. I worked on Brief & Basic until its publication in late 1987. Since then, I have
+remained quietly active in the Othello community. I have been gratified with the positive
+response to Brief & Basic. Due to its continued popularity, a second printing has become
+necessary. I have taken this opportunity to try(!) to correct all the numerous typographical
+errors that had crept into the previous printing. I have also made minor changes to the text
+in several places, attempting (yet again!) to improve the clarity of the discussion. Lastly, a
+few items have been updated to reflect the events and trends of the past few years.
+
+The world of Othello continues to evolve. The best players today are clearly superior
+to their counterparts of just a few years ago. The Japanese remain the dominant force in in-
+ternational competition, and the U.S. similarly remains near the top. However, the overall
+level of international competition has improved tremendously — with an increasing number
+of excellent players emerging from European countries. The game of Othello can only
+benefit from these trends. I hope they continue. My hope for Brief & Basic remains un-
+changed: that Othello players, wherever they live and from novice to expert, will enjoy
+reading this Handbook and will benefit from doing so.
+
+Ted Landau
+January 1990
+
+Othello: Brief & Basic vii
+INTRODUCTION
+
+Origins. The origins of the game of Othello remain uncertain, though its similarity to
+ancient Oriental games such as Go suggests that Othello may have similar roots. Othello's
+modem form emerged in England, in the late 1800's, when Lewis Waterman and John
+Mollett each separately claimed to have invented the game of Reversi. Though they each
+denounced the other as a fraud, they both probably derived their ideas from related pre-
+existing games. Reversi remained popular over the next 20 years and then seemed to fade
+from view. It resurfaced in Japan, in the early 1970's, when Goro Hasegawa refined the
+rules of Reversi, making two significant changes (see below), and called the game Othello.
+Othello became very popular during the 1970's, with an annual World Championship be-
+gun in 1977 and National Championships held in many countries, including the United
+States. The increase in interest in microcomputers in recent years has also contributed to a
+resurgence of mterest in Othello/Reversi. This is because the nature of Othello (few rules,
+symmetrical board, one type of piece) lends itself to writing computer programs that can
+"play" the game. Dozens of programs, widely varying in quality, now exist that play
+Othello. Computer Othello tournaments are held periodically throughout the world.
+
+Equipment. Othello is played on a 8 x 8 ao bcd ie f qgih
+board of 64 squares, similar to a chess board.
+The game pieces are sixty-four discs, black on ' C|A(BIBIA
+one side and white on the other. 21Clk ¥ IC
+Object. The object of Othello is to end the 2] A x A
+game with the majority of discs on the board
+Rules. A brief summary of the rules follows. 5|B eo O al B
+The rule most likely to present difficulty fora 6 | A es A
+novice is the one defining a legal move (#4).
+This rule is much easier to understand from ex- 71C]X KIC
+amples (many of which follow) than to verball
+onnlains J % 8 C\A|BIB/A/C
+Diagram 1
+
+1. A game always begins with four discs placed
+as shown in Diagram 1. (This differs from
+the rules of Reversi, which allows for any position of the four central discs).
+
+2. One player is assigned Black and always places his discs with the Black side up. The
+other player is White, and conversely places his discs with the White side up.
+
+3. Black always goes first with Black and White alternating turns thereafter.
+
+4. A legal move is defined as follows: a new disc is placed on a vacant square. This vacant
+square must be adjacent to at least one square already occupied by a disc of the oppo-
+nent's color. This new disc must also be placed so that in at least one direction (vertical-
+ly, horizontally, or diagonally) the newly-placed disc, together with a disc of the
+player's color already on the board, brackets (or "outflanks") one or more discs of the
+opponent's color. The bracketed disc(s) are turned over (or "flipped") to become the
+same color as the newly placed disc. If a newly-placed disc outflanks opponent's discs
+in several directions at once, all such discs are flipped. For example, all possible legal
+moves for Black's first turn are indicated with asterisks in Diagram 1 -- each choice
+would result in the flipping of one or the other of the two white disks. For an example of
+a move that flips more than one disc, turn to Diagram 4 for a moment. Here, a White
+move to d7 would flip 4 discs: d4, d5, and d6 vertically and e6 diagonally.
+
+5. A player with no legal moves must "pass." For every turn in which a player must pass,
+his opponent continues to take turns, taking discs from the other player's "tray" as nec-
+essary. Thus, (unlike Reversi) a player cannot "run out" of discs.
+
+6. A player may not pass if he has a legal move available.
+
+Othello: Brief & Basic 1
+7. If neither player has a legal move, the game ends even if there are still vacant squares on
+the board. Most often, the game ends when all 64 squares are filled.
+
+8. Once placed on the board, a disc is never moved again, though it may be flipped repeat-
+edly over the course of the game. A disc that currently has its white side facing up 1s
+called a white disc and vice versa.
+
+Notation & Terminology. In the discussions that follow, the best way to understand
+the diagrams is to use a board and discs, laying out and examining the positions discussed
+as you go. Diagram | introduces the basics of Othello notation, as used in the diagrams.
+Squares are typically referred to by the letter and number that corresponds to the square, as
+indicated along the borders of each diagram. Thus, the second square in the first row is
+called the b1 square. Some squares have additional names, as shown in Diagram 1. Thus,
+the b1 square 1s also referred to as a C-square. In the case of double diagrams (two grids
+with an arrow between): the upper grid shows (1) the board configuration prior to the
+move or sequence of moves under discussion (the unnumbered discs) and (2) the move or
+sequence of moves under discussion (the numbered discs); the lower grid shows the board
+configuration after the move or sequence of moves under discussion has been made. The
+numbered discs indicate that you should place discs on the board in the numerical se-
+quence shown, flipping the appropriate discs as you do so.
+
+The game of Othello is divided into three phases. The approximate dividing lines are:
+Opening: first 20 moves; Midgame: middle 20 moves; Endgame: last 20 moves. Other
+important terms will be given in boldface when first mentioned in the sections to follow.
+
+STRATEGY & TACTICS: 21 POINTS
+
+Othello is a game of skill. Luck rarely, if ever, affects the outcome of a game. The
+player who can better apply the principles discussed in this handbook will consistently win
+against the less well-informed player. Many players remain largely unaware of these prin-
+ciples, perhaps because the correct strategy is often subtle and counter-intuitive and there-
+fore difficult to discover without assistance. These 21 points attempt to provide this assis-
+tance.
+
+The right move. The irony of Othello (as well as many other abstract strategy
+games) is that even though the entire board and all the pieces are in full view at all times,
+the best move is often far from obvious. Deciding upon the "night" move can be analogous
+to hunting for buried treasure: you need to know (1) what it is you are looking for and (2)
+how to go about finding it. These themes wind their way through every point in this book.
+For example, Points #4, #5 & #9 focus on the general characteristics of a good move and
+the importance of trying to visual the future consequences of a move. Specific suggestions
+as to how to recognize good moves in common midgame positions are made in Point #13
+and again in #16. The discussions of openings, endgames, and edge play offer other situa-
+tion specific recommendations. Point #21 finally deals with the difficult issue of how to
+find the best move when (as often happens in real games) several of the "rules" discussed
+here lead to conflicting or unclear advice. This book will not supply you with all the an-
+swers. But it will give you a good head start.
+
+1. Get More Stable Discs, Not Just More Discs
+
+The object of Othello is to end the game with more discs than your opponent. This
+ultimate goal is frequently translated, by many beginning players, into an immediate
+goal throughout the game. That is, on each turn, a player will (with few exceptions) take
+the move that flips the maximum number of discs. This has been clearly shown to be an
+inferior strategy. Actually, disc count is often irrelevant to who is ahead in a game. This
+point can not be stated too strongly. In fact, players who consistently flip large numbers
+of discs early in the game are among the easiest opponents for experts to defeat! An ex-
+
+2 Othello: Brief & Basic
+ample is in Diagram 2. Here, Black has only
+one disc on the board, with only four moves
+leftin the game. Butif you play the game out, ,
+you will find that Black gets all the remain-
+ing moves and wins the game 40-24. Clearly,
+simply having a lot of discs, even at such a
+late point in the game, is not enough to assure
+victory. Even games between experts may
+end with this sort of turn-around in the last
+few moves (though usually not as dramatic as
+in this example). The reason this can happen
+is that White's disc majority was fragile,
+since many of his discs were vulnerable to
+being flipped by Black. The point therefore is
+
+not simply to acquire discs, but acquire discs eeeee
+that cannot be flipped for the rest of the IAI
+
+game, no matter how the game develops. ' ;
+
+Such discs are called stable discs. Unfortu- Diagram 2: Black to move
+nately, as we will see, stable discs usually
+cannot be acquired in any great number until
+
+the endgame. Therefore, the strategy for the
+majority of the game focuses on factors other 14
+than the relative disc counts of the two
+players. These are discussed in the next sev-
+eral points.
+
+d f h
+
+cece
+Sseee
+
+QOOQOOO
+QOOCOOOC!-
+
+oO aS om Of & Wh
+
+2. Not All Squares Were Created
+Equal
+
+A crucial idea that beginning players in-
+evitably realize is the importance of the 4
+corner squares on the board. It was not coin-
+cidental that the 4 empty squares in Diagram
+2 were all corner squares. A corner is im-
+portant because it can never be flipped. That
+is, itis a stable disc. Similarly, possession of Diagram 3: Black to move
+discs adjacent to a commer square (once the
+corer has been occupied) often means that
+the adjacent discs are stable as well. Thus in
+Diagram 3, when Black takes the h8 comer,
+all the discs in the g and h columns andinthe  ,
+seventh and eighth rows, suddenly become
+stable discs for Black. Black is well on the
+way to winning the game. In fact, possession
+of a comer is so critical in the beginning of
+the game, that getting one almost always as-
+sures victory. Similarly, since the comers
+and the edge squares together add up to 28
+squares, it is almost impossible to win with-
+out occupying at least some of these squares.
+
+An implied corollary to the above princi-
+ples is that squares adjacent to corners are ex-
+tremely risky to occupy, at least until the cor-
+ner itself has been occupied. This is because
+these squares can become "stepping stones" ' . '
+for your opponent to take the corner. This is Diagram 4: White to move
+
+Oo som th f& WwW hi
+
+, Je
+, Je
+
+Oo a om Ch & WwW hi
+
+Othello: Brief & Basic 3
+oOo -— mm oh & iW KI
+
+oOo om  & iW hh
+
+especially true of the X-squares. Taking an X-square early in the game, usually guaran-
+tees that the other player will get the adjacent comer. Such a situation is seen in Dia-
+gram 4. Itis White's turn, but no matter where White goes, Black will be able to flip the
+disc on the X-square (g7) and take the h8 corner on his next move. Very simply, White
+should never have gone to the g7 square at this stage of the game. There are similar
+problems with C-squares (see Point #6), though they do not guarantee the opponent's
+access to the corner nearly as often as X-squares do.
+
+An incorrect, though commonly assumed, implication of the above discussion is that
+all squares on the board can be rated as to their absolute value. In this approach the cor-
+ners are typically rated as the most valuable, the A and B edge squares as valuable (but
+less so than corners), the non-edge squares (particularly those adjacent to the edge) as
+still less valuable, and the C- and X-squares as most risky. By this theory, the best move
+on each turn usually will be the move that occupies the highest rated square to which
+the player has a legal move. Unfortunately, a player adopting this strategy will almost
+always be defeated by a player using the winning strategies to be discussed in the next
+sections.
+
+[Note: Corners often diminish in value near the end of the game, and corner sacrific-
+es become quite common among expert players. In such situations, possession of only
+one corner may be sufficient to win the
+
+a_b dae fog ih game. Similarly, occupation of C-squares
+
+ning the game. Examples of these situations
+
+() and even X-squares may be crucial to win-
+
+will be discussed extensively in still later
+
+sections. ]
+
+In summary, the incorrect strategies
+place an unwarranted value on flipping large
+numbers of discs even though they are not
+stable and on possessing the A and B edge
+
+squares. Ironically, the correct strategy typi-
+cally involves flipping a minimum number
+
+of discs and often avoiding the non-corner
+edge squares, at least until later in the game.
+
+These counter-intuitive ideas, though they
+
+may be difficult for the beginning Othello
+
+player to appreciate, are the key to a winning
+Othello strategy! Let's look at these ideas in
+more detail:
+
+g_ih 3. Control of the Game: Mobility
+Optimization and Dynamic
+Square Evaluation
+
+Once understood, the logic of the correct
+strategy to winning Othello seems quite
+straightforward. Your hope is to get your
+opponent to make a poor move that will al-
+low you to win the game (e.g. get early ac-
+cess to a corner etc.). Obviously, your oppo-
+nent, especially if he is a skilled player, is
+
+
+not likely to make such a move willingly.
+
+C) Your goal, therefore is to force him to make
+
+a poor move. How can this be accom-
+
+eeeoo00 ® plished? Quite simply, if your opponent has
+
+only very few (ideally just one or two) legal
+moves, and they are poor moves, then your
+opponent will be required (by the rules of
+
+Diagram 6: Black to move
+
+Othello: Brief & Basic
+the game) to make a poor move. In the ex-
+treme case, where your opponent has only
+one move, he is said to have a forced move. ,
+An example is given in Diagram 5. Here,
+Black wisely chooses to go to e8. The wis-
+dom of Black's move quickly becomes evi-
+dent: White now has only one move, to b2,
+which will allow Black to get the al corner
+and inevitably win the game. A slightly
+more subtle example of the same principle is
+in Diagram 6. Here, if Black moves to g6(!),
+White is again forced to the b2 X-square.
+Note that any other move for Black (e.g. f6,
+g5) opens up new moves for White, thus
+eliminating the forced move to b2.
+
+In more general terms, your goal is move
+limitation, or limiting the number of moves
+(often referred to as options) that your oppo-
+nent has. At the same time you wish to maxi-
+mize your own options. Overall, this is re-
+ferred to as mobility optimization. This is a ob ¢ de f g h
+
+a mee sese
+you have gained control of the game. if you 2 CUCes
+can continue to maintain such control, you 3| WOOO
+of the power of this approach is demonstrat- 4 “eeee
+
+Sees .
+
+
+OCee@ —-
+OOOO”:
+
+OOOO
+QOCOO®
+
+oO aS om Of & Wh
+
+
+will almost certainly win. Another example
+ed in Diagrams 7, 8, and 9. In all three dia-
+grams, Black is contemplating a move to f8
+(an A-square). In Diagram 7, such a move
+would be a disaster. It flips the whole f col-
+umn to Black, and after a White move to a2,
+Black would be forced to go to either b2 or
+b7 (X-squares) on his next move, losing ei-
+ther the al or a8 comer. In Diagram 8, the
+move to f8 is moderately successful, but by
+flipping the discs at f6 and f7, it cuts off ac-
+
+cess to other squares (particularly g8) which
+could be important later. A move to g4
+
+would probably have been better. Contrast
+this to the move to f8 in Diagram 9. Here,
+
+the move does not open up any new moves
+for White, while it retains the g8 option for
+
+Black. It is an excellent move in terms of
+mobility optimization. In fact, after White-
+
+a2, Black-g8, itis now White who will lose a
+
+corner! The point of all this is that the value
+of f8 (or any square) is never an absolute. It
+
+is always a function of the current overall
+board position. If this is taken into account
+
+properly, then an attempt to rate the relative
+(and changing) values of squares is possible
+
+and useful. This is referred to as dynamic
+
+square evaluation. Together with mobility -
+optimization, it forms the heart of basic Diagram 9: Black to move
+
+Othello: Brief & Basic 5
+Othello strategy.
+4. Good Moves and Bad Moves: Gaining Control
+
+What constitutes a good move in Othello? Without reference to specific positions, a
+good move can be typically defined in terms of the principles of gaining and maintain-
+ing control (with the ultimate aim of acquiring stable discs). That is, a move that in-
+creases, maintains or minimally decreases your future mobility while simultaneously
+limiting your opponent's mobility is a good move. Unfortunately, applying this princi-
+ple to specific positions is often far from a simple matter. Here are some guidelines:
+
+It is technically possible to have control of the game with more discs on the board
+than your opponent, with less discs, or with about an equal number of discs. However,
+most expert players agree that the easiest way to get control of the game is by maintain-
+ing fewer discs than your opponent (1.e. maintaining a low disc count). This is referred
+to as evaporation strategy. The rationale for this is that, since your opponent needs to
+flip at least one of your discs to make a legal move, the less discs you have on the board,
+the less legal moves he is likely to have (i.e. move limitation). Thus, in Diagrams 7-9,
+the f8 move in Diagram 7 could be said to be the worst because it flipped the most discs,
+while the move to f8 in Diagram 9 was the best because it flipped the least discs. The
+advantages of this approach are so great that if one player makes judicious use of evapo-
+ration while the other does not, the evaporation strategist will almost always win.
+
+It may be, particularly in a game between two experts, that neither player can estab-
+lish a successful evaporation. The game remains roughly even until the endgame. Alter-
+natively, one player may succeed in getting control of the game early and acquiring one
+or more comers. At these points, evaporation inevitably becomes less important. After
+all, at some point you have to start flipping lots of discs or you cannot win the game.
+Thus, the value of each square, in terms of the number of stable discs that will be ac-
+quired, becomes more important. For this reason, evaporation strategy tends to have de-
+creased importance for endgame play.
+
+Similarly, the ultimate goal remains mobility optimization, not simply evaporation.
+A move that flips several discs may at times leave your opponent with less options than
+a move that just flips one disc. For example, if most of your discs are centrally located,
+while your opponent's discs are spread out along the periphery, you are said to have
+"control of the center." This is generally desirable. Thus, interior squares are typically
+better to occupy than peripheral (or frontier) discs. This is because (1) flipping interior
+discs generally does not open up as many new moves for your opponent as flipping
+frontier discs would, and (2) maintaining a compact center of connected interior discs
+tends to lead to more mobility for yourself than having your pieces scattered around the
+
+periphery. A move that flips only interior
+
+a boc de f g h discs may therefore be more desirable than
+= a move that flips mainly frontier discs, even
+1 C) if the latter move flips less discs overall.
+Note: Black's position in Diagram 5 repre-
+2 O CO) ® ® sents good control of the center.
+
+Also, remember that mobility optimiza-
+
+z > Y Op
+O O eee tion does not just refer to the number of op-
+4 OA tions available. It takes into consideration
+both option quantity and option quality.
+a eee The more moves you have available, the
+greater your option quantity. The more de-
+6 (liGe® sirable those moves are, the greater your
+3 ‘oe C) option quality. The good player realizes
+5 se O O that a smaller number of men quality op-
+Fs tions may be more desirable than a larger
+: oe ie number of low quality options. To take an
+Diagram 10: Black to move extreme example, it would most commonly
+
+Othello: Brief & Basic
+be preferable to have your access limited to 2 corner squares rather than to 4 X-squares.
+
+A special type of frontier disc position is called a wall: an area of frontier discs,
+along one side of the board, that are of all one color. Generally, it is inadvisable to form
+walls. If your opponent should form one, itis generally advisable not to break across the
+wall (e.g. move to the unoccupied squares beyond the wall) unless no other viable
+moves remain. The potential problems of forming a wall are illustrated in Diagram 10.
+Note the relative merits of a Black move to f7 as opposed to e7. The f7 move forms a
+wall on the east side of the board, severely limiting Black's future options, while open-
+ing up many new moves for White. Quite simply, it is a bad move. The move to e7,
+while it flips the same number of discs, is a far better move. The e7 move flips only in-
+terior discs, forming a connected, centrally located cluster of discs for Black. The result
+(control of the center) is increased mobility (e.g. Black now has access to b4), while f7
+is the only new move opened for White.
+
+Note that edge squares are a partial exception to these generalizations about walls
+and evaporation: since a player cannot flip past an edge, a "wall" of edge squares is not
+a liability in the way that a non-edge wall would be. Thus, in Diagram 6, the wall of
+Black discs along the south edge did not hurt
+Black since they provided no moves for a boc de f go h
+White. Still, expert players are often reluc-
+tant to take edge squares in the early part of 1
+the game. First, taking edges tends to oppose
+trying to get control of the center (but see Di-
+agram 11 and Point #16). Second, occupied
+edge squares often become liabilities later in
+the game for a variety of reasons (see Pot
+#7 for one major example).
+
+Ces)
+
+5. Good Moves and Bad Moves:
+Planning Ahead
+
+
+QO@Ce®
+
+This point cannot be emphasized enough: O
+successful evaporation, mobility optimiza-
+tion or whatever, depends not merely on
+what is best for the current position, but Diagram 11-A: Mowes 25-26
+what 1s likely to be best based on what the
+board will be like 2,3, 4 or even more moves
+later. It is this ability to see what conse- a oboode f g h
+quences a move ts likely to have on subse-
+quent moves that separates the expert from 1
+the average player. The farther you can "see"
+ahead, the better you will play. A good move
+in Othello can almost never be determined
+simply by a static view of the current board
+position. OC)
+One of the unique difficulties of Othello
+is that, since many pieces may get flipped 6
+with each move (particularly in the end- O
+game), it can be extremely difficult to visual-
+ize the future board position (though com- CO)
+puters have little difficulty with this aspect
+of Othello). Still, one must do the best one
+can. An example that clearly shows the ben- ,
+efits of planning ahead is in Diagram 11. Uiagram 11-B: After move 26
+Here we see how, with some foresight,
+Black can take a superficially even position,
+
+BOCeG8
+ee eee
+
+
+_) ©
+
+
+Oo a om Of & Wo ht
+
+Othello: Brief & Basic 7
+Oo a mm Oh fF Wo ht
+
+oO aS om Of & Wh
+
+and gain complete control of the game. The sequence of moves results in Black forcing
+White to give up the a8 comer. The a7 move, in particular, took away several of White's
+options (i.e. d8, g5, and d3). Thus, the advantages of the a7 move become apparent only
+if Black anticipates the consequences of the next several moves. For example, the se-
+quence of moves would not have "worked" if Black's a3 move had flipped White's disc
+at b3. This is because it would have prevented Black's subsequent move 27 to a2.
+
+6. Isolated C-square Traps
+
+We now begin to shift attention away from strategy (the focus of points #1 - #5) and
+move towards tactics. Though the dividing line 1s not always clear, strategy tends to fo-
+cus on more general discussions of goals and objectives while tactics refer to more spe-
+cific techniques for implementing these goals. For example, in this section we demon-
+strate a "trick" or a "trap" that will force your opponent to concede a corner, no matter
+how many moves he might have available at the time. It requires that your opponent oc-
+cupy a C-square along an edge that is otherwise empty (or nearly so)(1.e. an isolated C-
+square). Actually, this trap will rarely occur in a game between good players, because
+they will avoid the positions that would permit it. However, the threat of such traps 1s
+
+often sufficient to constrain your opponent's
+h moves. In any case, you need to know of
+these traps, if only to avoid falling into them
+yourself.
+
+Two examples of this trap are given in
+Diagrams 12 and 13. In Diagram 12, Black
+followed White's move to gl (the isolated
+C-square) with a move to dl. White is now
+unable to take any moves along the critical
+North edge and so might choose to go to g5,
+(for example). Wherever White goes, Black
+continues with f1! Now White is forced to
+give up the hl corner (.e. White-e1, Black-
+h1!). Note how this trap would have failed if
+White could have moved to the North edge
+(e.g. to el) prior to Black's move to f1. In
+. . Diagram 13, White responded to Black's g1
+Diagram 12: White to move (isolated C-square) move with a move to cl.
+
+This is a stronger move than the d1 move in
+Diagram 12 since, even if White moves to
+h the edge, Black is still guaranteed the h1 cor-
+ner (as long as Black maintains access to the
+North edge). For example, if White goes to
+d1, Black continues with f1. The most com-
+plex sequences occur if White avoids the
+Cy edge altogether (e.g. by going to g5). If this
+occurs, Black continues by going to el.
+| Now, once again, White is helpless to pre-
+vent the loss of the corner (e.g. White-b6,
+Black-f1). If all these seems a bit hard to fol-
+low, remember: take out a board, set up the
+positions in the Diagrams, and play them
+out. I guarantee that all will become clear
+shortly.
+
+In summary: you are in danger of suc-
+cumbing to these traps only if two precondi-
+tions are met: (1) the appropriate isolated C-
+
+a b oc e f
+
+
+OOS -
+
+
+eo Cr
+
+| JS
+Lh 1
+
+Diagram 13: White to move
+
+Othello: Brief & Basic
+square edge position exists, and (2) your op-
+ponent has access (i.e. legal moves) to the a_t
+necessary squares to complete the trap. By 1
+avoiding one or both of these preconditions,
+you can avoid these traps. The best general
+advice is to avoid going to isolated C-
+squares altogether. But, as will be seen later,
+once an edge begins to fill up (e.g. a C-
+square would no longer be "isolated"), this
+prohibition will usually no longer apply.
+Finally, Diagram 14 shows an unusual C-
+square trap position. Here, Black can take
+the hl corner at will. But if he does so,
+White can continue with cl, thereby gaining
+undeniable access to the al corner.
+
+eo Xs
+
+oo Sy m® Om fF WwW bh
+
+7. Unbalanced Edges Diagram 14: Black to move
+Earlier, we commented that, despite all
+the previous advice, in certain circumstances
+going to an X-square can be a good move,
+while going to a corner can be a poor one. 1
+The ability to recognize these positions is
+one of the hallmarks of the more advanced
+Othello player. In this section, we discuss
+the most basic of these situations: the unbal-
+anced edge. An unbalanced edge is defined
+as an edge occupied by five adjacent discs of
+the same color immediately adjacent to a va-
+cant corner. An example is given in Diagram
+15. The north edge is unbalanced. Note the
+consequences of this position: If Black takes
+the X-square at b2, White may indeed follow Te oe
+by taking the al comer. But Black can now C)
+continue by filling in the wedge at bl (see =
+Diagram 16 for resulting position). Now, no Diagram 15: Black to move
+matter where White goes, Black now has un-
+deniable access to the corner at hl. When
+Black does go to h1, the entire row of discs b d
+along the north edge (exceptforal) willbe-  ,
+come stable discs for Black. In addition,
+Black will then be able to gain further stable
+discs by going to g2, and continuing to
+march down to the h8 corner. If White had
+tried to prevent all this by going to b1 initial-
+ly Gnstead of a1), this would cause the b2
+disc to be flipped to White, and Black will
+get both the al and h1 corners! Thus, the X-
+square move and the resulting corner sacri-
+fice clearly worked to Black's advantage
+(though if the discs along the east and west
+edges had been Black, the advantage would
+have been less). Conversely, though there
+are numerous exceptions, an unbalanced ' j '
+edge is a liability and should be avoided if Ut 29ham 18: Mhite to move
+possible (unbalanced edges are another ex- (after b2-al-b1)
+
+
+O@eQ 1O}
+| Jee)
+eee.
+OeOeO
+Lh ee)
+
+
+oOo “Sy mm OM & tw bh
+
+
+eee ee:
+QOOO@COR?-
+oe | Sie;
+
+QOOOOO
+
+oOo om  & iW hh
+
+Othello: Brief & Basic 9
+oOo -— mm Oh & iW RI
+
+
+ample that should dispel the myth that edge squares are always good to take). Note that,
+given the opportunity, it would usually be to White's advantage to balance the edge
+(e.g. go to b1) prior to Black going to b2. Thus, unlike the isolated C-square positions
+discussed in Point #6, a C-square move would be considered a good move. However, in
+Diagram 15, White could not balance the edge because (since c2 was White) White did
+not have access to b1.
+
+But now a note about defense: In situations like the one in Diagram 15, after Black
+goes to b2, White's best immediate defense is often to do just about anything except take
+the al corner. The idea is to wait (and hope) for the board position to change such that
+taking the al corner will no longer be the disastrous move it currently is. For example,
+White may hope to force Black to go to g2 (sacrificing the hl corner), before White
+goes toal.
+
+Learning the dangers of the unbalanced edge is, however, only the beginning of this
+topic. Actually, experts "take" unbalanced edges (i.e. make a move that results in the
+formation of an unbalanced edge) quite often, and not merely when itis the lesser of al-
+ternative evils. Taking an unbalanced edge can be a strong, even a game-winning,
+move. This occurs most often in situations where you can prevent your opponent from
+getting the wedge necessary to take advan-
+tage of the unbalanced edge. Two examples
+of this are shown in Diagram 17. First, if
+Black goes to b2, White can now balance
+the north edge by going to b1 (before going
+to al) without flipping the disc at b2. This
+will permit White to get both al and b1, de-
+feating Black's attack on the edge. A simi-
+lar type of problem is seen along the east
+edge of Diagram 17. Here if Black tries to
+attack the unbalanced edge by going to g7,
+White continues with h8. However, Black
+will not have legal access to h7 at this point,
+giving White the opportunity to go to h7 on
+his next move, once again defeating the
+Cy threat of the unbalanced edge. In this situa-
+
+tion, Black should delay the g7 move until
+Diagram 17: Black to move af possible) a Black disc is securely located
+in the seventh row, providing the necessary
+access to h7.
+
+Sometimes, an unbalanced edge that
+seems safe from an X-square attack may
+still be vulnerable to a move along the adja-
+cent edge. This is the case in Diagram 18,
+where Black's lack of access to b2 prevents
+the conventional attack of the unbalanced
+north edge. However, Black can go to the C-
+square at a2 instead! If White follows by
+taking the al corer, Black can successfully
+fill in the wedge at bl. If White does not
+take the al corner, Black then has the addi-
+tional option of going to a7 and eliminating
+
+OOOO
+
+oOo “Sb om Mh & we bh
+
+
+oe | Sie;
+QOOOOO
+
+
+White's opportunity to take the al corner at
+all.
+In summary, the potential liabilities of
+C3 unbalanced edges are both simple and es-
+; sential for the aspiring Othello expert to un-
+Diagram 16; Black to move derstand. However, there are numerous sub-
+
+tle nuances to the unbalanced edge position,
+
+Othello: Brief & Basic
+that are anything but simple. Knowing
+whether or not to take an unbalanced edge,
+or to attack a currently existing one, are
+among the more difficult of all decisions in
+Othello.
+
+8. Controlling the Main Diagonal:
+Stoner Traps and More
+
+The main (or central) diagonals are the
+two diagonals that run from al-h8 and from
+a8-hl. A player is said to have control of
+one of these diagonals when all the pieces
+along that diagonal are of his color. There
+are numerous ways to take advantage of this
+control.
+
+Stoner Traps. A Stoner trap (named
+after John Stoner, the first U.S.O.A. member
+known to use this trap) is a comer sacrifice/
+exchange that depends on main diagonal
+control. For example, in Diagram 19, White
+can move to b7, gaining control of the a8-h1
+main diagonal. As a result, despite White's
+X-square disc, Black cannot yet take the a8
+comer. Typically, Black will try to move to
+a square that cuts across (i.e. flips a disc
+along) the main diagonal, so as to gain ac-
+cess to a8 (e.g. Black moves to f3). But
+White's next move is to d8 (called the "at-
+tack" square) (see Diagram 20). Now there is
+no way to stop White from getting the h8
+corer (and most of the south edge as well).
+Black cannot go to b8 or he will flip the disc
+at b7 and lose both the a8 and h8 corners. If
+Black takes the corner at a8, White can then
+take h8 directly or even (in this case) take
+the wedge at b8 (maintaining access to h8).
+If Black avoids both a8 and b8, White still
+can go to h8 at any time (an advantage of
+this position over a similar unbalanced edge
+attack). This exchange of corners is usually
+(but not always) favorable to the attacker
+since he gets both the edge and a corner,
+while his opponent gets only a corner.
+
+The drawback of Stoner traps is that they
+are often difficult to set-up, especially
+against a knowledgeable opponent. To be
+successful, at least four preconditions are re-
+quired: (1) The opponent must have the req-
+uisite edge position (the two most common
+edge positions that are vulnerable to Stoner
+traps are shown along the north and south
+edges in Diagram 19). (2) The X-square
+
+Othello: Brief & Basic
+
+Oo a mm OW & Wo ht oOo so om tl & TW RK
+
+Oo a om UO fF Wo ht
+
+
+OCUCe@Ve-
+eee _leee-
+
+Diagram 20: Black to move
+
+Clee!
+
+
+
+
+
+Diagram 21: White to move
+
+a hh
+
+1 Oe!
+ioe eee
+
+OOOO
+
+
+
+Diagram 23: Black to move
+
+Cc. Je@et tes
+
+oOo -s m Oo & WH
+
+Diagram 24; White to move
+
+
+move must result in control of the main di-
+agonal. (3) There must be at least one disc of
+the opponent's color i the column contain-
+ing the X-square, e.g. the b column in Dia-
+gram 20. (Otherwise, Black could have safe-
+ly balanced the edge). (4) You must
+maintain access to the edge square required
+to complete the trap (e.g. d8 in Diagrams 19
+and 20). For example, White could have
+gone to b2 in Diagram 19, attempting a
+Stoner trap along the north edge. But this
+fails for at least two reasons: after Black
+continues with g5, White does not have ac-
+cess to cl. Even if he did, Black could fol-
+low the cl move by safely going to bl. A
+more subtle example of a failed Stoner trap
+is in Diagram 21. Here, the trap fails be-
+cause after White's move to b7, Black goes
+to c3, gaining access to a8, while blocking
+White from the critical c8 square.
+
+Controlling the Diagonal. If you can
+maintain control of a main diagonal, you
+can move to the X-squares without allowing
+your opponent access to the adjacent cor-
+ners. In the endgame, this can be a critical
+advantage (even in non-Stoner trap posi-
+tions). For example, in Diagram 22, White
+can go to b2 and assume control of the a1-h8
+diagonal. Black cannot move to al now nor
+even move to regain access to al. He is
+forced to go to g2 or b7, losing a corner (and
+the game as well).
+
+Main diagonals can be so powerful, that
+a good player 1s constantly on guard for pos-
+sibilities of gaining or losing control of
+them, particularly late in the game. Offen-
+sively, the player should monitor when he
+can take control (or set up to take control) of
+a main diagonal. Defensively, the player
+needs to be aware of when his opponent
+may take effective control of a main diago-
+nal, and whether the player then has the
+ability to cut across it. Some examples of
+these ideas are presented in Diagram 23.
+Note the problems caused for Black by the
+table position (occupying the 2 A-squares)
+at the south end of the board. Novices often
+see this as a desirable position, but it actual-
+ly has a major liability: Black has no access
+to d8 or e8 while White does. Thus, if
+Black attempts to control the a8-h1 diagonal
+by going to b7, White can respond with d8
+or e8 and cut across the diagonal. Alterna-
+tively, White could go to gl, establishing
+control of the al-h8 diagonal, safe in the
+
+Othello: Brief & Basic
+Summary & Preview
+
+In the previous sections, we demonstrated the importance of the four corner squares,
+and how a major part of Othello strategy focuses on how to best obtain corners yourself,
+while preventing your opponent from domg so. At the same time, we saw several cases
+(e.g. unbalanced edges, Stoner traps) where deliberately giving up a comer (typically by
+going to an X-square) was a good (even a game-winning) move. Understanding these posi-
+tions typically depended on being able to recognize particular board patterns. But more
+than that, these positions demonstrated an important principle about Othello. Specifically,
+in a typical game between two expert Othello players, one player is rarely able to acquire
+all 4 comers. Recognizing this, the critical question becomes not how to prevent your op-
+ponent from ever getting a commer, but when 1s the best time (and how is the best way) to
+concede a corner. It is almost always better to concede a corner on your terms than to be
+forced to give up a corner later on your opponent's terms. As comedians are fond of saying:
+"It's all in the timing!" Indeed, many players, even experts, have lost games essentially be-
+cause they were too reluctant to give away a corner at an opportune time. On the other
+hand, players may also lose games by overlooking unusual ways to force an opponent to
+give up a corner (or other positional advantage), ways that work only because the timing or
+position is "right." The next few sections expand on these fundamental concepts.
+
+9. Gaining and Losing Tempo
+
+A player is said to gain a tempo when he achieves an advantage of timing by deriv-
+ing one more viable move than his opponent from play within a limited area of the
+board and thereby forcing the opponent to initiate play elsewhere (it is similar to the
+concept of sente — or initiative —in Go). Gaining and maintaining a tempo advantage 1s
+akey concept in Othello strategy. Let's look at this idea in more detail.
+
+A safe move is loosely defined as a move that is not the proximate cause of giving
+your opponent a comer. For example, going to an X-square early in the game is defi-
+nitely not a safe move. This definition does not take into consideration the numerous
+tres that giving up a corer is a good
+move, but it serves us well for the majority
+of midgame situations. Typically, as the
+board fills up with discs, several distinct re- 1
+gions of empty squares develop. It is useful
+to keep track of the number of safe moves
+available to you (and to your opponent) in
+each of these regions. As play expands to
+the periphery of the board, we can initially
+conceive of each side of the board as having
+10 potentially safe squares (see Diagram
+25), though this can change with the board
+position. The move to the last safe square
+available to either player in a given area of
+the board is called the last move (making
+the last move of the game a special case of
+the "last move"). Taking a "last move" has
+the generally desirable effect of forcing Diagram 25: Shaded ogreas
+your opponent to initiate play elsewhere on are "safe move" regions
+the board. If your opponent has no other
+safe moves on the board, you are said to have "run your opponent out of moves"
+(causing your opponent to concede a corner) (see also Point #3). Gaining a tempo is of-
+ten an effective way to accomplish these goals (see also Point #10).
+
+For example, in Diagram 26, it is White to play. Note that Black has only one safe
+move on the board: g5. If White can eliminate this without opening up any more safe
+moves, White will gain a comer. White clearly does not want to disturb the North edge
+
+a bed ef 4 oh
+
+
+
+Oo som th f& WwW hi
+
+Othello: Brief & Basic 13
+
+
+a) OM}
+
+Diagram 26: White t
+
+
+eo_e@
+LM _
+
+
+
+Mowe
+
+Lt hh
+tb Oo XS
+O@Cleee
+eK JS)
+oe ie
+eeeeee
+
+Diagram 27: White to move
+
+OOOO
+
+eeeeee
+
+oOo -— mm (Oh & TH RI
+
+
+
+oOo -s m Oo & WH
+
+Diagram 26; White to move
+
+
+(as this opens up good new moves for
+Black) so he will want to go to either h6 or
+g5 itself. The h6 move doesn't succeed:
+Black simply goes to g5 and White is now
+forced to open up the North edge (see Dia-
+gram 27). The g5 move is correct: this opens
+up a new safe move for Black (h6), but after
+Black goes there, White can continue with
+h7(!) (Diagram 28). White has now gotten
+the last move in that region (via a gain in
+tempo) and (in this case) Black is forced to
+give up a comer. Whenever you find your-
+self with more safe moves than your oppo-
+nent (and a means of reducing your oppo-
+nent's safe moves), it is worth considering
+attempting this. As usual, success depends
+upon being able to plan ahead: coming up
+one move short of running your opponent
+out of moves often spells disaster. Another
+word of caution: recall that X-squares are
+not always bad moves, and forcing your op-
+ponent to concede a corner may not hurt
+him. Thus, in Diagram 28, imagine that a7
+was vacant. Now after a White move to h7,
+Black (though forced to give up a corner)
+goes to the b7 X-square, attacking the un-
+balanced west edge. In this position, the fi-
+nal outcome of the game is no longer clear.
+(Note: it is possible to get more than one ex-
+tra move in a region -- resulting in a double,
+or even triple, gain in tempo!)
+
+A related type of move associated with
+tempo is the free move. A free move is a
+play that can be deferred until later in the
+game and which when taken will not open
+up any new safe moves for one's opponent.
+It is really a just a special type of safe move
+(usually a tempo-gaining last move as well).
+White has a potential free move at h7 in Dia-
+gram 29. Free moves are like money in the
+bank. Don't use them until you need to or un-
+til you can make good use of them. Thus, in
+Diagram 29, it would be a mistake for White
+to take this free move now. Black would
+simply respond with c8 and White 1s forced
+to open up the North side of the board for
+Black (or concede a corner). Instead, White
+should play to c8 directly, leading to a likely
+b8 response by Black. Now White goes to
+h7 and Black is out of safe moves entirely.
+
+Another dramatic example of the power
+of free moves is in Diagram 30. Here Black
+has two free moves at a2 and a7. Despite
+White's possession of three corners, Black is
+in control of the game, i the sense that
+White not only has no safe moves, he has no
+
+Othello: Brief & Basic
+moves at all! Computers can analyze end-
+game positions like this in order to deter-
+mine the "perfect-play" sequence of re- 1
+maining moves: the sequence of moves that
+occurs if each player makes the best possi-
+ble available move at each turn. With per-
+fect subsequent play, Black wins 44-20 (h4-
+h5-a2-h2-h3-¢7-h8-h7-a7-pass-g8). Note 6
+that neither the a2 nor a7 free move was tak-
+en immediately. In fact the a7 move was de- CO)
+ferred until the next to last move of the
+game. t
+The types of tempo-gaining plays dis- Se
+cussed in this section are often referred to as
+"squeeze plays." Gaining a tempo 1s usually
+considered advantageous even if it does not
+immediately lead to the gain of a comer. I Diagram 29;
+cannot overemphasize the importance of
+this concept for successful Othello play.
+
+
+Oo a m Ch B&B Wht
+
+eee lee
+eee Ove
+
+
+
+10. Odd and Even Regions of the
+Board u
+
+In the previous section we mentioned
+how, as the game develops, the board is fre-
+quently subdivided in separate regions of
+vacant squares. In this section we discuss a
+particularly noteworthy aspect of these re-
+gions (one that becomes most relevant dur-
+ing the endgame): whether there are an odd
+or even number of vacant squares in the re-
+gion. Most typically, we are referring to re-
+gions of two to five empty squares in the
+area surrounding a comer. Making the cor-
+rect play in these important regions depends
+upon an understanding of last move and
+tempo (Point #9). For example, let's begin
+by looking at the last two moves of the
+game.
+
+In Diagram 31, it is Black to play at
+move 59. Note Black's dilemma: which ever
+square he takes (h1 or h2), White gets the re-
+maining one (i.e. the last move), as well as
+securing either the North or the East edge.
+This is sufficient to give White the victory.
+In situations like this, Black would be happy
+to be able to pass. Then, White would have
+to go to h2, Black would get the last move at
+h1, and Black would win the game. The gen-
+eral principle here 1s that White was at an
+advantage because Black was forced to
+move first into an even-numbered region
+(i.e. an area containing an even number of
+vacant squares), giving White the last move.
+Actually, in a typical game, White always Diagram
+gets the last move (since Black always goes
+
+QOOOO Or
+
+
+
+Oo a om Oh ff Wh
+
+OQ, OCRCIOL Cr
+
+
+Di 30: Black to move
+
+
+eeees ith
+
+Ce JO Je ee
+
+OOO UG@W)-
+
+POO @OOOO
+@OOe@@OOC’
+
+
+ack to move
+
+Othello: Brief & Basic 15
+
+
+
+
+
+
+first), giving White an important advantage in the endgame (One major exception to
+this is, of course, if there has been a passed move. This, in turn, implies that it would be
+to Black's advantage to create an odd number of passed moves. Also see Point #11).
+Does all this mean that White has a better overall chance of winning than Black does
+(all other things equal)? This question is still an unresolved debate among expert Othel-
+lo players. Most players feel that Black has an advantage in the opening (for reasons to
+be discussed in subsequent sections), while White has the advantage (just explained) in
+the endgame. Some feel that Black's initial advantage should give him enough of an
+edge to compensate for White's endgame advantage. Others disagree. But one thing 1s
+certain: we have now strayed too far from our main point. Let's return to it.
+
+The type of situation described above for the last two moves in the game, usually oc-
+curs several times earlier in the game as each of the corner regions gets "filled in." In
+each of these regions, it is typically disadvantageous to move first into an even-
+numbered region. Conversely, it is usually advantageous to move first into an odd-
+numbered region (for the same reason: this gets you the last move in that region). One
+of the surprising corollaries of all this is that it is often advantageous to move into an
+odd-numbered region even if it means giving up a corner to do so. Let's look at some
+examples.
+
+In Diagram 32, it is White's move, but
+
+Black is in serious trouble. If it were now
+
+aoboic gd é¢ figih Black's turn, Black would be forced to
+choose among g7, h2, or h7 (all of which are
+disastrous). In order for White to force those
+choices on Black, he must gain a tempo
+without opening up any new safe moves for
+Black. To accomplish this, White needs to
+move to the southwest corner area, an odd-
+
+
+eeeee
+th Lo oee
+C eee 16
+
+or b8, allowing Black to take the a8 comer.
+White then takes the last move in that area
+(b7 or b8), gaining a tempo and forcing
+Black to make one of the disastrous moves
+discussed above. From this position, White
+is likely to go on to win the game!
+Now that you know the main principle,
+Diagram 32: White to move here's the bad news: There are many posi-
+tions similar to that shown in Diagram 32
+that will not work as well. A good player
+needs to be able to distinguish the phony
+from the real thing. For example, in Dia-
+gram 33, a White move to b7 fails: Black
+can safely move to a8, since White will be
+unable to follow with b8. Black then gets
+the last move in that region (b8) on his next
+turn. Meanwhile, White is forced to open up
+the North edge, and his momentum 1s lost.
+Fortunately for White, a move to b8, in Dia-
+gram 33, will work. But change the disc at
+c6 (in Diagram 33) to White. Now neither
+b7 nor b8 will work (try it!). Other varia-
+
+eee e” tions of this sort exist. The general advice is:
+1@ ecee For the technique to work, you must have
+eeee access to the last move in the region. Once
+again there is no substitute for planning
+
+Diagram 33: White to move ahead! But the good news is that many times
+it does work -- as it does in the example
+
+rice
+
+Ck er 1S)
+
+OOOO
+
+Othello: Brief & Basic
+shown in Diagram 34. Here, Black has con-
+trol of the al-h8 main diagonal, with no clear
+way for White to cut across it. But White can
+take advantage of the odd-numbered region
+in the northwest corner area by going to b2.
+This forces Black to respond with al (or
+White will continue with h8). Now White
+goes to a2, gaining undeniable access to h8!
+
+As mentioned above, it is typically disad-
+vantageous to move into an even-numbered
+region if you are doing so to gain a tempo
+(because you and your opponent typically
+exchange moves, with your opponent getting
+the last move). But there are numerous ex-
+ceptions to this too. For example, m Dia-
+gram 35, if White moves to b7, Black typi-
+cally responds by taking the a8 corner. But
+now, White gets both a7 and b8, getting
+three (rather than just two) of the four moves
+in that region, in addition to the last move. In
+fact, a7 and b8 are now free moves, and may
+be advantageously deferred until later in the
+game. In positions like this, the best defense
+for Black is typically to decline the a8 move
+as long as possible, hoping for a favorable
+change in the board position. Finally, bear in
+mind that, despite these exceptions, they re-
+main exceptions. The rule still "works" most
+of the time. [Note: the player with the last
+move advantage in all of these positions is
+said to have parity. Players typically make
+moves to maintain parity. |
+
+11. Blocking Techniques: Access
+and Poisoned Moves
+
+Blocking techniques refer to ways to
+prevent your opponent from taking an other-
+wise good move. Naturally, you should be
+alert both to when you can make such block-
+ing moves as well as when your opponent
+may be able to block your good move.
+
+Denying Access. Numerous times in the
+preceding discussions we have used the term
+access. For example, it was a key concept to
+understanding control of the main diagonals
+(Point #8). Now itis time to examine it more
+formally. Quite simply, you are said to have
+access to a particular square if you can legal-
+ly go there. A lack of access to a particular
+square is a type of block, and often a quite
+frustrating one. Thus, In Diagram 36, White
+would easily win the game if he could sim-
+ply go to b8. But he can't, and so he must go
+to g2 or g7 instead, losing the game.
+
+Othello: Brief & Basic
+
+
+‘| eeeoe
+2| | @eVle
+OOO CVe
+‘I8eecle
+
+eeee UT @-
+OOOO
+
+Oo a mm OW & Wo ht
+
+
+White to move
+
+Diagram 33:
+
+
+ooee
+oe \)
+
+oe | Sie,
+
+oOo - mm Oo & WH hh
+
+Diagram 36; White to move
+
+oOo -— mm Oh & HW
+
+Diagram 37: Black to move
+
+
+
+O08 eeOe:
+
+QOOOOO
+OOOOOO
+
+oe Cee
+
+
+Diagram 38: Black to move
+
+Oo som th f& HW bi
+
+
+eeeee
+eyyi
+
+K XX
+
+oOo a mm Om & WH
+
+Diagram 39: Black to move
+
+
+An expert Othello player does more than
+hope to avoid these situations (or find his
+opponent in them), he works to accomplish
+these goals. In particular, he watches the
+board so as to maintainhis own access to
+critical squares while similarly denying ac-
+cess to his opponent's critical squares. Let's
+consider some other examples.
+
+In Diagram 37, Black is concerned that
+White may eventually find it desirable to at-
+tack his unbalanced edge by going to g7.
+Seeking to prevent this, Black goes to bS.
+The unique advantage of this move over oth-
+er acceptable moves (e.g. c2 or d1), is that it
+flips the disc at g5 to Black. Now White no
+longer has access to g7 and Black's unbal-
+anced edge is relatively safe. Later in the
+game, a naive White may feel that he was
+simply "unlucky" not to have access to 97,
+but it was actually Black's foresight that was
+responsible. In Diagram 38, Black wants to
+block White's future access to the a8 corner
+region. Black can effect this by moving to
+e8. This pressures White to respond with d8
+(otherwise Black would go there on his next
+tum, and gain a tempo). But White's d8
+move flips the Black discs at b6 and c7 to
+White, sealing-off the region to White. The
+potential weakness of a sealed-off corner
+area is clearly shown in Diagram 39. Here
+White is sealed-off from the odd-numbered
+region surrounding the al corner. Black
+takes advantage of this by going to g8 (ae.
+moving into the only other odd-numbered
+region on the board). This, in effect, shifts
+the "last move" advantage (discussed in
+Point #10) from White to Black. Thus, be-
+cause White cannot go to the al comer area
+(e.g. a2 would have been a game-winning
+move!), White must now give a comer and
+lose the game. Indeed, Black (with proper
+play) can now get the last move in each of
+the 4 corner regions.
+
+Finally, it is worth noting that denial of
+access is just another perspective on the ma-
+jor principles of move limitation and "run-
+ning your opponent out of moves" etc. that
+have been discussed previously. For exam-
+ple, determine what move you would make
+as White in Diagram 40. The critical obser-
+vation is that Black currently has only one
+safe move: e8. If you can take it away with-
+out opening up any new safe moves, Black
+will be forced to concede a corner. Taking
+e8 itself doesn't work: Black continues with
+b8. The move that succeeds is a6! You have
+
+Othello: Brief & Basic
+now denied Black access to e8 by flipping
+the Black disc at c6. Black must now make
+what is likely to be a game-losing move. 1
+
+Poisoned moves. A poisoned move is
+another type of blocking move. Actually it is
+like a "semi-denial" of access: you do not le-
+gally prevent the opponent from moving to a
+square; you simply make it undesirable to do
+so. Technically, a poisoned move 1s defined
+as a move that cannot be made without flip-
+ping unwanted discs. As was true for deny-
+ing access, the good Othello player actively
+searches for opportunities to make this type
+of move. Thus, in Diagram 41, White has
+two apparently good moves, a7 and f2 (e.g.
+neither move opens up any new safe moves
+for Black). However, White should avoid the
+a7 move for the moment, preferring the f2
+move. This is because Black currently has a
+good move at f8. But after White moves to
+f2, the f8 move becomes poisoned (ie. it 1
+would flip all the White discs in the f col-
+umn, creating an undesirable wall for = C)
+
+Black).
+
+[A slight digression: One reason why oc- 3 IC Wee
+cupying edge squares is often thought of as
+undesirable is that they tend to poison other- 4 eee
+wise good moves. Thus in Diagram 42, 5 SS. 8
+Black is considering the reasonably good
+move to g4: it only flips one disc (f5) with- ell) eee
+out any great benefits to White's mobility.
+However, consider the consequences of the f eo
+g4 move if Black takes it after first goingto ry =
+the cl edge square (with a probable a2 White
+response). Now, because of the new Black Diagram 41: White ta move
+edge pieces, the g4 move will flip both e2
+and f3 as well as g4. This opens up the f2
+move to White. The g4 move no longer a oboe
+looks as desirable. It is said to have been
+self-poisoned. Thus, the timing (i.e. the se- 1 (>
+quence of moves) is critical: if you wish to
+take both g4 and cl, you should probably CW
+take g4 first. Note that self-poisoning,
+though frequently resulting from edge
+square moves, can occur as a result of any
+type of move. A related concept is "unpoi-
+soning": changing a currently undesirable
+move for an opponent into a desirable one by
+flipping a disc that was acting to poison the
+opponent's move. Typically, you wish to
+avoid unpoisoning opponent's moves. Thus,
+again in Diagram 42, a Black move to h6
+should probably be avoided: it unpoisons the
+White move to a6 by flipping the poisoning Diagram 42; Black to move
+White disc at g6.
+
+
+oo -— mm Oo & WW
+
+
+
+
+oO -— m Oh & WW
+
+Othello: Brief & Basic 19
+co am Oh f& Th mo oa om of f& Wh
+
+oO a om Of fF Wh
+
+
+
+A Oe
+eS see
+
+Diagram 43; White to move
+
+
+CL eee
+
+WOOOOOOCISr
+
+MOO @O
+
+
+
+
+ion}
+
+
+
+eee Ie,
+00000):
+0000”):
+Je (Seen
+( {Jet lie;
+
+
+Diagram 45: Black to move
+
+While we're on the subject, note how
+White's moves along the South edge are pot-
+soned by White's discs along the West edge
+and East side of the board. ]
+
+Still another way to block an opponent
+from taking a desirable move is to take it
+yourself. This is obviously a good alterna-
+tive if such a move would be a good one for
+you anyway. Yet sometimes, this type of
+block can be effective despite initial appear-
+ances to the contrary. For example, in Dia-
+gram 43, about the only way that White can
+permanently prevent Black's good move to
+f3 is to take it himself. However, White may
+be reluctant to do this because it also flips
+the Black discs at f4 and f5, creating a White
+wall along the east side. None-the less, the
+move works out well for White: no matter
+where Black goes next, White can eventual-
+ly get the excellent move to e6, and the pres-
+sure is now on Black.
+
+In summary, when your opponent has a
+good move, there are generally three things
+you can do to prevent it: a) deny access to
+the move, b) poison the move, or c) take the
+move yourself. Of course, if you have more
+than enough good moves yourself, you may
+simply choose to ignore your opponent's
+good move altogether. If more than one of
+these alternatives is possible, the best one
+can only be determined (surprise!) by exam-
+ining the overall board position (see also
+Point #15).
+
+12. The Semi-Forcing Move
+
+A semi-forced move is a move which is
+forced not by the rules of the game, but rath-
+er by tactical considerations. In practice, the
+"tactical consideration" is most often that,
+unless the player takes the semi-forced
+move, he will lose a corner. The opponent's
+move that puts a player in this position is
+called the semi-forcing move. Proper use of
+semi-forcing moves can be a powerful tech-
+nique, and really we have already seen sev-
+eral examples of it. Thus, the e8 move in Di-
+agram 38 (though it did not directly threaten
+a comer) semi-forced a d8 response, sealing
+White off from the southwest corner area.
+Let's look at a few more examples.
+
+In Diagram 44, White would have a great
+move to f7, if it was not poisoned by his
+discs at f1 and f2. White can set this up by
+first moving to el, semi-forcing a g1 reply
+
+Othello: Brief & Basic
+by Black (and flipping the critical f1 and f2 discs). Now White continues with f7 and
+Black must sacrifice a corner, and the game!
+
+In Diagram 45, Black would like to block White's access to b1. He can do this by
+moving to a3. This semi-forces an a4 reply, which in turn flips the c2 disc to White, pre-
+venting White from balancing the edge. Having accomplished this, Black has another
+semi-forcing move available that is probably even better: go to h5 (adjacent to White's
+uneven three). This semi-forces White to respond with h6, flipping the Black discs in
+the sixth row to White (sharply reducing White's future mobility).
+
+13. Mobility Reconsidered
+
+With the perspective of our most recent discussions, let's now re-examine some 1s-
+sues related to the all-important principle of mobility optimization (see Points #3 & 4).
+
+Regional Mobility. In some situations, there may be several safe moves that all flip
+about the same amount of discs. A strict application of evaporation techniques suggest
+they should be about equally good moves. How do you decide between them?
+
+One idea, previously discussed, is to prefer the move that flips more interior discs.
+But what if (as is more common) all your choices are about equal in this respect as well?
+Here you should still be guided by the idea that you want to open up as few new safe
+moves for your opponent as possible. One general rule is (almost paradoxically) take
+the move that is in the area where your opponent already has the most amount of poten-
+tial moves (i.e. the area of greatest regional mobility). The logic is that discs flipped in
+this region will only minimally increase your opponent's mobility since they will tend to
+provide access to squares that the opponent already has access to. Another way of stat-
+ing this same rule is: move to the area where your own mobility is the most limited. The
+hope is to lure play into this area, getting your opponent to use up all his safe moves
+there, thereby eliminating his regional advantage.
+
+One example is in Diagram 46, where it is White to move. Let's consider the vari-
+ous possibilities. Clearly, a move like f3 would be undesirable, flipping seven discs
+(mostly along the frontier), and severely lim-
+iting White's future mobility. A move to g3
+may seem initially to be a good move as it a_eb
+only flips one black disc. However, Black's
+mobility in this eastern region is currently
+zero and any move in this area would have
+the negative effect of “opening up" the area
+to Black (e.g. after g3, Black could move to
+f3 and be set up for a further move to h3).
+Generally better is to move into the area
+where Black already has some mobility: the
+western edge of the board in this case. For
+example, a move to a6 does not open up any
+new moves for Black! Note that not all
+moves in this western region are necessarily
+equal. For example, compare the a6 move to
+another similar, though less desirable, move
+to b6. The b6 move, by flipping both the
+discs at b5 and c5, totally shuts off the region
+to White, while the a6 move only "picks off"
+(i.e. flips) the b5 disc, leaving the c5 disc for a possible White move to b6 on his next
+turn.
+
+Sometimes, if you can see ahead a sufficient number of moves, you may realize
+that after all the exchanges of moves in an open region, your opponent will get the last
+move and you will be forced to open up a closed (to your opponent) region anyway (e.g.
+east region is closed to Black in Diagram 46). In such cases, it may pay to move to the
+
+o eee.
+
+Oo som th f& HW bi
+
+QOO@OCe@
+
+Diagram 46: White to move
+
+Othello: Brief & Basic 21
+Oo a om Ch & Wo ht
+
+Oo a om Of & Wo bh
+
+Before and after moves 8-10
+
+oOo -— mm Oh & HW
+
+
+102)
+
+OOOO
+
+
+
+OOCO
+102)
+
+Diagram 47:
+
+Diagram 46: White to move
+
+closed region immediately rather than first
+filling up all the remaining safe moves in the
+open region. In other words, when on the de-
+fensive, it is generally better not to simplify
+the board position (see also Point #16 (dou-
+ble walls) and Point #20).
+
+Checkerboarding. Sometimes, particu-
+larly in some opening positions, the best way
+to mimimize your opponent's options is with
+the opposite of evaporation: obtaining a vast
+majority of discs rather than a minimum.
+This is especially true if you can leave your
+opponent's discs scattered along the frontier
+where they tend to block each other's moves
+(called checkerboarding your opponent).
+The goal here is to force your opponent to
+make a bad move before he can regain con-
+trol of the center and attack your suddenly
+vulnerable position. One example is in Dia-
+gram 47. Here White's surprise moves, at 8
+and 10, leave Black with only two discs. But
+note that except for a move to h4 (which
+White can counter with h6), all of Black's
+possible moves flip at least three (mostly
+frontier) discs. White is really in fairly good
+shape here. If you find yourself checker-
+boarded, the general advice is either to wait
+it out as long as possible (by taking moves
+like h4), hoping for your opponent to col-
+lapse under his own vast disc majority, or to
+find a move that quickly reestablishes con-
+trol of the center without creating too many
+other liabilities (such as possibly f3 in Dia-
+gram 47).
+
+A technique, related to checkerboard-
+ing, is to keep your opponent's disc count so
+low that he is threatened with a wipe-out
+(i.e. reducing your opponent's disc count to
+zero whereby you instantly win the game).
+Even if the wipe-out attempt fails, the threat
+of it can sometimes force your opponent into
+an awkward position. For example in Dia-
+gram 48, it may seem like c2 1s White's best
+move, but actually f7 is the winning move.
+This reduces Black to only one disc (at d2).
+More importantly, wherever Black now
+moves (except g2), White will be able to
+achieve a wipe-out on his next turn. Of
+course, after Black takes g2, White will fol-
+low by taking the h1 comer and is still head-
+ed for victory. To protect against this, Black
+needed to watch for the danger of being left
+with only one or two pieces that are sur-
+rounded by opponent's discs. However, there
+is a more-or-less permanent way to elimi-
+
+Othello: Brief & Basic
+nate the possibility of being wiped out: obtain a relatively secure edge piece. Such a
+piece is called an "anchor." For example, imagine that there is a White disc at b4 in Di-
+agram 48. Now, White's move to f7 fails to work: Black can take the edge anchor at a5,
+the wipe-out threat is gone, and itis White who is in serious trouble.
+
+Both the checkerboard and the wipe-out attempts are risky maneuvers that should
+not be attempted often. Unless you are absolutely certain of their success, they are best
+saved for those desperate defensive situations where all the more conventional alterna-
+tives seemed doomed to fail.
+
+Now, we shift our attention to aspects of Othello that are specific to the three different
+phases of the game. Most of what we have discussed thus far bears primarily on the mid-
+game. The extreme beginning and end of the game are special cases and deserve special
+consideration. We will focus on them (as well as one additional aspect of midgame strate-
+gy) in the next several points. Some of this discussion will be a repetition of material cov-
+ered in previous points, except now the focus will be on a particular phase of the game.
+
+14. The Opening: The Three Basic Variations
+
+There is a feeling, among many Othello players, that generalizations of strategy
+have such limited applicability in the opening, as to be practically useless. In particular,
+with so few discs on the board, positions are too volatile and relative advantages too
+easily shifted to currently visualize a move's ultimate worth. Thus, there are no immedi-
+ate goals in the opening (according to this viewpoint); one simply avoids major blun-
+ders and hopes that an advantageous midgame position (in terms of mobility etc.) will
+result. In my opinion, this is only partially true. Some ideas about strategy and tactics in
+the opening can be forcefully made (see Point #15). At the same time, as in games like
+chess, it will also be useful to develop an "opening book" (1.e. a collection of prepared,
+memorized sequences of opening moves that are followed primarily because previous
+experience has shown them to work well). All expert players have at least a limited
+opening book. There is also some general agreement about which are the better open-
+ings (with the result that some openings occur quite frequently, while others do not oc-
+cur at all).
+
+Some players limit their opening books to the first 6-8 moves, relying on their gener-
+al knowledge about Othello to carry them from that pomt. Other players have an exten-
+sive collection of potential openings (tediously prepared!), often reaching to move 20
+and beyond. The success of these longer prepared openings depends upon many things,
+not the least of which is the ability to anticipate an opponent's likely responses (e.g.
+there is no point in preparing an opening sequence to counteract a move that no oppo-
+nent will ever make!). Despite the difficulties in preparing these longer openings, I be-
+lieve they are worth the effort. First, it allows you to make moves "automatically," sav-
+ing time on your clock (which is important in tournaments, where you typically have 30
+minutes or less to make all your moves). Second, you will frequently gain an opening
+advantage over a less prepared oppponent; this alone may be sufficient to give you the
+edge needed to win the game!
+
+However, a beginning player is not likely to have the skill necessary to develop
+openings on his own. Until such skills are acquired, the best course for such a player 1s
+to study (and memorize) the openings already used by expert players. There 1s not suffi-
+cient space in this Handbook to detail even close to a majority of these expert openings.
+However, we can discuss some of the most common sequences in the first 8-10 moves.
+Transcripts of games from tournaments (as regularly published in OQ) are particularly
+good sources of further ideas about openings. As you gain experience, you will hopeful-
+ly develop the ability to expand upon and add to these openings.
+
+The first point about openings is that Black's first move 1s not really a choice at all.
+That is, all 4 of Black's potential first moves are either a rotation or a mirror image of
+each other. It is White that makes the first move that affects the course of the game. So,
+for simplicity, let's assume Black's first move is always to c4. White now has three
+
+Othello: Brief & Basic 23
+SIA
+
+oo -— mm Oo & WW
+
+Diagram 49: White's 3 choices
+at move 2 after Black 1. c4
+
+
+Oo a om Ch & Wo ho
+
+Diagram 30; Black to move
+
+
+
+oOo -s m Oo & WH
+
+Diagram 31: White to move
+
+
+choices: c3, e3, or c5. These are called the
+Diagonal, the Perpendicular, and the Parallel
+Openings, respectively (see Diagram 49).
+Let's examine each of these three basic vari-
+ations in turn.
+
+The Diagonal Opening. For most of the
+1970's and into the 1980's, the Diagonal
+Opening was by far the most preferred
+among experts in the U.S. (as well as in Ja-
+pan — the country that has won more World
+Championships than all other countries com-
+bined!). The position after the most common
+sequence for the first four moves (1. c4, 2.
+c3, 3. d3, 4. c5) is shown in Diagram 50.
+This is a critical point in this opening, in that
+Black now has 9 squares from which to
+choose (In fact, it is this mobility for Black
+that has led many players to abandon this
+opening as White). The most common con-
+tinuation for Black at move 5 is d6, typically
+followed by 6. f4, 7. £5 (see resulting posi-
+tion in Diagram 51). Common further con-
+tinuations include 8. e6, 9. c6, 10. d7 (Maru-
+oka Opening); 8. d2, 9. g4, 10. d7
+(sometimes called the Tanida Opening). An-
+other variation after 5. d6 is: 6. e3 (called the
+"chimney" because of the resulting position,
+seen inverted in Diagram 52), typically fol-
+lowed by 7. £5, 8. c6. Despite's White's over-
+whelming disc majority after move 6. e3, ex-
+perience has shown this to be a viable
+opening. Of the other variations at move 5,
+the most common are 5. b4 (Heath Opening;
+see Point #16) and 5. f6 (which typically de-
+velops into 6. e3, 7. c6, 8. d6, 9. e6; also see
+Diagram 47). Recently, 5. b3 has also be-
+come popular, typically followed by either
+6. £4, 7. b5, 8. b4 or 6. €3, 7. dé.
+
+The Perpendicular Opening. This has
+been the most popular opening in the U.S. in
+recent years — though the diagonal opening
+now seems to be gaining favor again. The
+most common first 6 moves are 1. c4, 2. 63,
+3. f4, 4. c5, 5. d6, 6. £3 (see resulting posi-
+tion in Diagram 53). Common continuations
+are 7. d3, 8. b4 or 8. c2 (Inoue Opening) and
+7. e6, 8. c3, 9. d3, 10. e2 (Rose Opening).
+Other perpendicular variations include tak-
+ing e6 at move 6 (Mimura Opening; typical-
+ly followed by 7. d3 or 7. c6) or taking f6 at
+move 3 (most often followed by 4. e6, 5. £5,
+6. c5). Recently 3. £5 is also popular and is
+typically followed by 4. e6 with 5. f6, 5. f4,
+or 5. d3 all possible continuations.
+
+Othello: Brief & Basic
+The Parallel Opening. This opening is
+rarely seen in tournament play and 1s consid-
+ered to be an inferior opening. It is difficult to
+prove why this opening doesn't work well for
+White, but experience has shown that it
+doesn't. A typical continuation would be 3.
+d6, 4. e3, 5. c6, 6. b4. (Note that Black usual-
+ly has the option, which he should probably
+not take, of moving so as to create a Diagonal
+Opening position -- e.g. 3. d6, 4. c3, 5. d3).
+
+You have only limited control over the di-
+rection of the opening because of the uncer-
+tainty of what your opponent may do. A good
+player must be prepared to defend against
+most of the openings his opponent is likely to
+use. But beyond this, how do you decide
+which of the recommended openings to play
+and which to avoid (if possible)? There is no
+easy answer to this. Different openings lend
+themselves to different styles of play; often
+the best opening for you is the one that
+"feels" the most comfortable. Alternatively,
+you may choose to study a particular opening
+and then use it simply because you know it so
+well.
+
+Finally, all this doesn't mean that there 1s
+no way to understand what makes a good vs.
+a bad opening move (other than trial-and-
+error). There is the important principle of the
+"quiet move," our next point!
+
+15. The Opening: Quiet Moves
+
+In the game of billiards, a player some-
+times finds himself without a viable shot at
+getting a ball in a pocket. In such cases, the
+player often will attempt a shot that disturbs
+the table as little as possible. The idea is to
+leave his opponent with the same poor posi-
+tion. This is actually quite similar to the ma-
+jor goal of the opening phase of Othello.
+Players frequently find themselves in the po-
+sition that anything they do only make their
+position worse. Their ideal move would be to
+pass, but they can't. So they attempt to "dis-
+turb" the board as little as possible, typically
+by trying to flip only one disc, preferably an
+interior one. These types of moves are called
+quiet moves.
+
+Othello expert Arnold Kling has gone one
+step further and defined the "perfectly quiet
+move" (PQM): a move that creates only one
+new frontier (1.e. perimeter) disc — the one
+used to make the move. An example of a
+
+Othello: Brief & Basic
+
+
+
+oOo -— mm Oo & HW
+
+Diagram 52: Black to move
+fan "inverted" chimney)
+
+
+@OCe
+
+OO®@
+
+oO —) om (nh & Ww
+
+Diagram 33; Black to move
+
+
+ee >
+
+oOo “a om OM & tw bo
+
+Diagram 34: Black to mowe
+
+oOo -— om UW & fH hh
+
+oOo -— mm Oh & Wo hd
+
+
+h PQM is the move to d3 in Diagram 54. It is
+the only PQM that Black currently has avail-
+able. PQMs help to keep your frontier disc
+count low as well as keep your discs com-
+pact and centrally located (both desirable
+
+() goals as the opening progresses). The major-
+
+ity of moves in most openings can be under-
+stood in terms of taking a PQM, setting up to
+take a PQM (set-up or offensive move), or
+blocking your opponent from taking a PQM
+(block or defensive move).
+
+Examples of both a set-up and a block are
+in Diagram 55. Here a Black move to d3
+sets-up a PQM to f5 on Black's next turn.
+White may block this by going to c2 (deny-
+ing Black access to f5). Black is likely to
+Diagram 55: Black to move continue with still another set-up to d2, re-
+
+establishing access to f5. Another type of
+
+set-up is possible in Diagram 54: note that f6
+
+abe de would be a PQM for Black if the White disc
+
+at e6 was Black. Black can accomplish this
+
+by going to d7, for example, setting up a
+
+POM at f6 for his next turn (which White
+
+might try temporarily to block by going to
+
+c3!). PQMs are so powerful that moves that
+
+would normally not be desirable become
+
+good if they can set-up or block a PQM. For
+
+example, in Diagram 56, a White move 18 to
+
+e6 is preferable to 18. £3, because the f3
+
+move allows Black to continue with 19. e6 (a
+
+PQM). Similarly, after 18. e6, Black may
+
+C) continue with 19. dl, a move whose major
+
+virtue is that it sets-up a PQM at b6. To
+
+block this PQM, White is likely to follow
+
+Diagram 56: White to move with a4 (poisoning the b6 move). One further
+
+implication of all this is that you should al-
+
+most always avoid moves that create a PQM
+
+for your opponent where one previously did not exist. Otherwise you give your oppo-
+
+nent a very easy decision for his next move (i.e. a reflex move): he takes the PQM!
+
+(Note the similarity of all these principles to the more general discussion of blocking
+techniques covered in Point #11).
+
+Not all opening moves revolve around PQMs. An opening move may be desirable
+because it cuts across the center and re-establishes a compact central cluster of discs
+(perhaps leaving the opponent scattered about the frontier as well). Such moves may be
+advised even though they typically flip more discs than conventional evaporation strate-
+gy would recommend (e.g. checkerboarding, as discussed in Point #13). Also moves
+that just flip one or two frontier discs (typically called waiting moves) are occasionally
+desirable. For example, note moves 8, 9, and 10 of the Tanida Opening (see Diagram
+51). These moves can be good because they generally avoid setting-up PQMs for your
+opponent and may initiate a process of running your opponent out of moves. However,
+they risk interfering with getting control of the center and may even help your opponent
+to do so (see also Points #13 and #16 for more on these topics).
+
+Finally, a comment on two commonly held beliefs about openings: 1) Black has the
+advantage in the opening. This is difficult to prove, but seems to be true. In particular,
+all other things equal, Black seems to have an easier time maintaining control of the
+center and a lower disc count than does White. 2) You should not move out of the
+
+, Je)
+
+
+
+
+Othello: Brief & Basic
+"sweet sixteen" (the central sixteen squares) until forced to do so. This is not sound ad-
+vice. While an attempt to control the center often results in most initial moves staying
+within the sweet sixteen, there are many cases when an early move towards the edge
+works very well (e.g. the Heath Opening mentioned in Points #14 & #16 is an exam-
+
+ple).
+16. Midgame Strategy: Patterns
+
+We have already discussed a great deal about midgame strategy. Evaporation, unbal-
+anced edges, tempo gains etc. all have their greatest relevance in the midgame. Howev-
+er, in an actual game, it may not always be easy to apply these principles. Once again,
+we return to the issue of how to determine a "good move." In many cases, a global view
+of the midgame can assist in your decision making. This can be best achieved by view-
+ing the board position as one of several possible patterns. Not all midgames will fit one
+of these patterns, but many of them will. Some patterns are "even" — others are one-
+sided. In either case, recognizing the pattern can be a guide as to what move to make
+next. But be especially careful: these patterns are transient! One or two moves can
+transform the board from one type of pattern to another. In fact, the major goal of cer-
+tain moves may be to effect a change to a more favorable pattern.
+
+The Sandwich. This describes a pattern
+where one player's pieces are surrounded on
+two sides by opponent's pieces (see Dia- 1
+gram 57). This is a one-sided position: the
+player with the inside position (Black in Di-
+agram 57) is generally considered to be
+ahead. If he can get White to surround him
+on more than two sides, he will be firmly in
+control of the game and on his way to forc-
+ing a win. In Diagram 57, Black is likely to
+take the PQM at b6, maintaining the sand-
+wich. Typically, White's best strategy here
+is to make waiting type moves, squeezing
+out every last option for a move, hoping to
+force Black out of the sandwich before the
+situation becomes hopeless. In this case,
+White may go to b3, which leaves Black  Uiagram 37: Black to move
+without an obvious next move. Note that
+White would be in much worse shape if it
+was his turn in Diagram 57, since any move ab cd ie f g_ih
+only further erodes his position. Of course,
+against a good player, don't expect to find
+yourself on the inside of a sandwich too of-
+ten. The next two patterns will occur far
+more often.
+
+
+
+eee i Oe)
+oe i Seer
+oe je Xe,
+QOCee@ocr
+
+Oo a om th & Wo hy
+
+The X Pattern. Here, each player's piec-
+es are located along a diagonal stripe, so
+that the overall position resembles an X
+(with each player having one line of the X)
+(see Diagram 58). This is an even position,
+so each player will generally attempt to
+maintain the X, hoping to force the other
+player into a move that erodes the position.
+Most "maintenance" moves in this position
+involve flipping the interior central pieces
+
+
+
+Diagram 30; White to move
+
+oOo a mm Om & WH
+
+Othello: Brief & Basic 27
+Oo a om Ch & Wo ho
+
+Oo a om UO fF Wo ht
+
+
+back and forth, and only minimally disturbing the periphery. Aside from such moves
+being good from a general perspective (e.g. avoiding walls, flipping few frontier discs
+etc.), bisecting your opponent's pieces tends to shift the X position towards a favorable
+sandwich position. The opponent must do his best to counteract this on his next turn.
+Thus (in Diagram 58) White is liklely to go to g6, while Black is likely to continue with
+c7. If neither player gets a clear advantage, the outcome will be decided in the endgame,
+after the edges start to fill up (and the X-pattern typically begins to look more like a
+cross pattern).
+
+[A slight digression: White might possibly choose to go to c7 rather than g6, taking
+away Black's expected c7 response. This would pressure Black to consider a move to
+d1, blocking (at least temporarily) White's ability to take g6 on his next move. This rap-
+idly develops into a very different type of game than if White had started with g6.]
+
+The Double Wall. Despite the admonition against forming walls, a wall can be de-
+sirable if it pressures your opponent to form one as well. This leads to a double wall (Di-
+agram 59). This is generally an even position, at least as long as the double wall is main-
+tained. The goal, of course, is to get your opponent to break across and erode your wall
+before you must do so to his wall. This typically requires making waiting type moves
+(using up as few options as possible with each move), creating an ever more extensive
+
+wall as you do so. Thus, White may go to e7,
+h with Black continuing to e8 (not f8, which
+allows a d8 response by White), each player
+moving so as to extend his own wall.
+
+The risk here is that, if you fail in your
+goal, you may quickly find yourself in a
+hopeless position. So sometimes, if you can
+perceive that you will lose the double wall
+battle, it pays to cut across your opponent's
+wall immediately. Typically, you would try
+to cut through the wall in a way that mini-
+mizes your opponent's gain in options, while
+attempting to shift towards a favorable sand-
+wich position. Thus, after White e7, a Black
+move to g3 has considerable merit: the only
+new safe move it gives White is h4.
+
+. . In contrast, an isolated piece behind your
+Diagram 59: White to move opponent's side of a double wall, more typi-
+cally will create trouble for you. It tends to
+poison otherwise good moves, and may pro-
+vide your opponent with an important op-
+tion, when all others have disappeared.
+Therefore, good players typically avoid flip-
+ping such isolated discs unless no other vi-
+able moves remain (or unless doing so forces
+your opponent into making a even poorer
+move). For example, imagine White moved
+to b4 in Diagram 59, to which Black fol-
+lowed with b3 (resulting position in Diagram
+60). This was not a desirable way for White
+to break across Black's wall. The isolated
+White disc at b4 now poisons White's poten-
+tial e7 move (c5 and d6 would get flipped),
+as well as providing Black with a guaranteed
+safe move whenever he needs it. Finally,
+Diagram 60: White to move Black's potential g3 response seems even
+
+stronger here, shifting the pattern more to-
+
+4a ob qd so«6
+
+
+i 1)
+
+
+eeeee0@:
+eeeeeee,
+
+
+
+
+QOOOOCIOI
+
+
+Othello: Brief & Basic
+wards a sandwich pattern. a boc doef g oh
+
+The Edge Double Wall. This is a special 1
+pattern that seems to contradict much of the
+conventional wisdom of Othello. In particu-
+lar, one player (called the initiating player)
+typically gives up control of the center, go-
+ing to the edge early and often. The result is
+frequently a sort of double wall, except one
+player (the initiator of the pattern) typically
+has his wall along two edges, while the op-
+ponent's pieces are all in the interior of the
+board (see Diagram 61). In such a position, ry
+the player with the edge pieces is said to try
+to "creep along the edge" (i.c. take a series ry  )
+of contiguous edge moves while keeping his
+opponent off the edges; also see Diagram Diagram 61: Blac
+11). If successful, the initiating player soon
+runs the opponent out of safe moves (.e. op-
+tions are being limited by the fact that you
+can't flip past an edge), and the opponent will
+be forced to concede a corner. Thus, in Dia- 1
+gram 61, Black goes to h7, leaving White
+with only one safe move at c7. Black then
+continues with c8, and White is forced to
+concede a comer (and probably the game).
+
+However, this "creeping" strategy carries
+extreme risks: if the opponent can hold on,
+without running out of options, until the mid-
+game (or even later), the initiating player's
+long edge walls and lack of central discs will
+collapse on him as his opponent's more con-
+ventional advantages finally turn the tide.
+Thus, in Diagram 62, Black failed in his
+edge double wall attempt. He must now start
+making moves across White's wall, giving Diagram 62: Black to move
+White new safe moves, and greatly deterio-
+rating Black's position. As alluded to in
+Points #14 and #15, the Heath opening (because of its early exit from the sweet six-
+teen) is noted for Black initiating an edge double wall.
+
+
+
+eo | we
+Lee ee
+
+oOo -— mm Oo & HW
+
+to move
+
+
+Oo som th f& WwW hi
+
+Checkerboards. Though checkerboarding patterns (see Point #13) are most fre-
+quently seen in the opening, they may occasionally persist to the midgame. Here, the in-
+itiating player is usually the one who attempts to keep the opponent scattered around the
+periphery (checkerboarded). Ironically, in the midgame, it is typically the initiator who
+will go on to lose the game. This is because it is usually too difficult to force the check-
+erboarded player into a game-losing move before the initiator's position hopelessly de-
+teriorates. Thus, the midgame checkerboard is usually reserved for desperate positions,
+where all other options seem even worse.
+
+In summary, while all these patterns hold true to many of the basic concepts of
+Othello strategy discussed previously, the exact subgoals can vary dramatically from
+pattern to pattern. In addition, within a pattern, the correct subgoal may vary depending
+upon whether you are on the offensive (e.g. initiator) or defensive side of the pattern.
+Knowing how to handle each type of pattern is critical to successful midgame play.
+
+Othello: Brief & Basic 29
+Summary & Preview
+
+The previous sections covered material ranging from the most basic principles of con-
+
+trol, mobility, and corner sacrifices — to discussions of tempo and access -- to finally an ex-
+amination of strategy specific to the opening and midgame. The next sections now tackle
+some of the most difficult topics in all of Othello: endgame and edge play. These areas,
+while building upon the general principles we have already developed, require an under-
+standing of some new concepts that are specific to these particular phases of the game. Un-
+avoidably, the material to follow tends to be more technical than i most of the previous
+sections. While the level of explanation hopefully remains basic, the principles discussed
+are more advanced. The importance of setting up the diagrams on a board 1s, if possible,
+even greater here than in previous parts.
+
+Oo a om Of & Wo bh
+
+
+17. The Endgame: The Final Count
+
+Previous sections have emphasized the principle of evaporation: how the best move
+of the game is often the one that flips the least amount of discs (see Points #1-#5 for re-
+view). But clearly, this has to come to an end at some point - after all the objective of
+
+Othello is to finish the game with the most
+
+fa h amount of discs. So now, we have arrived at
+our discussion of the endgame. Clearly, with
+OW only a few moves left, now is the time to go
+for broke and flip as many discs as you can,
+
+ S right? Well, it's almost right. The idea is not
+necessarily to flip the most amount of discs
+on each turn, but to flip the most amount of
+discs relative to your opponent. The differ-
+ence can be seen in Diagram 63. Here it is
+Black to play at move 59. The move to the
+h1 corner flips 8 discs while the alternative
+move to h2 only flips 2 discs. But even at
+this late stage of the game, assuming that
+this makes hl the better move for Black
+
+eco) oe
+OOOO ee Nine uke meet mn Ar
+
+Diagram 63: Black to move ter hl, White goes to h2, flipping 10 discs
+and winning the game 33-31. If Black had
+gone to h2 mstead of hl, White then takes
+
+h1, flipping only 1 disc, and Black wins 34-30. Clearly what is needed is an ability to
+
+count the position: determine the net gain or loss of discs for all the remaining possible
+sequence of moves.
+
+There are many possible ways to count discs, and even the experts disagree as to the
+best way. Here, I will present one method of counting that could have guided you to the
+best move in Diagram 63. Consider first the hl move: Black flips eight discs (+8) and in
+addition places down 1 new disc (+1) for a gain of +9 (1.e. 8 +1). White continues by
+flipping 10 black discs back to white for a loss (for Black) of —10. The result is (+9) + GC
+10) = -1, or a net loss of 1 disc for Black. Compare this to the result if Black takes h2
+first: Now Black flips 2 discs plus adds a new disc to the board (+3), while White flips
+only 1 black disc when he goes to h1 (-1) for a net result of (+3) + 1) = +2. Since +2 is
+a better final result than —1, then h2 is a better move for Black than h1.
+
+Clearly, with more moves remaining (and with more choices at each move and discs
+possibly getting flipped back and forth several times before the game is over), determin-
+ing the best move by counting can be extremely difficult, if not impossible. This 1s what
+makes the endgame such a humbling experience for human Othello players. Computers
+are typically capable of taking a position anywhere from up to 16 moves from the end
+
+
+
+
+eVlee@Ve”|
+
+. 12
+
+eeeeeooe:-
+QO@CO@ eC!
+
+Othello: Brief & Basic
+of the game, analyzing all possible permutations in a relatively brief amount of time, de-
+termining all final disc counts, and picking the move that guarantees the highest possi-
+ble disc count against best possible play (.e. the perfect play sequence). Essentially,
+the computer is no longer using any of the heuristic strategies 1t must employ earlier in
+the game. It simply uses the final disc count to determine its best move. If humans could
+do this as well (in the time constraints of a tournament and without being permitted to
+write down anything!) then this would be the recommended strategy for human players.
+But humans can rarely count out a game with more than 5 moves left, and even then the
+count is usually incomplete, limited only to those sequences the player thinks are most
+likely to occur. So, we humans have to rely on strategic generalizations to help us
+through most of the endgame (see also Point #18). But, whenever feasible, counting
+should be attempted.
+
+For example, in Diagram 64, though there are just three moves left, only careful
+counting is likely to reveal the best move. The current score is Black(35)—White(26).
+White can choose from any of the three remaining squares for his next move. Taking
+the hl corner immediately may initially seem attractive. Indeed, if Black follows with
+h2, White goes to g1 and wins 34-30 (e.g. +3-3+8 = +8). But h2 is not Black's best re-
+sponse and White should not count on Black going there. If Black goes to g1 instead,
+White finishes with h2 and loses 31-33 (+3-—
+5+7 = +5). If White chooses h2 initially,
+Black must pass. White's best continuation
+turns out to be g1(!), but after Black finishes
+with h1, it still only nets White a tie (+6+7-7
+= +6). Only an initial move to g1 guarantees
+a win for White. Black's best response is h1,
+leaving h2 for White and a 33-31 win (+7—
+7+7 = +7). In this case, where strategic gen-
+eralizations offered little help, correct count-
+ing was critical: it meant the difference be-
+tween victory and defeat.
+
+Of course, in many endgame positions,
+especially by the time you get to the last 3
+moves, your best move (or at least a sure
+winning move) will be self-evident. Count-
+ing is not absolutely necessary in these cas-
+es. Similarly, some possible sequences are
+so obviously foolish that we usually need
+not consider (or count) them. Still, in close
+games when the best move is not obvious, or
+anytime when you need to be certain of the
+final result, there is no substitute for an accu-
+rate count.
+
+Sometimes, even an approximate count
+can indicate the correct choice of moves. For
+example, in Diagram 65, Black's two choic-
+es seen approximately equal at first glance.
+In both cases, Black flips just one disc (b2)
+and White's final move flips 5 edge discs.
+Therefore, determining the better move will
+depend entirely on the number of interior
+discs White flips. If Black takes b1, then
+White-a2 flips only 3 interior discs (b2, b3,
+and c2). If Black instead takes a2, White-b1
+flips more than 3 interior discs (6 discs to be
+precise: b2, b3, c2, d3, e4, and f5). Thus,
+even without an exact count, it becomes
+
+Oo som th & Wo hi
+
+oOo a mm Om & WH
+
+Diagram 65: Black to mow
+
+
+Othello: Brief & Basic 31
+cod ef q
+
+eeoee
+QO@O
+QO@O
+eeeee
+eeeee
+QOOOOO
+
+Diagram 66: Black to move
+
+oOo -— om UW & fH hh
+
+cr 39)
+jeeeorno
+leeneee
+eo ee
+i esese
+jeooeee
+
+Diagram 67
+
+6 el 1S
+
+
+
+SPO @OOIO|
+“100 O00”:
+
+
+OOO OOOO
+2@CIOOOOOIC
+
+
+
+
+
+clear that b1 is Black's better move. In fact,
+after b1, Black wins 33-31, while after a2,
+Black loses 30-34.
+
+Interior Sweeps. Another endgame tech-
+nique, closely related to counting, often oc-
+curs after one player has already clearly won
+the game. It is now mostly a case of how to
+maximize the final disc count. If there are
+too many moves remaining for a thorough
+count, players may still take advantage of
+opportunities for "interior sweeps." While
+complete coverage of the details of this tech-
+nique are beyond the scope of this Hand-
+book, we will show three (hopefully instruc-
+tive) examples of the basic principle. In
+Diagram 66, with correct play, Black can
+systematically sweep White off the board
+and achieve a 64-0 victory. Black's goals are
+twofold: develop solid "masses" of stable
+discs while continuing to minimize White's
+options. Black's initial move should be to d2;
+White is then forced to respond with b1, and
+play continues with: a1, pass; c2, c3; b3, b2;
+a2, a3; c4, b4; a4, pass; c5, b5; a5, pass; b6,
+pass; b7, a6; a7, pass; a8. Play out this se-
+quence yourself, and note especially how the
+exact sequence of the first few moves is criti-
+cal to accomplish the necessary move limita-
+tion. For example, playing a8, instead of d2,
+for the first move will result in later moves
+flipping unwanted discs, opening up new
+choices for White and preventing the "wipe-
+out."
+
+Not all interior sweeps lead to "wipe-out"
+victories. In some cases, an effective interior
+sweep can even be accomplished by sacrific-
+ing a corner (and perhaps an adjacent edge
+as well). In fact, in these next two examples,
+Black sacrifices a corner in preference to
+taking it! These sequences reveal a elegance
+in strategy that contrasts to the often effec-
+tive but "brute force" approach of taking the
+comer. Thus, in Diagram 67, note how
+Black's moves 39 and 41 cleared White al-
+most entirely out of the western half of the
+board, creating a mass of stable discs in that
+area that virtually assured victory, despite
+the sacrifice of the h8 comer. Finally, in Dia-
+gram 68, we see an elegant example of an in-
+terior sweep that begins with Black passing
+up the opportunity to take the h8 corner and
+instead conceding it to White at move 47. By
+move 50, we can begin to see the beauty of
+this move, as Black sweeps from west to east
+across the board. The final sequence of this
+
+Othello: Brief & Basic
+game was: g6, 25; h5, h4; 94, 93; h3, h2; hl,
+pass; g2. White gets the entire East edge
+from h2 to h8, but still loses 51-13. Though
+these interior sweeps are not typically ac-
+companied by complete counting of the po-
+sition, limited counting is required to see
+when a sacrifice of a corner is to be preferred
+and/or how best to approach the disc maxim-
+ization attempt.
+
+
+18. The Endgame: Counting on
+More than Just Counting
+
+CO @O)
+For most of the endgame (which techni- rites
+
+
+
+OOO COO
+
+cally includes the last 20 or so moves of the
+game) counting alone will not be feasible (at eeee
+least not for humans). At these times, the Diagram 69: Black to move
+
+major strategies and tactics developed for
+other parts of the game can often be applied
+here as well. For example, the previously de-
+veloped ideas of going to odd-numbered re-
+gions of the board, delaying the taking of
+free moves, and taking advantage of an op-
+ponent's lack of access to a square (see
+Points #9-#11), are all evident in Diagram
+69. Thus, to a novice player, it may seem
+like b1 is Black's best move, setting up to
+take the h1 corner. In actuality, it is a losing
+move if White follows with g2. Black's best
+move is g2 (going into the odd-numbered re-
+gion, even though it sacrifices the h1 corner
+
+
+eeoeeeOe
+
+eoeoo
+eeeo0
+eoee”)
+
+eee o@-
+0000 e-
+
+to White). Black can afford to delay going to
+b1 because White has no access to it. The re-
+sultis that Black will now (with proper play)
+get the last move in each remaining unfilled
+
+regions and win the game. Diagram 70: White to move
+There are also some tactics to be consid-
+
+oO a mh OF fF W he =
+
+ered that are relatively specific to the end-
+game. Probably the most important of these
+is "feeding your opponent." The idea is il-
+lustrated in Diagram 70. Here, White would
+like to get the last move in the a8 corner re-
+gion. Going to f8 doesn't work since Black is
+then left with no moves and must pass.
+White must then initiate an unfavorable ex-
+change of moves in the even-numbered a8
+region. Going directly into the a8 region and
+saving the f8 move for last doesn't really
+change the result. The correct sequence is
+for White to begin with a7. Now, whatever
+Black's response, White continues with f8.
+Black now is forced to take a move in the a8
+region, giving White a great final move
+there. The idea was to "feed" Black a self-
+destructive move in the a8 region prior to
+taking f8. A similar idea is seen in Diagram
+
+e000 ~
+Jes)
+eo (ee
+oe J
+
+1: White to move
+
+
+eeo0e 00:
+elves .
+
+60600060 -
+
+Oo a mh Oh & WH hm
+
+
+Diagram
+
+Othello: Brief & Basic 33
+
+
+
+
+
+Oo a om Of & Wh =
+
+
+@OOCe®e
+OOOO
+OOOO
+OO l0e@
+| OOOS8C eS
+@ Oovee
+QOOWICIO
+
+Diagram 72: Black to move
+
+Ot 1S
+
+. OO Kt Sh
+eOvUCC eee
+
+
+3: White to move
+
+
+71, even though the remaining region is an
+odd-numbered one. Here it would be a mis-
+take to take h8 initially, since Black is left
+with no moves, forcing White to go again
+and giving Black the crucial last move. Far
+better is to go to h7 initially, feeding Black
+the g7 move. Now White finishes the game
+with h8 and wins!
+
+Probably the best overall advice for end-
+game play is "expect the unexpected." Even
+experts are frequently frustrated as they
+watch "sure winning positions" disappear
+due to some unforeseen lack of access or
+similar problem. Players need to be on guard
+for the hidden dangers and/or opportunities
+that may exist in a given position. For now, I
+offer five representative examples (by no
+means comprehensive) of what may await
+an unsuspecting Othello player. See if you
+can find the best move or sequence of
+moves in each case before reading further.
+
+The first two Diagrams both involve unu-
+sual aspects of the main diagonal (see also
+Point #8). In Diagram 72, al would be a
+mistake since it allows White to continue
+with bl, thereby gaining undeniable access
+to the h8 comer. The best move is b1(‘), ex-
+tending Black's control of the main diago-
+nal. White's position now crumbles as he is
+forced to choose between g1 or h7. In Dia-
+gram 73, White's control of the al-h8 main
+diagonal unexpectedly winds up costing
+him the game. White wants to get 2 of the 3
+remaining moves in the al corner region and
+so begins by going to b1. Black continues
+with al, but since Black has no discs on the
+main diagonal, b2 does not get flipped. This
+prevents White from gaining access to a2,
+forcing White to go to g8. Black now gets
+both a2 and h8 and wins the game. (Note:
+even if White had begun with g8, he still
+would have lost.)
+
+Sometimes, the best move is so counter-
+intuitive, or so seems to violate established
+principles, that it is very difficult to find it.
+Thus, m Diagram 74, Black wants to get 2 of
+the three moves in the a8 comer region and
+would even being willing to give up the a8
+corner to do so. The move to b8 fails, since
+after White takes a8, Black does not have ac-
+cess to b7. Similarly, the move to b7 fails,
+since White can now balance the South edge
+by taking b8 without giving Black access to
+a8. Black's best move turns out to be the
+seemingly suicidal move to b2, conceding
+White the North and West edges. But after
+
+Othello: Brief & Basic
+White continues with the semi-forced move
+
+to al, Black can now go to b7 without allow-
+ing White to balance the South edge. The 1
+perfect play final sequence 1s g2-h1-b8-a8-
+pass-h8-pass-g7 resulting in a 40-24 win for
+Black! (Note the general idea of how a move
+in one area of the board — the al area — had
+a critical effect on another, seemingly unre-
+lated area of the board - the a8 area.)
+
+In the most extreme cases, conceptual
+analysis appears to be essentially useless,
+while only a computer would seem to be
+able find the correct path by counting. Thus, oe
+in Diagram 75, Black made the reasonable
+move to a8. Unfortunately, it is also a losing i?
+move (assuming subsequent perfect play).
+
+The winning move was h7(!), even though Diagram 75: Black to mowe
+this sacrifices the al comer, as well as the
+West and North edges. In trying to make
+some sense of this difficult position, note
+that a disadvantage of a Black move to a8is_
+that White can then get the last move in that
+region by taking the likely stable wedge at
+b8. [Note: With perfect play, Black wins 36-
+27 after h7 (h7-al-b2-f8-h2-b8-a8-c1-g8;
+neither player gets h1!) but loses 31-33 after
+a8 (a8-b8-h7-g8-f8-c 1-h1-h2-b2-a1).]
+
+Fortunately, not all positions are that ex-
+treme. Even if the correct move is initially
+counter-intuitive, some careful analysis
+along with some counting (if possible) will
+often uncover the best attack. Thus in Dia- ®
+gram 76, it may seem like a8 1s White's best
+move, going into the odd-numbered remain-
+ing region in preference to the even- [Jj agram To: W
+numbered h8 region. However, it turns out
+the a8 is a losing move. The only winning
+move is g8(!) leading to a 33-31 win for White after the following perfect play se-
+quence: h7-a8-b8-a7. The major problem is that if White takes a8 initially, Black goes
+to b8. Now White cannot safely continue with a7 or the entire 7th row will become
+White, giving Black both h7 and g8 and the game. So White must continue with g8 in-
+stead, Black follows with h7, with White finally going to a7. But, despite the similarity
+of this sequence to the winning one, it results in a 33-31 loss for White. An attempt to
+count out the net gain after each of these two most likely sequences would reveal the ad-
+vantage of g8 over a8.
+
+
+
+
+jee)
+OOO}
+
+
+
+Cleee@ Vee. -
+ee eee
+
+Oo om th f& WM bi
+
+
+
+
+ite to play
+
+
+
+
+Cleee@Oee-
+CeC@eeee.-
+
+
+oO aS om Of & Wh
+
+
+19. Edge Play: General Concepts & Initiating Edges
+
+General Concepts. As the end of the opening phase of Othello approaches, the
+players are inevitably presented with the decision as to whether or not to occupy an
+edge square. This raises one of the more complex issues in all of Othello. These next
+two sections present some useful general guidelines for dealing with this issue.
+
+As discussed earlier (see Points #1 - #5), players unaware of move limitation strate-
+gy often feel its best to take edge squares as soon and as often as possible. While it's true
+that ultimate possession of at least some edge squares is usually necessary to win, this
+"rush to the edge" concept has been clearly discredited. In fact, some expert players
+
+Othello: Brief & Basic 35
+Oo —- om th f& WwW hi
+
+Oo a om UO fF Wo ht
+
+
+believe it is best to avoid taking edge squares for as long as it is feasible. By this view,
+edge square moves tend to become liabilities later in the game (by poisoning otherwise
+good moves etc.). Personally, I would advise against either extreme. Indeed, edge
+square moves do have at least one distinct advantage: there are less ways to flip an edge
+piece than a interior piece. Thus, the proper and judicious use of edge moves may help
+promote move limitation. Also, once your opponent has gone to an edge, a move to that
+edge often becomes much more desirable for you. Finally, recall that we have previous-
+ly discussed a special tempo-gaining edge technique: "creeping along the edge" (see
+Points #5 & #16).
+
+For simplicity, our discussions will usually focus only on one edge at a time, in rela-
+tive isolation from the rest of the board. But be aware that, in a real game, edge moves
+must be evaluated using general principles and in the context of the entire board - the in-
+terior area as well as the other three edges. For example, in Diagram 77, Black decides
+to take the edge move to a4. The major rationale for this decision was not any special at-
+tribute of the west edge, but the fact that, by flipping c4, it set up a Perfectly Quiet
+Move (see Point #15) to e6. An edge move to a3 or a5, or almost any other non-edge
+move would not have accomplished this. In other cases, edge move choices may be pri-
+marily dictated by the number of non-edge discs flipped (e.g. Diagram 77 as well as Di-
+agrams 7,8 & 9 in Point #3).
+
+There are two major goals, beyond the
+
+a booed oe f 9g oh general ones of move limitation strategy, to
+bear in mind when deciding to go to an edge
+(prior to comers being occupied): 1. Try to
+be the last player able to take a safe move
+along the edge (e.g. gain a tempo along the
+edge). Similarly, try to get more of the
+moves along an edge than your opponent.
+2. Try to obtain a desirable final edge posi-
+tion or force your opponent to take an unde-
+sirable one (e.g. an unbalanced edge). These
+two points will be the focus of much of the
+subsequent discussion. Often these two con-
+cepts, tempo vs. position, will be in conflict
+(e.g. a move that gains a tempo will sacrifice
+the positional advantage). A major decision
+will be how best to resolve this conflict.
+
+
+Lk 1S
+
+See |
+
+
+Diagram TT
+
+Initiating an Edge. The player who first
+
+moves to an edge is said to initiate the edge.
+
+aoboocid ¢ f g sh In this section, we will focus on some of the
+edge-specific factors (as opposed to the
+more general considerations) that help to de-
+termine when to occupy an edge square. As
+a general rule, it is a poor choice to initiate
+an edge by going to a C-square (see Point
+#6). But assuming a choice, how does a
+player decide when an edge move is advisa-
+ble, and which edge square move (among
+the available A and B squares) is the best?
+Here, the decision must involve looking at
+least a little beyond the edge. For example,
+in Diagram 78, White considers a move to
+the cl A-square. This is probably a poor
+choice since it flips both c2 and d2, totally
+Diagram 76 shutting White off from any subsequent
+moves to the North edge. Contrast this with
+
+ee@OVCe
+
+. 1282
+‘S| 12
+
+eeOe
+
+Othello: Brief & Basic
+the move to the h6 A-square. Here, the move flips g5 but not g6 (because the sixth
+row is all Black). White still retains access to h7 (which could be critical in avoiding an
+unbalanced edge later) as well as continued access to h3 or h4. Finally, if White felt it
+was important to move to the North edge, d1 (a B-square) would probably be preferable
+to cl (since d1 flips only the d2 non-edge disc). Which 1s the best choice? Sorry, but
+there's no clear answer here (especially given this limited analysis). In fact, it isn't even
+clear that an edge move 1s called for here: many experts might choose b5 as the best
+move. This is because, since Black does not have access to b6, White's move to b5 does
+not open up any obviously good moves for Black. The pressure is now on Black. It's be-
+cause even experts disagree about the best move in positions like this that each Othello
+game tums out differently.
+
+Another example (Diagram 79) presents a less ambiguous set of choices. It is White
+to play. Note the relative advantages of a move to a6 vs. h6. The a6 move allows an
+easy a4 response for Black. White has gained nothing: neither a tempo nor a positional
+advantage. In contrast, the h6 move looks much better: Black cannot respond with hé4. If
+Black responds with h5, White continues with h4 (gaining a tempo at very little cost po-
+sitionally). In either case, Black is now forced to move to the North edge, leading to a
+weakening of his position.
+
+[A slight digression: One guide in choos-
+ing from among alternative edge moves (as
+always!) is anticipating your opponent's best abe ge
+response and your subsequent response to it
+(i.e. planning ahead!). Thus, returning to Di-
+agram 77 for the moment, we note a previ-
+ously unmentioned advantage of Black's
+move to a4: it maintains a tempo advantage
+along the West edge for Black. That is,
+White's only possible West edge responses
+to a4 are to the adjacent squares of a3 or a5
+(in this case, White doesn't even have access
+to a5). In either case, Black could flip the
+White disc on his next turn (e.g. White - a3;
+Black - a2), leaving White with no more
+moves along the edge. However, Black's a4
+move also has its problems: by flipping three
+interior discs (b4, c4 and d4) it reduces Diagram 79: White to play
+Black's future mobility and may open up
+new good moves for White. Also, if White
+continues with 16. a3, Black has to choose between giving up the tempo or taking a
+weak C-square move (a2) early in the game.
+
+Black's move to a4 at move 15 is referred to as taking the edge "head-on." Contrast
+this to the situation if Black had gone to a5 instead (taking the edge "diagonally" or
+"slanted"). Now White can respond with a3 and Black will no longer gain a tempo. Ac-
+tually, White might choose a4 in preference to a3. While this allows Black the tempo-
+gaining continuation to a3, Black is unlikely to be in a hurry to take a3. The move has
+the undesirable effect of flipping the discs at b4 and c5 as well as leading Black towards
+a possible over-abundance of edge discs that may poison moves and be a mobility-
+reducing liability later in the game. But if Black does not take a3, White can continue
+with a6!
+
+White's a3 (tempo) response to 15. a5 is sometimes referred to as the "American"
+style of edge play while the a4 (positional) response is labelled the "European" style.
+One cannot assume that either style is always to be preferred. Similarly, taking the edge
+head-on (15. a4) seems preferable to the a5 choice for Black in this position (Diagram
+77), though there are other positions when taking the edge diagonally would be pre-
+ferred. ]
+
+
+
+Ct ee
+
+oOo -— mm Oh & TH
+
+Othello: Brief & Basic 37
+oOo a m@ mm & WH
+
+
+So, what is more critical: gaining a tempo or avoiding a weak edge position? Taking
+an edge or an interior square? Taking an edge head-on or slanted? Taking too many
+edge squares or too little? Taking an edge square adjacent to an opponent's disc or away
+from the opponent? We have seen that the answer to these questions is an unsatisfactory
+one: It depends. This section detailed the issues relevant to making these decisions. Af-
+ter this, experience will be the best teacher.
+
+20. Edge play: Developing & Resolving Edges
+
+Developing an Edge. Moves subsequent to the initial move to the edge are moves
+that develop the edge. For most of this discussion, we will focus on what happens after
+an initial White move to an A-square. Similar principles could be applied to an initial
+move to a B-square. The discussion will also focus primarily on the decisions of the
+player who initiated the edge (White in this case). At this point, Black will have three
+basic choices (assuming access to the relevant squares): avoid the edge altogether, go to
+a square adjacent to White's disc, or go to square non-adjacent to White's disc. By dis-
+cussing the merits of White's responses to each of these type of moves, we will also de-
+velop a feeling for the merits of Black's ini-
+tial choice.
+abe h In the first case, Black chooses to
+C3 C3 avoid the edge after White's initiating move.
+oO Oo oO White now has to decide whether to contin-
+
+ue by developing the edge immediately or
+CWC r C) not. Developing the edge has the advantage
+
+of gaining a tempo, but may result in subse-
+quent move limitation problems and/or
+weak edge positions. Diagram 80 illustrates
+some (by no means all) edge positions sub-
+sequent to White's decision to develop edges
+C that Black has avoided. Along the East edge
+is a table pattern (White is in possession of
+both A-squares and there are no other pieces
+C3 C3 along the edge; see also Point #9). A table
+has the advantage of being a secure edge:
+Diagram 80: White to move while Black has safe moves available (h4 or
+h5), taking one assures White an equally
+safe response along the same edge (the re-
+maining vacant B-square). However, this table is also disadvantageous in that it is a
+closed edge to White: White has no access to any of the remaining vacant squares along
+the edge (unless Black moves there first). In contrast, the table along the South edge 1s
+not closed to White: since c7 and d7 are Black, White maintains considerable safe ac-
+cess to the edge (i.e. it remains an open edge for White). The vacant square at f7 should
+also be considered among the possible moves in this region: White can probably gain a
+tempo by going there, but will lose all access to the h8 corner region by doing so. Final-
+ly, note that White's North edge position has created a type of weakness referred to as a
+hole (d1). White has no access to this square but Black can wedge in there with a free
+move at any time he wishes. Though experts sometimes find it useful to create these
+holes (typically to gain a necessary tempo), they should be avoided as a general rule.
+The next three diagrams show some selected positions after Black has gone to an
+edge initialized by White. In these diagrams, the edge decisions are simplified by the
+fact that the 4 squares immediately interior to the A and B edge squares are all occu-
+pied. Obviously, im actual games, this will not always be the case. In Diagram 81, there
+are two edges where Black followed White's A-square moves by going to the adjacent
+B-square. Along the North edge, White should probably not move to the edge at all.
+Black currently has no access to e1, f1 or gl. Any move that White would make would
+
+
+Othello: Brief & Basic
+unfavorably change this (e.g. a move to el
+
+closes the whole edge to White). White a_i
+needn't worry about Black's potential move
+to bl: it forms a dangerously weak "uneven
+three" that White could exploit in various
+ways later in the game (possibly setting up a
+Stoner trap or making a semi-forcing move
+to el, etc.). Along the East edge, rather than
+leaving the edge alone, a move to h4 for
+White seems attractive: since it doesn't flip
+g4, White still retains access to h3. This
+pressures Black to prevent the h3 move by
+going to either h3 or h2. Once again, the de-
+sirability of a type of move varies with the
+overall board position!
+
+Diagram 82 shows three situations after
+Black has followed White's mitial A-square Diagram 1
+moves by going to the non-adjacent B-
+square. Itis typically a poor move for White
+to continue by going to the remaining A-
+square (e.g. f1 along the North edge), as this a_i
+allows Black to wedge in at dl and safely,
+gain the last move along the edge. An initial
+White move to d1 would be better: it doesn't
+flip e2 and thus leaves Black's mobility re-
+stricted along the edge. On the East edge, an
+h6 move shares similar problems with f1,
+but h4 works out less well than does d1.
+Along the South edge, there is a surprise: If
+White goes to f8, Black will not have access
+to the d8 square: Black will be forced to
+choose between going to g8 (taking a rela-
+tively weak C-square edge position) or let-
+tng White take d8 on White's next tum
+(thereby allowing White to gain a tempo,
+though White will be closing off the edge if
+he does)! It is usually a difficult no-win type
+of decision for Black. White's move to f8
+followed by Black's "unexpected" lack of
+edge square access (to d8 in this case) is re-
+ferred as an "edge trap". It is one of several
+possible types of edge traps (two more ex-
+amples are discussed in Diagram 84). These
+traps can often have a critical influence on
+the outcome of the game (e.g. see Pomt
+#21).
+
+Black's remaining major option, after
+White's initial A-square move, is to go to the
+opposite A-square. White then has to decide
+whether to continue to develop the edge. In
+Diagram 83, we see three of the more com-
+mon edge patterns that can develop (they
+may also develop from other initial posi-
+tions). The North and East edges both show
+a 3-disc edge pattern called a Boscov. Diagram 83
+Though this position may remain unaltered
+
+
+tan)
+
+
+CO @eeOor
+eC ee
+
+
+Oo a om Of ff Wo ho
+
+COO}
+Cjeee
+
+Oo a om Ch & Wo ht
+
+oOo -s m Oo & WH
+
+Othello: Brief & Basic 39
+for many turns, eventually one player or the other typically goes to the remaining vacant
+B-square (i.e. d1 or h4), challenging the opponent to take a C-square along that edge
+(or lose a tempo). Note how, in this case, a Black move to d1 works out better than the
+comparable move to h4. This is because if White continues to g1 along the North edge,
+White is left with an unbalanced edge (White has no access to b1), while an h2 continu-
+ation along the East could be followed by White balancing the edge at h7 (see Point #7
+for more on unbalanced edges). An initial move to h4 also works out less well than d1
+for White: 1t would flip the disc at g3 to White, permitting Black to follow with h7,
+threatening to balance the edge by going to h2 on his next turn (but see the discussion of
+Diagram 86). Given all this, | would probably recommend the player whose turn it is in
+Diagram 83 to take d1 (before his opponent does)!
+
+[Another slight digression: A variation on the basic Boscov pattern would be if the
+Black disc at h5, in Diagram 83, was at h4 instead. A full discussion of the advantages
+vs. disadvantages of these two variations is beyond the scope of this Handbook, though
+they usually focus on issues such as which variation offers the better chance of getting
+(or preventing the opponent from getting) a balanced edge (e.g. in the position shown in
+the Diagram, a White move to h4 would flip g3 and f2, while in the variation position, a
+White move to h5 results in a nearly identical East edge pattern but does not flip the g3
+
+and f2 discs)]
+
+4 e f gag oh Boscov decisions (e.g. whether to fill in
+
+poe the vacant B-square or let your opponent do
+AMO [O
+
+it) are another example of the tempo vs. posi-
+@oCe
+
+tion decisions that an Othello player com-
+eccee square is filled in, the players are typically
+left with still another of these dilemmas.
+
+monly faces along the edges. After the B-
+Thus, along the West edge of Diagram 83,
+White must decide whether to go to a7, gain-
+
+ing a tempo at the expense of an unbalanced
+
+edge, or leave the edge alone with the nsk
+that Black might decide to gain a tempo by
+
+going to a2. These decisions are made more
+difficult by the need to simultaneously con-
+
+oOo a m@ mm & WH
+
+sider the relative merits of moves along all 4
+
+eee edges (as well as any viable non-edge
+
+Diagram &+-A moves). (Hey, nobody said becoming an
+Othello expert would be easy!)
+
+dt Next, in Diagram 8, we see two particu-
+
+a bec def @aoh larly dramatic examples of edge traps. First,
+
+note how after Black makes the seemingly
+innocent move to f2, White can continue
+
+with b1. This would normally be suicidal if
+Black has access to the hole at e1. But in this
+
+case, White can get a triple gain in tempo,
+getting both el and g1 on subsequent turns.
+
+This typically destroys the position of the un-
+
+CIPA@O@OO suspecting Black player. Second, note that
+
+eee ie Black actually has a much better move than
+
+f2: h i d f hi b
+O eee” going to | b&! Because White does not | have
+
+OOOo® access to c8, Black will get both remaining
+
+oOo -— mm Oh & HW
+
+eeee moves along the South edge.
+| Resolving an Edge. A resolved edge is
+
+
+Diagram o4+-6 one where neither player can make any more
+safe moves. Diagram 85 shows four of the
+
+Othello: Brief & Basic
+more common resolved edges: the unbal-
+anced edge (East), the balanced edge
+(South), the dual-unbalanced edge (West),
+while the North edge is typically referred to
+as an "even-four." Note that the North edge
+would still be considered resolved even if
+the disc(s) at dl and/or e1 were Black (i.e.
+wedged in). The dual-unbalanced edge is a
+
+| |OOCee
+particularly interesting pattern and may lead 4 eeeece)
+to each player attacking the other's position 5 C C ®@ C ®@ C)
+via corner sacrifices (e.g. b2 for Black vs. b7
+
+ini fe h fitabl
+iake it first Some of these resolved edges 7 (|_| OHMIC
+eee0
+
+may not stay permanently resolved. Thus,
+the even-four in Diagram 85 is a resolved
+
+edge only because White cannot get access Diagram 65
+to bl or gl. Similarly the East edge is re-
+solved because Black does not have access
+to h2. Safe access to these squares may be a ob
+
+
+reestablished later in the game.
+
+Is it a good idea to resolve an edge as_ 1
+soon as you can, or should you leave it unre-
+solved for a while, or even let your opponent
+resolve it? As so often is the case, it depends.
+Resolving an edge tends to simplify the
+overall board position and (almost by defini-
+tion) reduces the number of safe moves in
+the region of the board in question. Whether
+this is good or bad depends on the particular
+board position, though most typically it is
+the player who already has the lead that
+gains the most immediate benefit from re-
+solving an edge quickly (see also Point #13). C3
+
+Sometimes a player will need to take .
+"desperate" action to prevent an edge from Uiagram
+being resolved by an opponent. Thus, in Dia-
+gram 86, Black could go to h7, balancing the
+East edge. But White would continue by goimg to b1, balancing the North edge. This
+leaves Black in a losing position. So instead, Black should go to b2 immediately, pre-
+venting White from safely balancing the North edge. Now it is Black that will win the
+game. [A digression: Moves like Black's b2 move can sometimes block opponent's
+from A-squares as well as C-squares, as would be the case if cl were vacant in Diagram
+86.] This example serves as a convenient introduction to our next and last point.
+
+
+
+
+
+ck to play
+
+
+eeeees
+Qe @OCeCr
+et (Sees ep
+WeCe@Vee.:
+
+
+Oo a om Of & Wo ht
+
+
+
+6: Bl
+
+
+21. Decisive Moves and Prioritizing of Moves.
+
+The previous 20 points have described a collection of rules, principles, generaliza-
+tions, and guidelines for making intelligent decisions about what is the best move in any
+particular Othello position. However, making such decisions in actual games requires
+combining these ideas into an integrated overview. For example, in a given position,
+there may be an unbalanced edge waiting to be balanced, an opponent's move waiting to
+be poisoned, a potential tempo-gain by the opponent to try to prevent, and a safe move
+to take before the opponent blocks it. Which of these valid concerns should take prece-
+dence? What if attaining one goal actually interferes with another? This section discuss-
+es two concepts that I believe are useful in solving these inevitable dilemmas.
+
+Othello: Brief & Basic 41
+ianeeCe
+
+2 @@CO@O
+
+jeeoue
+
+ee { ee
+
+‘gee?
+
+@OCe Cr
+
+20 \ ieee
+
+
+
+Diagram 87: White to move
+
+
+
+eees
+
+210 (OOOO
+
+eenooce
+
+1@OCOC CO
+
+5} OOOO
+OOO @OO
+
+CO! @e@
+
+
+
+Diagram 66-6: After moves
+
+41-45 (a5!-al-a?-a8-b2)
+
+
+Decisive Moves. It often happens, espe-
+cially between two players of about equal
+skill, that the endgame arrives with neither
+player having a clear path to victory. It may
+be that a computer could show that one or
+the other player has an undeniable win with
+perfect play, but since neither player is like-
+ly to play perfectly for the last 20 moves,
+this may not be very relevant (though it of-
+ten provides a very instructive after-the-
+game analysis). Yet, at some point, a move
+is made after which, barring any major blun-
+ders, the outcome seems decided. This move
+is called the decisive move (though occa-
+sionally the critical nature of such a move
+will not be apparent until looked at in retro-
+spect one or two moves later). I realize this
+is a subjective definition, since recognition
+of a decisive move will depend upon a
+player's overall Othello ability. But I still be-
+lieve itis an instructive concept.
+
+An example of this concept is in Dia-
+gram 87. White has an opportunity to make
+a decisive move. Before reading further, see
+if you can find it. Ready? Okay. White
+should go to al! Though this is a fairly obvi-
+ous choice to Othello experts, less skilled
+players (who have learned about the danger
+of unbalanced edges) may be surprised. Af-
+ter all, this move allows Black to follow by
+taking the wedge at bl, gaining undeniable
+access to h1 securing both the north and east
+edges. Despite all this, after al-b1l-a7-h1-g2,
+White gets the remaining 2 corners and
+more than enough discs to win the game. In
+contrast, if White takes the seemingly desir-
+able quiet move to a7 (rather than a1 initial-
+ly), it quickly leads to disaster. Black fol-
+lows with g7, gaining control of the al-h8
+main diagonal. Now White can no longer go
+to al. He has missed his chance at a decisive
+move, and is now set up to lose all four cor-
+ners and the game. In essence, Black's g7
+(rather than White's potential al) became
+the decisive move of the game. [Note: A
+similar situation existed in Diagram 86:
+Black needed to recognize and take the deci-
+sive move to b2 rather than the seemingly
+safer (but losing) move to h7.] Note also
+how a seemingly minor change in just one
+disc can alter the position dramatically:
+thus, if the disc at d4 in Diagram 87 were
+White, a Black move to g7 would no longer
+give Black control of the main diagonal.
+White could now safely go to a7 (in prefer-
+ence to the previously recommended a1)!
+
+Othello: Brief & Basic
+The point of all this is: Always be watching for decisive moves and when you find
+one, take it immediately. Don't let the critical moment pass. Make sacrifices if neces-
+sary. Look especially for bold unexpected moves that may seal a victory rather than
+more conservative "safe" moves that leave the outcome still in doubt. Avoid the tempta-
+tion to wait for a more favorable position or you may discover that your winning oppor-
+tunity will disappear altogether.
+
+My personal favorite for a decisive move is from a "postal Othello" game I played.
+The critical position is shown in Diagram 88—A. I was Black and none of my possible
+choices at move 41 seemed to lead to the clear-cut path to victory that I was seeking. Fi-
+nally, I discovered a truly wonderful (and decisive) move: a5! Even though it sacrificed
+the al corner, I knew I had the game won. After White predictably went to a1, I contin-
+ued by going to a7, allowing White to take a second comer at a8(!). I then went to b2 at
+move 45, leaving the position as shown in Diagram 88-B. The game was now "over":
+White would be forced to concede the h1 corner and I had b1, b7, and b8 as free moves
+whenever I wanted them!
+
+Though "provable" decisive moves are a ob
+limited to the endgame, moves that appear to
+be decisive (1.e. that seem to be a pivotal
+turning point in the game) can occur much
+earlier, even in the opening phase. For exam-
+ple, Diagram 89 is taken from a game I
+played in the 1982 U.S. Nationals. I went to
+cl at move 18 which set up an edge trap of
+the sort described in Diagram 82 (i.e. Black
+has no access to e1). In this case, Black has
+even worse problems: if he chooses to go to
+b1 (to avoid the loss of tempo), White could
+continue with g2, setting up a Stoner trap
+(see Point #8). Black therefore went to h3,
+leaving White to take el at move 20. This
+was the beginning of a deterioration that led
+to Black decisively losing the game.
+
+& hi
+
+
+
+
+
+OL |OIO
+kt OSs
+
+Oo a mm Oh fF Wo ht
+
+Diagram og
+
+Prioritizing of Moves. Decisive moves are really a special case of a still more gen-
+eral concept: how to "read the position" and prioritize the possible moves. That is,
+how to determine what aspect of any position is most critical -- what opportunity needs
+to be taken immediately or what pitfall needs to be avoided at all costs. This, in turn, de-
+termines which move to take. For example, it may be that if you do not immediately
+block your opponent's good move, your opponent will gain a clear advantage (or, in the
+worst case, a decisive winning position). Clearly, you must prevent this if you can.
+Thus, White's decision in Diagram 87 to make the al move, as opposed to a7 (or any
+other move), can be viewed as based on the recognition that preventing Black from
+gaining control of the al-h8 main diagonal was the most critical, highest priority con-
+cern at that moment. All other considerations were secondary. It wouldn't matter wheth-
+er White knew that al was a winning move or not. It would be sufficient for White to
+know that unless he stopped Black from getting control of the main diagonal, it would
+lead to a sure loss.
+
+Diagram 90 presents another example on this topic. It is Black to move. The ques-
+tion is: What is the highest priority issue for Black in this position and what move will
+best address this issue? First let's take an overview look at the board: Black has numer-
+ous choices but few good ones. Black is walled off from the south edge, while White is
+walled off from the north and east edges except for the black disc at c2. But Black is un-
+der pressure because it is now his move. He has to make a move that breaks across one
+of White's two walls. The situation is made worse by the fact that, no matter where
+Black goes, White has an excellent response with a6. This will force Black to make a
+second undesirable move across White's walls - unless Black can follow White's a6
+
+Othello: Brief & Basic 43
+f ag oh with b6. But Black currently does not have
+access to b6. Which means that White is
+threatening to take both a6 and b6 on subse-
+quent moves - forcing Black to make a series
+of wall-breaking moves that will seriously
+Gf not hopelessly) deteriorate his position.
+The priorities are now clear: it is imperative
+that Black establish access to b6 immediate-
+ly, in as quiet a manner as possible. The best
+choice is d1! By flipping the disc at d4, it es-
+tablishes undeniable access to b6. As a bo-
+nus, it opens up no new moves for White -
+White already has access to cl. No other
+Black move has all these benefits. It still
+may not be certain that Black will win the
+game after the dl move, but he has clearly
+recognized the highest priority issue and
+made the move that best deals with it. A
+player that consistently make moves like this is sure to be a tough opponent.
+
+This Handbook, of necessity, provides only the most general of guidelines on how to
+prioritize moves. Specific rules are hard to make when so much can vary with different
+positions. The usual caveats apply here: In actual games, the highest priority issue may
+not be as clear-cut as in the above examples. There may even be several concerns that
+seem equally important. Or it may be that there is apparently no move that clearly
+solves the highest priority problem. That's when you will need all your Othello skills
+and experience to come up with what you hope will be the best choice. The ability to
+read positions quickly and accurately is certainly one of the hallmarks of what separates
+average-to-good Othello players from true experts.
+
+
+| ee)
+ee Cee
+OO@OCO
+BOC OO
+
+
+Oo a mm Oh fF Wo ht
+
+Diagram 90; Black to move
+
+PUTTING IT ALL TOGETHER: THE COMPLETE GAME
+
+In this section, we finally put together all the pieces from the previous 21 points and, for
+the first time, examine transcripts of complete games between expert players. But first,
+let's review some advice particularly relevant to game transcript analyses:
+
+1. Look for the pivotal pomts im the game (e.g. What opening was chosen and how did it
+develop? Who seems to have the lead and who is playing defensively in each phase of the
+game? When did the decisive move occur?) Note that the timing or sequencing of moves is
+often critical: a move that wins the game if taken immediately, may be a game-losing blun-
+der by the player's next turn. Similarly, the placement or flipping of even a single disc can
+be critical to the outcome of a game.
+
+2. Try to read the position as the players might have: what was each player's highest pri-
+ority concern at each move and why? How did the players resolve decisions involving
+multiple considerations and/or apparently equally attractive moves (e.g. trying to decide
+which of two quiet moves to take first)?
+
+3. In many of the previous diagrams, the positions were chosen (or even contrived) to
+show a particular point as clearly as possible. In a real game, issues are often not that clear.
+Real players (even experts) don't always resolve these issues correctly, so don't assume
+that these transcripts are free of player errors. Try to discover any critical mistakes.
+
+4. Study the transcripts for examples of how the strategies and tactics discussed in this
+Handbook are actually used (e.g. how was control obtained and maintained? How, if at all,
+did the player avoid the "tightening noose" of move limitation? Was there an attempt at
+"edge-creeping" and was it successful? Did there appear to be any unusual preplanned
+openings, good counter-intuitive moves, or unexpected traps etc.?). In summary, try to de-
+velop a feel for the "flow" of a game - see each move in the context of an overall plan rath-
+er than as an isolated decision.
+
+44 Othello: Brief & Basic
+Transcripts. The two transcripts shown
+here do not necessarily reflect state-of-the-art
+Othello (the first dates back to 1980, while the 1
+other is from 1982). But they both represent
+well-played games between some of the best
+
+players in the world. The first transcript is the
+game in which the U.S.'s Jonathan Cerf won the 5 ae @ 7]
+World Championship against Japan's Takuya 4 (39) Mis
+
+Mimura. The first 14 moves are a textbook ex-
+
+ample of the Maruoka diagonal opening (see 5 Miiog®
+Point #14). After Mimura's unexpected move
+
+15, Cerf countered with excellent defensive re-  ® er oe
+sponses at move 16 and 18. Thus, Cerf's move
+
+18 to d2 effectively blocked Mimura from the ? Is)
+POM (see Point #15) at f4, and as an added bo-
+
+nus established access to f4 for himself! An- DO 7Dien
+other good defensive move is Cerf's move 26 to Diagram 91
+
+f1, robbing Black of access to f7. The sequence MimurpafB-21) - Cerf€l-433
+from move 37 to 44 wound up leaving Mimura
+
+in an essentially hopeless position.
+
+The second transcript is a game from the b d
+1982 U.S. Nationals between two of this coun-
+
+try's perennial top players, David Shaman and 1 | | | en Go)
+
+Brian Rose. Shaman chose the perpendicular
+opening. The game is marked by the efforts of = ay) 55) (28)
+
+both players to contain the mobility of the other
+within different regions of the board (see also 5 DD@Do
+
+Point #13). For example, note how Shaman's 4 |So/GA20IC
+
+move 18 to e8 played into the South area (1.e.
+
+the area where Black already had his greatest 5 my 3
+mobility), while Rose's move 19 response (h6)
+
+edge. Rose's move 31 (f2) was regarded as a
+
+mistake (it allows White to effectively respond 7 iceDise
+with b4): Black probably should have gone to 5
+
+b4 himself. Finally, the transcript is noteworthy eS EE
+for the position that occurs prior to move 45. Diagram 92
+
+Rose made the reasonable move of a7, but after Rose(B-28) - ShoamantW-36)
+Shaman's correct continuation of 46. h2, the re-
+
+sult is a losing position for Rose. Rose's correct
+
+(and winning) move was 45. h5 (leading to a likely subsequent sequence of H7-a5-A7-b7,
+and giving Rose complete control of the game).
+
+These mini-analyses only touch the surface of what could be said about these games.
+Playing the game out yourself will hopefully provide still more insights.
+
+FINAL CONSIDERATIONS & CONCLUSIONS
+
+
+Sel GEE)
+
+CIOS 21e/S)S)-
+
+VIOOle|-/Oe-
+GAS Pooe\e)-
+CIBOS OSS /9)-
+
+If someone were to ask me what I consider to be the single most important lesson a nov-
+ice player could learn from reading this Handbook, it would be this: A realization, contrary
+to some popular opinions, that Othello is not a game of luck nor a game in which planning
+ahead is a futile exercise. It is instead a game with well-defined strategical and tactical con-
+cepts (ones that are often different from what the novice player initially supposes), and in
+which long-term planning is all but essential. Itis my hope that this realization serves to in-
+crease your enjoyment and understanding of this fascinating game. I hope it stimulates
+your interest to learn still more about the game. To the extent that this Handbook has ac-
+complished these goals, it has been successful.
+
+Othello: Brief & Basic 45
+In addition, I would hope that the reader gains some insight into the elegant "simplicity"
+of Othello. This can be best understood by considering how the better computer Othello
+programs decide on their best move (prior to their endgame counting). Their programmers
+have not provided them with even a small fraction of all the information presented in this
+Handbook. Generally, they rely mostly on just a few of the more fundamental ideas: e.g.
+move limitation and mobility, evaporation, value of stable discs. From these few and sim-
+ple algorithms, the computer has to "self-generate" the ability to successfully deal with un-
+balanced edges, gain control of the main diagonal, spring edge-traps etc. It seems remarka-
+ble to me how well some computers can play, given these limitations. It serves as a useful
+lesson to humans trying to develop a broad overview of what is important in learning to
+play Othello well: the critical ideas are relatively few but extensive in their implications!
+
+And of course, I would hope that this Handbook would enable you to become a better
+player, help you to start on the road to joining the ranks of the experts. At the very least, I
+hope this book would enable you to observe a game between experts with a much greater
+sophistication and a much diminished sense of mystery. There's certainly a wealth of infor-
+mation 1n here to assist the aspiring Othello player. But be aware that there is also much to
+master that was never even mentioned: more techniques for maintaining mobility that go
+beyond evaporation, more on timing of moves and setting up long sequences of moves,
+more unusual edge plays and endgame ploys, more on creative and counter-intuitive
+moves, much more on preplanned openings, deeper analyses of complete games, how to
+play well under tournament time pressure, and more on aspects of Othello that I haven't
+even discovered yet. And still more. In fact, the single biggest problem I had in writing
+this Handbook was deciding what to leave out. There was always one more point I wanted
+to make or one more diagram I wanted to include.
+
+Finally, one of the things that any experts reading this Handbook would know is: every-
+thing I've written here is wrong! — at least some of the time. Or to put it in its more usual
+terminology: an exception exists for virtually every principle we have covered. But I sup-
+pose that's what helps Othello to be the fantastic game that itis. As they say: A minute to
+learn, but a lifetime to master!
+
+46 Othello: Brief & Basic
+APPENDIX: SELECTED GAME TRANSCRIPTS
+
+This appendix includes a selection of transcripts of games from major tournaments
+played during 1984-1986. Their purpose here is to give the reader the opportunity for fur-
+ther study of "real game" situations involving current experts. I hope the reader does not
+object that four of the transcripts are of games in which I was one of the players. I include
+them because they are among the more memorable of the games I have played, even (per-
+haps especially) those that I did not win.
+
+The brief comments are no substitute for detailed game analyses, but they do highlight
+some critical points in each game. Note particularly how often unforced X-square moves
+and corner sacrifices figure prominently in determining the outcomes. Finally, answers to
+the questions posed in the discussions below can be found at the end of this appendix.
+
+Game 1. T. Landau (B)-35 vs. D. Shaman
+(W)-29. In 1984, I won the U.S. National
+Championship with a 5-1 record in the final
+rounds. This game against David Shaman was
+one of the highlights of the day for me. Note
+particularly move 43. b5. Though b4 seemed
+like a better move in many ways, I decided that
+the highest priority issue was to prevent Sha-
+man from wiping me off the a1-h8 central diag-
+onal: b4 would allow Shaman to continue with
+a4, gaining control of the diagonal; b5 prevent-
+ed this. After Shaman accepted the corner sac-
+rifice at move 48, I was confident I had won.
+
+2 160K Go
+
+(=) o
+SSC ISG h
+OSV OOe\s)-
+
+CS |S|Q/Ol|@|e)-
+BS/OG O98) S/0)-
+
+1. B: Landau - 35
+li: Shaman - 29
+
+Game 2. R. Taniguchi (B)-37 vs. T. Lan-
+dau (W)-27. From the U.S. Nationals, I ad-
+vanced to the semi-finals of the 1984 World,
+Championship. This game was the first of a
+best two-out-of-three match against Japanese
+Champion, Ryoichi Taniguchi. After narrowly
+avoiding being run out of moves in the late
+midgame, I reached the position prior to move
+44. I had a elegant opportunity for a decisive
+winning move here. I came close to finding it -
+but close was not good enough. See if you can
+find the better alternative.
+
+67028
+NOOB)
+20}es}eo}eo
+
+aniguchi - 37
+andau - 27
+
+oO a om Of fF Wh
+
+JOT:
+
+Game 3. T. Landau (B)-43 vs. R. Taniguchi (W)-21. I recovered from the previous
+loss and went on to win this second game of the match. It is one of the very few times a
+U.S. player has defeated a Japanese player in a World Championship game. Note the
+
+Othello: Brief & Basic 47
+oOo sm OO & TWH RF
+
+Jeleseoo- .eescene:
+
+26-8208
+
+oOo - m& CO & WR
+
+
+eee Ke Tole ae
+
+MOCADOD
+
+DAO (co 09\e9/49}
+
+OOW0 00)
+
+OO We ees
+
+POOO8 63)
+
+2eOewes
+
+DP ieoleo Di
+
+B: Landau - 453
+HW: Taniguchi - 21
+
+
+Cok eile
+SOOODO oo
+
+SOOOOOO)-
+
+COD CDD|Ss)
+
+4. B: Taniguchi - 145
+Wi Rolle - 48
+
+ODED OD
+ca sialet 1
+
+DO 2212102
+
+
+a Bee.
+
+Scececesl-
+
+DHBwVIoO
+DUD DUD
+
+5, BG: Shaman - 34
+HW: Legder - 30
+
+quiet sequence from 27-29, and especially the
+decisive move 37. a3. White is on the ropes
+now: whether he goes to a2 or a5, Black fol-
+lows with 39. b6. If White takes b6 at 38,
+Black follows with a5. In any case, White is
+shortly run out of safe moves. Unfortunately
+for me, I lost the deciding third game and
+Taniguchi went on to meet Paul Ralle of
+France in the finals.
+
+Game 4. R. Taniguchi (B)-15 vs. P. Ralle
+(W)-48. Paul Ralle won the 1984 World
+Championship Goiming the U.S.'s Jonathan
+Cerf as the only non-Japanese players to do
+so) with this dramatic game. The critical posi-
+tion is at move 34. Ralle chose the X-square at
+b7 and when Taniguchi continued with 35. f1,
+Ralle countered with 36. g2! The endgame
+was still several moves away, yet Ralle had al-
+ready taken two X-squares and two unbal-
+anced edges. Despite all this, Taniguchi was
+
+helpless -- Ralle had a clear unassailable win.
+
+Game 5. D. Shaman (B)-34 vs. I. Leader
+(W)-30. David Shaman and Imre Leader both
+finished with 4-2 records at the 1985 U.S. Na-
+tional Championship finals. This necessitated
+a play-off game to determine the champion. It
+was one of the best games of the tournament.
+Note particularly the sequence of moves from
+25-27 where Shaman took some questionable
+edge positions in exchange for a gain in tem-
+po. The trade worked and Shaman went on to
+win. It's also worth mentioning that, despite
+some unusual appearing moves in the end-
+game, Shaman had a_ winning position
+throughout the sequence that he never relin-
+quished.
+
+Game 6. T. Landau (B)-26 vs. D. Shaman
+(W)-38. This game comes from the 1986 U.S.
+National Championship. Starting with an un-
+common move 5, I eventually established a
+midgame advantage by exploiting Shaman's
+weak north edge. Some comments: 23. b3
+would have probably been preferable to the ac-
+tual 23. h2. Next, note how effectively 33. a3
+blocks White's potential move to f6 Gf White
+tries to reestablish access to f6 with 34. b4, it
+
+Othello: Brief & Basic
+sets up a Stoner trap with 35. g2!). Finally, like
+fisherman, Othello players seem to remember
+best the "one that got away." Here again, as in
+Game 2, I let my hard won advantage evapo-
+rate in the endgame. The critical position is at
+move 45. See if you can come up with the de-
+cisive winning move that I missed.
+
+Game 7. D. Shaman (B)-28 vs. B. Rose
+(W)-36. This was the second of three games
+that Brian Rose and David Shaman played
+against each other in the 1986 U.S. Nationals
+finals. Here, Shaman declines the opportunity
+to take an unbalanced edge by refusing to go to
+a2 at move 17. Rose responds by grabbing the
+unbalanced edge himself (with a7 at move 18).
+Despite sacrificing nearly two entire edges,
+Rose gains control of the game by move 40
+and goes on to win.
+
+Game 8. D. Shaman (B)-36 vs. B. Rose
+(W)-28. Shaman and Rose were tied at 5-1 at
+the end of the 1986 U.S. Nationals, necessitat-
+ing this play-off game (the second for Shaman
+in as many years). Moves 1-16 were identical
+to their previous game (see Game 7 above).
+This time Shaman took the unbalanced edge at
+move 17 (moving to a2). Note how this deci-
+sion led to a distinctly different game, despite
+the identical opening. Rose's move 34 was
+likely a mistake since it allowed the effective
+35. g2 (34. b7 would have been better). The
+cliff-hanging endgame, though exciting, was
+not perfectly played. Shaman's move 47. c8&
+was a game-losing mistake -- b8 was the win-
+ning move! However, Rose's game-losing
+move 52. a7 returned the game to Shaman. See
+if you can spot the move Rose should have
+made instead.
+
+Game 9. M. Takizawa (B)-35 vs. H. Tam-
+enori (W)-29. These final 3 transcripts repre-
+sent state-of-the-art Othello as played by the
+world's best: the Japanese. If the rationale be-
+hind some of the moves seems elusive, don't
+despair. They sometimes stymie most of the
+rest of us as well. This first game is between
+Masaki Takizawa and Hideshi Tamenori (the
+1985 and 1986 World Champions respective-
+ly), taken from the final rounds of the All-
+Japan Student Championship in 1986. Tame-
+nori won the tournament -- this was his only fi-
+nal round loss. Note move 28: White avoids
+the PQM to b5 to gain a tempo along the north
+
+Othello: Brief & Basic
+
+OBER)
+
+OOEs
+
+QDDiev
+
+SOV eo-
+fen] »
+
+BAOS/SOee)-
+CVO OS/a\e)-
+
+Oo som fh & W he
+
+
+UCD {CO
+
+
+~ 1AGeCOcde-
+
+Landau - 26
+Shaman - 3
+
+DOWD
+
+QDIOss}
+
+00.05)
+
+COW) @
+
+MD GID
+
+GO@O1e'S10)-
+
+OD D[s069
+
+Qceeaegea:
+
+CHEDIZED D
+
+PISO Oe Ole)-
+ese cel.
+
+Shaman - 20
+Rose - 36
+
+
+
+BES/e1Q) 29"
+S/S) 219 O18) O\S)-
+
+COWES eie)-
+
+
+8. B&B: Shaman - 36
+W: Rose - 26
+DOO Oo
+
+6 [astanaay ania)
+"DOD isolDiseiD
+
+2 AUCOS2D GOD SD
+
+CIPO SOS l|S)-
+
+9, B: Takizawa - 35
+H: Toamenori - 29
+
+
+
+Zoe Ceee-
+
+SUSCEGERE
+
+DeOCVecee-
+
+“I@l2I2IC1O/O/O\S)-
+
+Takizawa - 26
+Tamenori - 30
+
+
+
+30/4)
+
+
+
+
+
+(800)
+
+
+
+
+SOC IERs
+
+20/80)
+
+|B ZOS/O|S/ 9 @|-
+“I @IOVE@Ele| ~ “|SOIOee ese)
+
+
+
+amenori - 41
+atayama - 23
+
+edge. Tamenori made a mistake at move 46. A
+different move (with subsequent perfect play)
+would have resulted in a 32-32 tie. Can you
+find the loss-saving move? It won't be easy.
+
+Game 10. M. Takizawa (B)-26 vs. H.
+Tamenori (W)-38. This rematch of Takizawa
+and Tamenori came from another 1986 Japa-
+nese tournament. This time Tamenori won.
+Note Tamenori's early C-square move at 18,
+necessary to avoid being run out of moves. By
+move 40, White seems to be in control despite
+his spread out edges -- and proceeds to victo-
+
+
+Game 11. H. Tamenori (B)-41 vs. Y. Ka-
+tayama (W)-23. This was the final game for
+the 1986 Japanese National Championship -
+Tamenori defeating Yuji Katayama. Note par-
+ticularly moves 45-47: Black sacrifices the al
+corner with 45. b2, but White cannot afford to
+take it (or Black will have free moves at a2
+and bl). So White hands the corner back to
+Black with 46. a2! Black declines the al cor-
+ner for the moment, taking the hl corner in-
+stead -- exchanging the unbalanced east edge
+for a gain in tempo. In case you're wondering,
+White had a losing position after Black's 45.
+b2; White's 46. a2 was not a game-losing mis-
+take.
+
+Answers to Questions
+
+Game 2. If White goes to b2 at move 4,
+Black will lose. If Black continues with 45.
+gl, White makes the semi-forcing move: 46.
+a2. With any other Black move 45, White can
+win with 46. b1. Unfortunately, I choose b1 at
+move 44, which blocked my later access to b2.
+When I finally realized this, it was too late: the
+mistake had cost me the game.
+
+Game 6. Black 45. f1 wins easily (a fact
+
+that I didn't take note of until move 47, much
+to my chagrin!). After 45. f1, if White takes
+
+Othello: Brief & Basic
+back at g1, Black continues with 47. b7, gaining secure control of the main diagonal. If
+White goes anyplace else at move 46, White takes the al corner at move 47. Despite the
+ill-considered move 45 to h7, Black still had a chance for victory at move 47. The oppor-
+tunity to go to f1 was gone, yet the unlikely move of 47. g7 leads to a 36-28 win (assum-
+ing subsequent perfect play: g7-A7-b2-H8-g8-A1-a2-H1-a8-B8-f1-G1-b7-PASS-g2).
+Black chose g2 instead and went on to lose.
+
+Game 8. White should have gone to b8 rather than a7. The perfect play sequence is as
+follows: B8-g1-PASS-b7-A8-b1-C1-b2-A1-a7 (White wins 34-30).
+
+Game 9. White should have gone toa6 rather than a3. The perfect play sequence is as
+follows: A6-a5-A4-a3-A 1-g8-H8-b8-A2-292-H1-g1-H7-g7-PASS-b1.
+
+Othello: Brief & Basic 51
+REFERENCES
+
+In writing Brief & Basic, the most significant source of background material were ar-
+ticles that originally appeared in Othello Quarterly (OQ). Below is a partial list of the
+more influential articles that I used:
+Cerf, J., Limiting Your Opponent's Options, OQ, Summer 1979
+Cerf, J., Unbalancing Yourself, OQ, Winter 1981/82
+Cerf, J., Introduction to Othello Strategy, OQ, Spring 1982
+Cerf, J., Introduction to Endgames, OQ, Fall, 1982
+Hall, R., Lose the Corner, Win the Game (Part 1), OQ, Spring 1983
+Hall, R., Lose the Corner, Win the Game (Part 2), OQ, Summer 1983
+Jacobs, C. & Jacobs, E., Unbalancing Your Opponent, OQ, Spring 1979
+Kling, A., Opening Strategy, Tactics, and Analysis, OQ, Summer 1983
+Landau, T., Black and Blue: The Hazards of Playing Black, OQ, Spring 1981
+Landau, T., Midgame Strategy: Patterns, OQ, Spring 1982
+Landau, T., A Catalog of Openings, OQ, Spring 1983
+Landau, T., Gaining Control, OQ, Summer 1983
+Landau, T., From the Jaws of Defeat: The Semi-Forcing Move, OQ, Fall 1983
+Osborne, M., Denying Access, OQ, Summer 1983
+Stringham, G., Fundamental Othello Misconceptions, OQ, Fall 1980
+Sullivan, G., Dangers of the Isolated C-Square, OQ, Winter 1979/80
+Sullivan, G., Controlling the Central Diagonal, OQ, Fall 1981
+
+In addition to the above articles, the interested reader is strongly encouraged to seek
+out the numerous game analyses and transcripts from tournaments that regularly appear
+in OQ. These provide invaluable insights into "real game" situations. A partial listing of
+some of the more instructive game analyses includes:
+Cerf, J., Cerf vs. Mimura, OQ, Winter 1980/81
+Rose, B., Shaman vs. Rose 1986, OQ, Winter 1986/87
+Shaman, D., Tamenori vs. Takizawa, OQ, Spring 1987
+Sullivan, G., Playing Defensively: Game Analysis, OQ, Spring 1981
+Sullivan, G., Rose vs. Shaman, OQ, Summer 1983
+
+Othello: Brief & Basic 52
+Finally, OQ frequently publishes puzzles of various sorts that provide an opportunity
+for you to test your own skills. Perhaps the best of these has been the "It's Your Move"
+series of articles by Amold Kling that have been appearing in OQ since the Summer
+1984 issue. For example, "It's Your Move" in the Spring 1987 OQ was devoted to the is-
+sue of "decisive moves", as discussed in Point #21 of Brief & Basic.
+
+OQ continues to publish useful tutorial articles. Check out the more recent issues
+(1988-present) for relevant articles not included in this reference section.
+
+OTHER BOOKS ON OTHELLO
+
+Books on Othello, are a relative rarity (especially if you want one written in English).
+Here is a listing of those of which I am aware (together with some brief commentary):
+
+Ball, J.A. & Parker, J.R., The Key to Othello, 1981 (English)
+A small pamphlet (akin to Brief & Basic) that comes from England. Most ideas are in
+the right direction, but not enough solid information. Overstates the importance of cer-
+tain principles of play.
+
+Hasegawa, Goro, How to Win at Othello, 1977 (English translation of Japanese by
+Maxine Brady)
+
+The worst possible book. Avoid it at all costs. It can do serious harm to your Othello
+ability. Ironically, it was written by the Japanese "inventor" of Othello (who apparent-
+ly understood little of what his game is about). Unfortunately, this is the only book on
+Othello to ever get wide distribution in the United States. Thankfully, it is no longer in
+print. The only lingering contribution of this text is the terminology for A,B,C, and X
+squares.
+
+Inoue, H., A Discovery of Reversals, 1977 (Japanese)
+Though written in Japanese, it is an excellent text just for the diagrams, especially on
+openings and endgame positions. The author is one of Japan's first crop of great Othel-
+lo players and a former World Champion.
+
+Japan Othello Game Association, How to Othello, 1983 (Japanese)
+A more up-to-date treatment of Othello from the Japanese. Again useful for the dia-
+grams. Overall, does not seem as elegant a text as Inoue's classic.
+
+Pingaud, Francois, Othello/Reversi, 1983 (French)
+A good introductory text. The author was aware of OQ and even borrowed some ideas
+and terminology from it. If you understand French even minimally, you would prob-
+ably get some benefit from this text.
+
+I am also aware of a Japanese text (published in 1986) on computer Othello (exact title
+untranslated). And speaking of...
+
+COMPUTER OTHELLO
+
+If you are seeking a computer opponent to play against, be aware that most of the
+Othello programs out there play a terrible game and use little or none of the principles
+discussed in Brief & Basic. The better programs available are a frequent topic of discus-
+sion in OQ, and I refer you there for the latest information. Systems are also available for
+generating perfect-play endgame sequences. Clarence Hewlett (the current Editor of OQ)
+has done extensive work in this area, having developed a state-of-the-art system that can
+search as far back as 26 moves from the end of the game!
+
+53 Othello: Brief & Basic
+INDEX
+
+access, denying, 17
+American style of play, 37
+anchor, 23
+balance (an edge), 9, 41
+block (or defensive move), 26
+blocking techniques, 17
+board notation & terminology, 2
+Boscov edge pattern, 39
+brute force approach, 32
+C-square trap, 8
+central (or main) diagonal, 10
+checkerboarding, 22, 26, 29
+checkerboards, 29
+closed edge, 38
+control of the center, 6
+control of the diagonal, 10, 12
+control, 5
+corner sacrifice, 9
+comer square, 3
+count the position, 30
+creep along the edge, 29
+cutting across the main diagonal, 11
+decisive move, 42
+defensive move (or block), 26
+denying access, 17
+developing an edge, 38
+diagonal opening, 24
+double wall, 28
+dual-unbalanced edge, 41
+dynamic square evaluation, 5
+edge double wall, 29
+edge moves, head-on, 37
+edge moves, slanted (or diagonal), 37
+edge patterns, 39
+edge play, general concepts, 35
+edge traps, 39, 40
+edges
+balanced edge, 9, 41
+Boscov edge pattern, 39
+closed edge, 38
+creep along the edge, 29
+developing an edge, 38
+dual-unbalanced edge, 41
+edge double wall, 29
+edge moves, head-on, 37
+edge moves, slanted (or diagonal), 37
+edge patterns, 39
+edge play, general concepts, 35
+edge traps, 39, 40
+even four, 41
+initiating an edge, 36
+open edge, 38
+resolved edge, 40
+
+Othello: Brief & Basic
+
+resolving an edge, 40
+secure edge, 38
+table edge position, 12, 38
+unbalanced edge, 9, 41
+uneven three, 21
+endgame, 2
+equipment, 1
+evaporation, 6
+European style of play, 37
+even four, 41
+even-numbered region, 15
+feeding your opponent, 33
+filled-in region, 16
+flip (disc), 1
+forced move, 4
+free move, 14
+frontier, 6
+gain a tempo, 13
+good move, 2, 5,7, 27
+Heath opening, 24, 27, 29
+hole, 38
+initiating an edge, 36
+interior sweep, 32
+isolated C-sqaure, 8
+last move, 13
+legal move, 1
+main (or central) diagonal, 10
+maintain parity, 17
+maximize the final disc count, 32
+midgame,2
+mobility optimization, 5
+move limitation, 5
+moves
+block (or defensive move), 26
+decisive move, 42
+defensive move (or block), 26
+edge moves, head-on, 37
+edge moves, slanted (or diagonal), 37
+forced move, 4
+free move, 14
+good move, 2, 5,7, 27
+last move, 13
+legal move, 1
+move limitation, 5
+offensive move (or set-up), 26
+passed move, 1
+perfectly quiet move (PQM), 25
+poisoned move, 19
+prioritizing of moves, 43
+quiet move, 25
+reflex move, 26
+right move, 2
+run an opponent out of moves, 13
+
+
+safe move, 13
+semi-forced move, 20
+semi-forcing move, 20
+set-up (or offensive move), 26
+waiting move, 26
+object of Othello, 1
+odd-numbered region, 16
+offensive move (or set-up), 26
+open edge, 38
+opening book, 23
+opening up an area, 21
+opening, 2
+openings
+diagonal opening, 24
+Heath opening, 24, 27, 29
+parallel opening, 25
+perpendicular opening, 24
+option quality, 6
+option quantity, 6
+options, 5
+Othello, origins of, 1
+Othello Quarterly (OQ), v
+outflank (disc), 1
+parallel opening, 25
+parity, 17
+passed move, |
+patterns, 27
+checkerboards, 29
+double wall, 28
+edge double wall, 29
+sandwich, 27
+X-pattern, 27
+perfect play sequence, 15,31
+perfectly quiet move (PQM), 25
+perpendicular opening, 24
+pick-off, 21
+poisoned move, 19
+prioritizing of moves, 43
+quiet move, 25
+read the position, 43
+reflex move, 26
+regional mobility, 21
+resolved edge, 40
+resolving an edge, 40
+Reversi, 1
+right move, 2
+rules, 1
+run an opponent out of moves, 13
+rush to the edge, 35
+safe move, 13
+sandwich, 27
+sealing off, 18
+secure edge, 38
+
+self-poisoning, 19
+semi-forced move, 20
+semi-forcing move, 20
+
+sente, 13
+
+set-up (or offensive move), 26
+squeeze plays, 15
+
+stable disc, 3
+
+Stoner trap, 11
+
+sweet-sixteen, 27
+
+table edge position, 12,38
+taking an edge head-on, 37
+taking an edge slanted (diagonally), 37
+tempo vs. position, 36
+transcripts, 45
+
+unbalanced edge, 9, 41
+uneven three, 21
+
+USS. Othello Association (USOA), v
+unpoisoning, 19
+
+waiting move, 26
+
+wall, 6
+
+wedge, 9,38
+
+wedged in, 41
+
+Wipe-out, 22, 32
+
+X-pattern, 27
+
+X-square, 3
+
+Othello: Brief & Basic
+U.S. National Othello Champions
+
+Name
+
+Carol Jacobs
+Carol Jacobs
+Jonathan Cerf
+Jonathan Cerf
+Brian Rose
+David Shaman
+Brian Rose
+Ted Landau
+David Shaman
+David Shaman
+Brian Rose
+Brian Rose
+David Shaman
+
+World Othello Champions
+
+Year
+
+1977
+1978
+1979
+1980
+1981
+1982
+1983
+1984
+1985
+1986
+1987
+
+1988
+1989
+
+Name
+
+Hiroshi Inoue (Japan)
+Hidenori Maruoka (Japan)
+Hiroshi Inoue (Japan)
+Jonathan Cerf (U.S.A.)
+Hidenori Maruoka (Japan)
+Kunihiko Tanida (Japan)
+Kenichi Ishii (Japan)
+
+Paul Ralle (France)
+Masaki Takizawa (Japan)
+Hideshi Tamenori (Japan)
+Individual: Kenichi Ishii (Japan)
+
+Team: U.S.A.
+
+Individual: Takeshi Murakami (Japan)
+Team: England
+
+Individual: Hideshi Tamenori (Japan)
+Team: England
+
+About the author: Ted Landau was the 1984 U.S. National
+Othello Champion, finishing third in the World Championship that
+
+year. He was editor of Othello Quarterly from 1984-1986 and
+has written more than a dozen articles on the game of Othello.
+
+Othello: Brief & Basic
+
+Othello: Brief & Basic
+
+An introduction to strategy and tactics for the game of Othello
+
+by Ted Landau
+Former USOA National Champion
+
+Features:
+
+Covers all aspects of Othello from opening to endgame
+High quality laser-printer text with over 100 illustrations
+Additional game transcripts
+
+Key word index
+
+Price: $6.00
+
+$5.00 for USOA members
+$8.00 for all overseas orders (members & non-members)
+Discounts available for multiple-copy orders. Inquire.
+
+Send orders and/or information requests to:
+
+Brief & Basic/USOA
+P.O. Box 342
+Falls Church, VA 22040 USA
+
+The official handbook of the
+United States Othello Association
+
+",..excellent...clearly written...the book can, literally overnight, turn a beginner
+into a formidable opponent..." — R. Wayne Schmittberger, Games Magazine
+
