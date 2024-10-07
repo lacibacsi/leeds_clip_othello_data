@@ -1,9 +1,9 @@
 
-from handling import common
+from data_handling import common
 import os
 from os.path import isfile, join
 import pandas as pd
-from handling.pypaya_pgn_parser.pgn_parser import PGNParser
+from data_handling.pypaya_pgn_parser.pgn_parser import PGNParser
 import pyarrow as pa
 import pyarrow.orc as orc
 from io import StringIO
@@ -47,13 +47,13 @@ class GameParser():
 
     def add_pgn_to_df(self, df: pd.DataFrame, game_info: [], game_moves: [], source: str, check_duplicate=False):
         '''
-        Adds a record of a game to the dataframe. Converts to required format, calculates hash of the moves and check dupes if set
-        :param df: dataframe to which the record needs to be added
+        Adds a record of a game to the parsed_data. Converts to required format, calculates hash of the moves and check dupes if set
+        :param df: parsed_data to which the record needs to be added
         :param game_info: game header -> fixed position for important headers, i.e. Result, white, etc.
         :param game_moves: list of moves
         :param: source of the game, i.e. human or synthetic
         :param check_duplicate: set to True if only save the game if no other games with the same moves are present. Only game moves are checked
-        :return: updated dataframe
+        :return: updated parsed_data
         '''
 
         id =  str(uuid.uuid4())

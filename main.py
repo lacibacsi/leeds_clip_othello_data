@@ -1,8 +1,8 @@
-from handling.game_parser import GameParser
-from handling.book_parser import BookParser
-from handling.common import convert_to_notation
+from data_handling.game_parser import GameParser
+from data_handling.book_parser import BookParser
+from data_handling.common import convert_to_notation
 
-# Press ⌃R to execute it or replace it with your handling.
+# Press ⌃R to execute it or replace it with your data_handling.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 def parse_games():
@@ -16,7 +16,7 @@ def parse_games():
     print(f'parsed {counter} games')
 
 def parse_books():
-    parser = BookParser(output_path='dataframe/book/')
+    parser = BookParser(output_path='parsed_data/book/')
     files = parser.clean_files
     parser.generate_instructions(filenames=files)
     print('done')

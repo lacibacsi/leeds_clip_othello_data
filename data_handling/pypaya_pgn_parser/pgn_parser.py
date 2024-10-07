@@ -1,8 +1,8 @@
 import io
 from typing import Optional, Dict, List, Tuple
 import re
-from handling.pypaya_pgn_parser.movetext_parser import MovetextParser
-from handling.pypaya_pgn_parser.headers import HEADERS, DEFAULT_VALUES
+from data_handling.pypaya_pgn_parser.movetext_parser import MovetextParser
+from data_handling.pypaya_pgn_parser.headers import HEADERS, DEFAULT_VALUES
 
 
 class PGNParser:

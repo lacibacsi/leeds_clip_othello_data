@@ -7,12 +7,12 @@ import pandas as pd
 import pyarrow as pa
 import pyarrow.orc as orc
 
-# common constants and static methods to be used across multiple data handling tasks
+# common constants and static methods to be used across multiple source_data data_handling tasks
 
-DEFAULT_INPUT_PATH = 'data/'
-DEFAULT_BOOK_PATH = 'data/books/'
-DEFAULT_OUTPUT_PATH = 'dataframe/'
-DEFAULT_OUTPUT_FILE = 'othello_games.data'  #dataframe save
+DEFAULT_INPUT_PATH = 'source_data/'
+DEFAULT_BOOK_PATH = 'source_data/books/'
+DEFAULT_OUTPUT_PATH = 'parsed_data/'
+DEFAULT_OUTPUT_FILE = 'othello_games.source_data'  #parsed_data save
 DEFAULT_BOOK_FILE = 'books.txt'
 DF_COLUMNS = ['ID', 'Black', 'White', 'Result', 'Date', 'Source', 'Moves', 'Hash']
 
@@ -32,7 +32,7 @@ def read_dataframe(filename: str) -> pd.DataFrame:
     Reads the daaframe from the input parameter. creates it if not found
     Using ORC to keep size and write speed manageable
     :param filename: path + filename of the file
-    :return: read or created dataframe
+    :return: read or created parsed_data
     '''
 
     if os.path.isfile(filename):

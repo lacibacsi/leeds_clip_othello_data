@@ -2,7 +2,7 @@ import re
 from enum import Enum
 from typing import List, Tuple
 from dataclasses import dataclass
-from handling.pypaya_pgn_parser.movetext_tokenizer import MovetextTokenizer
+from data_handling.pypaya_pgn_parser.movetext_tokenizer import MovetextTokenizer
 
 
 class PlayerColor(Enum):
