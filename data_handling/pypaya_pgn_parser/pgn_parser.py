@@ -54,6 +54,7 @@ class PGNParser:
         for line in stream:
             line = line.strip()
             if not line.startswith('['):
+                stream.seek(stream.tell() - len(line) - 1) # moving back to prev position - otherwise may miss the first move
                 break
             match = self.HEADER_REGEX.match(line)
             if match:

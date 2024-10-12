@@ -45,7 +45,21 @@ class GameParser():
 
         return file_path, files
 
-    def add_pgn_to_df(self, df: pd.DataFrame, game_info: [], game_moves: [], source: str, check_duplicate=False):
+    def transpose_coords(self, moves):
+        files = '12345678'
+        ranks = 'ABCDEFGH'
+
+        ind_moves = [moves[i:i + 2] for i in range(0, len(moves), 2)]
+        transposed = ''
+
+        for i, v in enumerate(ind_moves):
+            r_index = ranks.index(v[0])
+            f_index = files.index(v[1])
+            x = str(ranks[f_index]) + str(files[r_index])
+            transposed += x
+        return transposed
+
+    def add_pgn_to_df(self, df: pd.DataFrame, game_info: [], game_moves: [], source: str, check_duplicate=False, transpose_coords=False):
         '''
         Adds a record of a game to the parsed_data. Converts to required format, calculates hash of the moves and check dupes if set
         :param df: parsed_data to which the record needs to be added
@@ -63,6 +77,11 @@ class GameParser():
         result = game_info[6]
         moves = str(game_moves).replace(' ','')
 
+        # major hack -> the source pgn files from wthor use transposed coords
+        # massively slow algo
+        if transpose_coords:
+            moves = self.transpose_coords(moves)
+
         row = {
             'ID' : id,
             'Black': black,
@@ -79,13 +98,14 @@ class GameParser():
 
         return df
 
-    def read_pgn_files(self, save_output=False, file_name=None, relativ_dir=None):
+    def read_pgn_files(self, save_output=False, file_name=None, relativ_dir=None, transpose_coords = True):
         '''
         Read file or files from the input directory and saves / appends if required
         use this method to cons
         :param save_output: if set, it saves / appends the files.
         :param file_name: if set, only this file is added if left empty, the whole directory is processed
         :param relativ_dir: directory to read files from. Relative to the default input path. if using the default, pass ''
+        :param transpose_coords: some sources use a faulty board representation, i.e. ranks are denoted by character and not files
         :return: int: number of games parsed
         '''
 
@@ -114,7 +134,7 @@ class GameParser():
                     pgn_games += 1
 
                     if save_output:
-                        df = self.add_pgn_to_df(df, game_info, game_moves, 'human')
+                        df = self.add_pgn_to_df(df, game_info, game_moves, 'human', transpose_coords)
 
             print(f'{pgn_games} games parsed in file')
             #print(f'total {game_counter} games parsed')

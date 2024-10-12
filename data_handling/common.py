@@ -37,8 +37,8 @@ def read_dataframe(filename: str) -> pd.DataFrame:
 
     if os.path.isfile(filename):
         #df = pd.read_csv(filename, header=0, compression='gzip')
-        df = pd.read_orc(filename, columns=DF_COLUMNS)
-        #df = pd.read_orc(filename)
+        df = pd.read_csv(filename, header=0)
+        #df = pd.read_orc(filename, columns=DF_COLUMNS)
 
     else:
         df = pd.DataFrame(columns=DF_COLUMNS)
@@ -46,10 +46,16 @@ def read_dataframe(filename: str) -> pd.DataFrame:
     return df
 
 def save_dataframe(file_name: str, df: pd.DataFrame):
-    # for now, csv
-    # TODO move to ORC
-    #df.to_csv(file_name, mode='a', index=False, compression='gzip')
-    df.reset_index().to_orc(file_name)
+
+    # checking if file exist for header dupe issue
+    if os.path.isfile(file_name):
+        #df.to_csv(file_name, mode='a', index=False, header=False)
+        df.to_csv(file_name, mode='a', index=False, header=False, compression='gzip')
+    else:
+        #df.to_csv(file_name, mode='a', index=False)
+        df.to_csv(file_name, mode='a', index=False, compression='gzip')
+
+    #df.reset_index().to_orc(file_name)
 
 
 def hash_moves(moves: str) -> str:
