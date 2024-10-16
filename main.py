@@ -46,7 +46,6 @@ def play_game():
 
 
 
-
 if __name__ == '__main__':
     prepare_clip_training()
     #parse_games()
