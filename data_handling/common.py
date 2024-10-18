@@ -81,3 +81,18 @@ def convert_to_notation(cell: int) -> str:
     column = columns[ cell % 8]
     row = (cell // 8) + 1
     return column + str(row)
+
+
+def get_move_coords(move: str) -> (int, int):
+    '''
+    Given an input move notation, ie. 'E5' returns the rows and column for the move
+    othello uses A1 as top left corner
+    :param move: 2 char move notation
+    :return: tuple (row, column)
+    '''
+
+    cols = "ABCDEFGH"
+
+    row = int(move[1]) - 1
+    column = int(cols.index(str.upper(move[0])))
+    return row, column

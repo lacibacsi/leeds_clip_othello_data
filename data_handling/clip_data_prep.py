@@ -58,7 +58,7 @@ class ClipDataPreparator():
             for index,move in enumerate(moves):
                 # get the vector before making the move
                 output_content.append((game.current_board_as_vector(), move))
-                row, col = game.get_move_coords(move)
+                row, col = common.get_move_coords(move)
 
                 # if an illegal move is made, the game is skipped
                 try:

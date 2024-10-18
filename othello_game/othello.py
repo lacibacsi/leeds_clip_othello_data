@@ -309,17 +309,3 @@ class OthelloGame:
         output = np.stack([black, white], axis=0, dtype=bytes)
         return output
 
-
-    def get_move_coords(self, move: str) -> (int, int):
-        '''
-        Given an input move notation, ie. 'E5' returns the rows and column for the move
-        :param move: 2 char move notation
-        :return: tuple (row, column)
-        '''
-
-        cols = "ABCDEFGH"
-
-        row = int(move[1])-1
-        column = int(cols.index(str.upper(move[0])))
-
-        return (row, column)
