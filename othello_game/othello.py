@@ -302,10 +302,12 @@ class OthelloGame:
         white[white == 'B'] = 0
         white[white == 'W'] = 1
 
-        black = black.astype(bytes)
-        white = white.astype(bytes)
+        #black = black.astype(bytes)
+        #white = white.astype(bytes)
+        black = black.astype(int)
+        white = white.astype(int)
 
         # using bytes as this seems to be the smallest dtype
-        output = np.stack([black, white], axis=0, dtype=bytes)
+        output = np.stack([black, white], axis=0, dtype=int)
         return output
 

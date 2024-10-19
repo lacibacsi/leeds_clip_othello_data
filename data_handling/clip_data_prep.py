@@ -5,7 +5,6 @@ import pandas as pd
 from data_handling import common
 from othello_game import othello
 
-END_OF_GAME = 'Z9'
 
 class ClipDataPreparator():
     '''
@@ -70,7 +69,7 @@ class ClipDataPreparator():
 
                 if index == len(moves) - 1:
                     # add last move
-                    output_content.append((game.current_board_as_vector(), END_OF_GAME))
+                    output_content.append((game.current_board_as_vector(), common.END_OF_GAME))
                     success_counter += 1
 
             if game_counter % 50 == 0 or game_counter == no_of_games:

@@ -1,6 +1,6 @@
 
 
-from modules import ImageEncoder, TextEncoder, ProjectionHead
+from clip.modules import ImageEncoder, TextEncoder, ProjectionHead
 import torch
 from torch import nn, TensorType
 import torch.nn.functional as F
@@ -15,15 +15,16 @@ class CLIPModel(nn.Module):
         super().__init__()
         self.image_encoder = ImageEncoder()
         self.text_encoder = TextEncoder()
-        self.image_projection = ProjectionHead()
-        self.text_projection = ProjectionHead()
+        self.image_projection = ProjectionHead(1024)
+        self.text_projection = ProjectionHead(64)
         self.temperature = 0.1
 
     def forward(self, batch):
         # Getting Image and Text Features
-        image_features = self.image_encoder(batch["boards"])
-        text_features = self.text_encoder(
-            input_ids=batch["moves"])
+
+        boards = batch["board"]
+        image_features = self.image_encoder(batch["board"])
+        text_features = self.text_encoder(batch["move"])
 
         # Getting Image and Text Embeddings (with same dimension)
         image_embeddings = self.image_projection(image_features)
@@ -51,16 +52,21 @@ def cross_entropy(preds, targets, reduction='none'):
 
 
 # test method
+def testClip():
+    '''
+    Simple test method to check if the clip model with both encoders and all layers run
+    generates 4 random 'boards' and uses 4 moves
+    :return:
+    '''
 
-if __name__ == '__main__':
-    images = torch.randn(3, 2, 8, 8)
-    #input_ids = torch.randint(5, 300, size=(8, 25))
-    input_moves = ['A2','B3','H8']
+    images = torch.randn(4, 2, 8, 8)
+    input_moves = ['A2','B3','H8','Z9']
     batch = {
-        'image': images,
-        'input_ids': input_moves
+        'boards': images,
+        'moves': input_moves
     }
 
     CLIP = CLIPModel()
     loss = CLIP(batch)
-    print("")
+
+    print(f'loss: {loss}')

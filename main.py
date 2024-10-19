@@ -1,8 +1,26 @@
+import datetime
+import os.path
+import time
+
+import clip
+import data_handling.common
+from clip.model import CLIPModel
 from data_handling.clip_data_prep import ClipDataPreparator
 from data_handling.game_parser import GameParser
 from data_handling.book_parser import BookParser
 from data_handling.common import convert_to_notation
+import torch
 from othello_game import othello
+import data_handling.common as cm
+from clip.train import ClipTrainer
+
+def get_device():
+    if torch.backends.mps.is_available():
+        device = 'mps'
+    else:
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+    return torch.device(device)
 
 def parse_games():
     parser = GameParser()
@@ -22,7 +40,7 @@ def parse_books():
     print('done')
 
 def prepare_clip_training():
-    prepper = ClipDataPreparator('parsed_data/othello_games.source_data', 'parsed_data/clip/clip_training_source')
+    prepper = ClipDataPreparator('parsed_data/othello_games.source_data', 'parsed_data/clip/clip_training_source_int')
     prepper.parse()
 
 def play_game():
@@ -47,7 +65,46 @@ def play_game():
 
 
 if __name__ == '__main__':
-    prepare_clip_training()
+
+    #prepare_clip_training()
     #parse_games()
+
+    #clip.model.testClip()
+
+
+    #trainer = ClipTrainer('parsed_data/clip/clip_training_source_int_sample')
+    trainer = ClipTrainer('parsed_data/clip/clip_training_source_sample_uncompressed')
+    df_train, df_val = trainer.make_train_validation_sets()
+
+    # creating data loader
+    train_loader = trainer.getLoader(df_train, 'Train')
+    val_loader = trainer.getLoader(df_val, 'Val')
+
+    model = CLIPModel().to(get_device())
+
+    optimizer = torch.optim.AdamW(
+        model.parameters(), lr=1e-3, weight_decay=1e-3
+    )
+    lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
+        optimizer, mode="min", patience=2, factor=0.5
+    )
+    step = "epoch"
+
+    best_loss = float('inf')
+
+    epochs_count = 5
+
+    for epoch in range(epochs_count):
+        print(f"Epoch: {epoch + 1}")
+        model.train()
+        train_loss = clip.train.train_epoch(get_device(), model, train_loader, optimizer, lr_scheduler, step)
+        model.eval()
+        with torch.no_grad():
+            valid_loss = clip.train.valid_epoch(get_device(), model, val_loader)
+
+        if valid_loss.avg < best_loss:
+            best_loss = valid_loss.avg
+            torch.save(model.state_dict(), os.path.join(data_handling.common.DEFAULT_MODEL_OUTPUT_PATH,"best.pt"))
+            print("Saved Best Model!")
 
 

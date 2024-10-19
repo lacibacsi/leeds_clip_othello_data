@@ -21,39 +21,41 @@ class ImageEncoder(nn.Module):
     def __init__(self):
         super().__init__()
 
-        inplanes = 3
+        inplanes = 2
         planes = 32
         stride = 1
+        self.expansion = 2
 
         # padding set to 2 not to lose the important corner stones
         self.conv1 = nn.Conv2d(inplanes, planes, 3, stride=stride, padding=2, bias=False) # 3x3 conv with stride 1
         self.bn1 = nn.BatchNorm2d(planes)
-        self.ac1 = nn.ReLU(inplace=True)
+        self.act1 = nn.ReLU(inplace=True)
 
         self.conv2 = nn.Conv2d(planes, planes * self.expansion, 3, stride=1, padding=0, bias=False)
-        self.bn2 = nn.BatchNorm2d(planes)
+        self.bn2 = nn.BatchNorm2d(planes * self.expansion)
         self.act2 = nn.ReLU(inplace=True)
+
+        self.av1 = nn.AvgPool2d(2)
+
+        self.fc1 = nn.Flatten()
 
         self.stride = stride
 
-    #def forward(self, x: torch.Tensor, gamma: torch.Tensor, beta: torch.Tensor):
     def forward(self, x: torch.Tensor):
         identity = x
 
         out = self.act1(self.bn1(self.conv1(x)))
-        out = self.bn2(self.conv2(out))
+        out = self.conv2(out)
+        out = self.bn2(out)
 
-        '''
-        not using residual blocks        
-        
-        gamma = gamma[:, :, None, None]
-        beta = beta[:, :, None, None]
-        out = gamma * out + beta
-        
-        out += identity
-        '''
+        #print(f'after bn2: {type(out)}, shape: {out.shape}')
 
         out = self.act2(out)
+
+        # adding avg pool, flatten and fully connected layer
+        out = self.av1(out)
+        out = self.fc1(out)
+
         return out
 
 class TextEncoder(nn.Module):
@@ -67,19 +69,24 @@ class TextEncoder(nn.Module):
         super().__init__()
         self.ranks = 'ABCDEFGH'
 
-    def forward(self, move):
+    def forward(self, moves):
+        '''
+        runs simple and custom text / move encoder
+        this does nothing, as the dataset / dataloader already convert the move, i.e. 'E2' to tensor
+        :param moves: list of moves already in tensor format
+        :return: list of tensors with lenght 64 - the same
+        '''
 
-        board_array = [0] * 64
+        return moves
+        '''
+        tensors = torch.FloatTensor(size=[len(moves), 64])
+        for i,move in enumerate(moves):
 
-        if move != clip_data_prep.END_OF_GAME:
-            row, col = common.get_move_coords(move)
-            value = row*8 + col
+            # add a torch tensor with size 64
+            tensors[i] = common.convert_move_to_tensor(move)
 
-            # setting the only value if not end of game
-            board_array[value] = 1
-
-        # return a torch tensor with size 64
-        return torch.FloatTensor(board_array)
+        return tensors
+        '''
 
 class ProjectionHead(nn.Module):
     '''
@@ -97,6 +104,9 @@ class ProjectionHead(nn.Module):
         self.layer_norm = nn.LayerNorm(projection_dim)
 
     def forward(self, x):
+
+        #print(f'Projection head forward, x element shape: {x[0].shape }, ')
+
         projected = self.projection(x)
         x = self.gelu(projected)
         x = self.fc(x)
