@@ -71,9 +71,8 @@ if __name__ == '__main__':
 
     #clip.model.testClip()
 
-
-    #trainer = ClipTrainer('parsed_data/clip/clip_training_source_int_sample')
-    trainer = ClipTrainer('parsed_data/clip/clip_training_source_sample_uncompressed')
+    trainer = ClipTrainer('parsed_data/clip/clip_training_source')
+    #trainer = ClipTrainer('parsed_data/clip/clip_training_source_25k')
     df_train, df_val = trainer.make_train_validation_sets()
 
     # creating data loader

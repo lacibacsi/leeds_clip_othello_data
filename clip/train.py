@@ -88,7 +88,7 @@ class ClipTrainer:
 
         ds = ClipDataset(dataframe)
         loader = DataLoader(ds,
-                            batch_size=8,
+                            batch_size=5,
                             num_workers=0,
                             shuffle=True if mode == 'Train' else False,
         )

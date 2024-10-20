@@ -31,17 +31,16 @@ def get_files_from_directory(path: str) -> []:
     return files
 
 
-def read_dataframe(filename: str) -> pd.DataFrame:
+def read_dataframe(filename: str, use_compression = True) -> pd.DataFrame:
     '''
     Reads the daaframe from the input parameter. creates it if not found
     Using ORC to keep size and write speed manageable
     :param filename: path + filename of the file
     :return: read or created parsed_data
     '''
-
+    compression = 'gzip' if use_compression else None
     if os.path.isfile(filename):
-        #df = pd.read_csv(filename, header=0, compression='gzip')
-        df = pd.read_csv(filename, header=0)
+        df = pd.read_csv(filename, header=0, compression=compression)
         #df = pd.read_orc(filename, columns=DF_COLUMNS)
 
     else:
@@ -49,15 +48,15 @@ def read_dataframe(filename: str) -> pd.DataFrame:
 
     return df
 
-def save_dataframe(file_name: str, df: pd.DataFrame):
+def save_dataframe(file_name: str, df: pd.DataFrame, use_compression = True):
 
     # checking if file exist for header dupe issue
+    compression = 'gzip' if use_compression else None
     if os.path.isfile(file_name):
-        df.to_csv(file_name, mode='a', index=False, header=False)
-        #df.to_csv(file_name, mode='a', index=False, header=False, compression='gzip')
+        df.to_csv(file_name, mode='a', index=False, header=False, compression=compression)
+
     else:
-        df.to_csv(file_name, mode='a', index=False)
-        #df.to_csv(file_name, mode='a', index=False, compression='gzip')
+        df.to_csv(file_name, mode='a', index=False, compression=compression)
 
     #df.reset_index().to_orc(file_name)
 
