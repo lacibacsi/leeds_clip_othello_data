@@ -4,6 +4,7 @@ import time
 
 import clip
 import data_handling.common
+from clip.inference import ClipInference
 from clip.model import CLIPModel
 from data_handling.clip_data_prep import ClipDataPreparator
 from data_handling.game_parser import GameParser
@@ -13,14 +14,7 @@ import torch
 from othello_game import othello
 import data_handling.common as cm
 from clip.train import ClipTrainer
-
-def get_device():
-    if torch.backends.mps.is_available():
-        device = 'mps'
-    else:
-        device = 'cuda' if torch.cuda.is_available() else 'cpu'
-
-    return torch.device(device)
+from clip import utils
 
 def parse_games():
     parser = GameParser()
@@ -62,27 +56,36 @@ def play_game():
 
     print(f'game played, final board: {game.current_board}')
 
+def sample_source_data():
+    df = cm.read_dataframe('parsed_data/clip/clip_training_source')
+    print(f'dataframe read: {df.shape}')
+    df100k = df.sample(n=100000, random_state=42)
+    df500k = df.sample(n=500000, random_state=42)
+    df1M = df.sample(n=1000000, random_state=42)
+    df3M = df.sample(n=3000000, random_state=42)
+
+    print('dataframes sampled')
+
+    cm.save_dataframe('clip_training_source_100k', df100k)
+    cm.save_dataframe('clip_training_source_500k', df500k)
+    cm.save_dataframe('clip_training_source_1M', df1M)
+    cm.save_dataframe('clip_training_source_3M', df3M)
 
 
-if __name__ == '__main__':
+def train_clip_model(source_file: str):
 
-    #prepare_clip_training()
-    #parse_games()
-
-    #clip.model.testClip()
-
-    trainer = ClipTrainer('parsed_data/clip/clip_training_source')
-    #trainer = ClipTrainer('parsed_data/clip/clip_training_source_25k')
+    trainer = ClipTrainer(source_file)
     df_train, df_val = trainer.make_train_validation_sets()
 
     # creating data loader
     train_loader = trainer.getLoader(df_train, 'Train')
     val_loader = trainer.getLoader(df_val, 'Val')
 
-    model = CLIPModel().to(get_device())
+    model = CLIPModel().to(utils.get_device())
 
     optimizer = torch.optim.AdamW(
-        model.parameters(), lr=1e-3, weight_decay=1e-3
+        #model.parameters(), lr=1e-3, weight_decay=1e-3
+        model.parameters(), lr=0.1, weight_decay=1e-3
     )
     lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode="min", patience=2, factor=0.5
@@ -91,19 +94,57 @@ if __name__ == '__main__':
 
     best_loss = float('inf')
 
-    epochs_count = 5
+    epochs_count = 10
 
     for epoch in range(epochs_count):
         print(f"Epoch: {epoch + 1}")
         model.train()
-        train_loss = clip.train.train_epoch(get_device(), model, train_loader, optimizer, lr_scheduler, step)
+        train_loss = clip.train.train_epoch(utils.get_device(), model, train_loader, optimizer, lr_scheduler, step)
         model.eval()
         with torch.no_grad():
-            valid_loss = clip.train.valid_epoch(get_device(), model, val_loader)
+            valid_loss = clip.train.valid_epoch(utils.get_device(), model, val_loader)
 
         if valid_loss.avg < best_loss:
             best_loss = valid_loss.avg
             torch.save(model.state_dict(), os.path.join(data_handling.common.DEFAULT_MODEL_OUTPUT_PATH,"best.pt"))
             print("Saved Best Model!")
 
+def run_inference(model_file: str, eval_set: str):
+
+    inference = ClipInference(model_file)
+
+    result = inference.run_eval_file(eval_set)
+    print(result)
+    for p in result:
+        print(result[p][2])
+
+    # test validity of moves
+    validity_result = inference.run_validity_check(result)
+    print(validity_result)
+    for r in validity_result:
+        print(f'{validity_result[r][2]},{validity_result[r][3]}')
+
+    '''
+    test_position = "F5F6E6"
+    move, model_result, values = inference.get_value_for_position(test_position)
+    move_notation = convert_to_notation(move)
+    print(f'prediction: move: {move_notation}, move int {move}, result: {model_result}')
+    print(f'all values: {values}')
+    '''
+
+if __name__ == '__main__':
+
+    # prepare data
+    #prepare_clip_training()
+    #parse_games()
+
+    # test if model setup works
+    #clip.model.testClip()
+
+    # train
+    #train_clip_model('parsed_data/clip/clip_training_source')
+
+    # inference
+    #run_inference("clip/models/clip_trained_10k_10epoch_lr01.pt","source_data/eval_sets/eval_openings.csv")
+    run_inference("clip/models/clip_trained_full_3epoch_lr01_l4.pt", "source_data/eval_sets/eval_endgame.csv")
 
