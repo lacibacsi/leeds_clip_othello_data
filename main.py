@@ -148,3 +148,4 @@ if __name__ == '__main__':
     #run_inference("clip/models/clip_trained_10k_10epoch_lr01.pt","source_data/eval_sets/eval_openings.csv")
     run_inference("clip/models/clip_trained_full_3epoch_lr01_l4.pt", "source_data/eval_sets/eval_endgame.csv")
 
+
